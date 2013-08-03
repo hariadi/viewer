@@ -39,14 +39,14 @@ module.exports = function(grunt) {
       },
       main: {
         src:  ['src/less/app.less'],
-        dest: '<%= dest %>/assets/css/app.css'
+        dest: 'src/assets/css/app.css'
       }
     },
 
     // Templates
     assemble: {
       options: {
-        assets: 'dist/assets',
+        assets: 'assets',
         data: 'src/data/*.{json,yml}',
         layoutdir: 'src/templates/layouts',
         partials: [
@@ -77,10 +77,11 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      docs: {
+      android: {
         files: [
           {expand: true, cwd: '<%= pretty %>',   src: ['*.html'], dest: '<%= dest %>'},
           {expand: true, cwd: '<%= dest %>',   src: ['**'], dest: '<%= ghpages %>'},
+          {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
         ]
       }
     },
