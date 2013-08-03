@@ -1,0 +1,25 @@
+{
+  "name": "viewer",
+  "version": "0.0.1",
+  "description": "Android SDK Library Repository Viewer",
+  "keywords": [
+    "android",
+    "sdk",
+    "repository"
+  ],
+  "author": "Hariadi Hinta <diperakui@yahoo.com>",
+  "main": "index",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "assemble": "~0.4.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-less": "~0.6.4",
+    "grunt-prettify": "~0.2.2",
+    "grunt-convert": "https://github.com/assemble/grunt-convert/tarball/master"
+  }
+}

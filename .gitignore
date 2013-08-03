@@ -1,0 +1,7 @@
+node_modules/
+temp/
+*.sublime-project
+*.sublime-workspace
+.jshintrc
+ref/
+_gh-pages/
