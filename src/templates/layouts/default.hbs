@@ -6,30 +6,16 @@
     <link rel="stylesheet" href="{{assets}}/app.css">
   </head>
   <body>
-
-    <!-- Navbar
-    ================================================== -->
-    {{> navbar-fixed-top }}
-
-
-    <!-- Subhead
-    ================================================== -->
-    <header class="masthead subhead">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-12">
-            <h1> {{ uppercase title }} </h1>
-          </div>
+    <div id="wrap" class="boxed">
+      <header>
+      <div class="container clearfix">
+        <div class="six columns">
+          <div class="logo"><a class="navbar-brand" href="{{relative page.dest "index.html"}}">{{ title }}</a><span>{{ desc }}</span></div>
         </div>
       </div>
     </header>
-
-    <!-- Page content
-    ================================================== -->
-    <div class="container">
+    <div class="container clearfix">
       {{> body }}
     </div>
-
-    <script src="{{assets}}/js/highlight.js"></script>
   </body>
 </html>
