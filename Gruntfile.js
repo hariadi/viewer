@@ -22,6 +22,13 @@ module.exports = function(grunt) {
     pretty: 'prettify',
     ghpages: '_gh-pages',
 
+    curl: {
+      repository: {
+        src: ['http://dl-ssl.google.com/android/repository/repository-8.xml'],
+        dest: 'src/data/repository-8.xml'
+      }
+    },
+
     convert: {
       options: {
         explicitArray: false,
@@ -104,7 +111,7 @@ module.exports = function(grunt) {
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
   // Default task to be run.
-  grunt.registerTask('default', ['clean', 'less', 'assemble', 'prettify', 'copy']);
+  grunt.registerTask('default', ['clean', 'curl', 'less', 'assemble', 'prettify', 'copy']);
 };
 
 

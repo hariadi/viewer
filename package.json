@@ -20,6 +20,7 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-less": "~0.6.4",
     "grunt-prettify": "~0.2.2",
-    "grunt-convert": "https://github.com/assemble/grunt-convert/tarball/master"
+    "grunt-convert": "https://github.com/assemble/grunt-convert/tarball/master",
+    "grunt-curl": "~1.1.1"
   }
 }
