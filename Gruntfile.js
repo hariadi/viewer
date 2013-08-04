@@ -80,8 +80,12 @@ module.exports = function(grunt) {
       android: {
         files: [
           {expand: true, cwd: '<%= pretty %>',   src: ['*.html'], dest: '<%= dest %>'},
-          {expand: true, cwd: '<%= dest %>',   src: ['*.html'], dest: '<%= ghpages %>'},
           {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
+        ]
+      },
+      html: {
+        files: [
+          {expand: true, cwd: '<%= dest %>',   src: ['*.html'], dest: '<%= ghpages %>'}
         ]
       }
     },
