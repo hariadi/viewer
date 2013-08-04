@@ -5,3 +5,5 @@ temp/
 .jshintrc
 ref/
 _gh-pages/
+dist/
+prettify/

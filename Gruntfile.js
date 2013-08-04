@@ -94,7 +94,7 @@ module.exports = function(grunt) {
     clean: {
       ghpages: ['<%= ghpages %>/*.html'],
       dist: ['<%= dest %>'],
-      //pretty: ['<%= pretty %>']
+      pretty: ['<%= pretty %>']
     }
   });
 
