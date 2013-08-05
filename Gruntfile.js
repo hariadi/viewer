@@ -53,7 +53,6 @@ module.exports = function(grunt) {
     // Templates
     assemble: {
       options: {
-        assets: 'assets',
         data: 'src/data/*.{json,yml}',
         layoutdir: 'src/templates/layouts',
         partials: [
@@ -112,7 +111,8 @@ module.exports = function(grunt) {
 
   // Default task to be run.
   grunt.registerTask('temp', ['clean:dist', 'clean:pretty']);
-  grunt.registerTask('default', ['clean:ghpages', 'curl', 'less', 'assemble', 'prettify', 'copy', 'temp']);
+  grunt.registerTask('default', ['clean:ghpages', 'less', 'assemble', 'prettify', 'copy', 'temp']);
+  grunt.registerTask('update', ['curl', 'default']);
 };
 
 
