@@ -2,47 +2,23 @@
 title: Platform
 desc: Android Repository Viewer
 ---
-
 <div class="sixteen columns">
-  <h1 class="page-title">{{title}}<span class="line"></span></h1>
-
-  <h2>Android SDK Platform 4.3</h2>
+  <h1 class="page-title">{{ title }}<span class="line"></span></h1>
+  {{#each android.sdk-repository.platform}}
+  <h2>{{ description }}</h2>
   <dl class="dl-horizontal">
     <dt>version</dt>
-    <dd>4.3</dd>
+    <dd>{{ version }}</dd>
     <dt>api-level</dt>
-    <dd>18</dd>
+    <dd>{{ api-level }}</dd>
     <dt>revision</dt>
-    <dd>1</dd>
+    <dd>{{ revision }}</dd>
     <dt>size</dt>
-    <dd>48752456</dd>
+    <dd>{{ size }}</dd>
     <dt>checksum</dt>
-    <dd>c24de91d6f296cf453701aef281609779fffb379</dd>
+    <dd>{{ checksum }}</dd>
     <dt>url</dt>
-    <dd>android-18_r01.zip</dd>
+    <dd>{{ url }}</dd>
   </dl>
-
+  {{/each}}
 </div>
-<pre>
-{
-  "sdk:revision": "1",
-  "sdk:description": "Android SDK Platform 4.3",
-  "sdk:api-level": "18",
-  "sdk:abi": "armeabi-v7a",
-  "sdk:archives": {
-    "sdk:archive": {
-      "arch": "any",
-      "os": "any",
-      "sdk:size": "125597583",
-      "sdk:checksum": {
-        "_": "5a9b8ac5b57dd0e3278f47deb5ee58e1db6f1f9e",
-        "type": "sha1"
-      },
-      "sdk:url": "sysimg_armv7a-18_r01.zip"
-    }
-  },
-  "sdk:uses-license": {
-    "ref": "android-sdk-license"
-  }
-}
-</pre>

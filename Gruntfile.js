@@ -58,7 +58,7 @@ module.exports = function(grunt) {
         partials: [
           'src/templates/partials/*.hbs'
         ],
-        helpers: 'helper/helpers.js'
+        helpers: 'src/lib/helper.js'
       },
       docs: {
          options: {
