@@ -13,12 +13,27 @@ desc: Android Repository Viewer
     <dd>{{ api-level }}</dd>
     <dt>revision</dt>
     <dd>{{ revision }}</dd>
+    {{#gt api-level 7}}
+    <dt>size</dt>
+    <dd>{{ archives.archive.size }}</dd>
+    <dt>checksum ({{ archives.archive.checksum.type }})</dt>
+    <dd>{{ archives.archive.checksum._ }}</dd>
+    <dt>url</dt>
+    <dd>{{ archives.archive.url }}</dd>
+    {{else}}
+    {{#each archives.archive}}
+    <dt>arch</dt>
+    <dd>{{ arch }}</dd>
+     <dt>os</dt>
+    <dd>{{ os }}</dd>
     <dt>size</dt>
     <dd>{{ size }}</dd>
-    <dt>checksum</dt>
-    <dd>{{ checksum }}</dd>
+    <dt>checksum ({{ checksum.type }})</dt>
+    <dd>{{ checksum._ }}</dd>
     <dt>url</dt>
     <dd>{{ url }}</dd>
+    {{/each}}
+    {{/gt}}
   </dl>
   {{/each}}
 </div>
