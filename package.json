@@ -7,7 +7,11 @@
     "sdk",
     "repository"
   ],
-  "author": "Hariadi Hinta <diperakui@yahoo.com>",
+  "author": {
+    "name": "Hariadi Hinta",
+    "email": "diperakui@yahoo.com",
+    "url": "https://github.com/hariadi/viewer"
+  },
   "main": "index",
   "engines": {
     "node": ">= 0.8.0"
@@ -18,7 +22,6 @@
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.2",
-    "grunt-contrib-less": "~0.6.4",
     "grunt-prettify": "~0.2.2",
     "grunt-convert": "https://github.com/assemble/grunt-convert/tarball/master",
     "grunt-curl": "~1.1.1"

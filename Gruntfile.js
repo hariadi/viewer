@@ -39,17 +39,6 @@ module.exports = function(grunt) {
       }
     },
 
-    less: {
-      options: {
-        paths: ['src/less/'],
-        yuicompress: true
-      },
-      main: {
-        src:  ['src/less/app.less'],
-        dest: 'src/assets/css/app.css'
-      }
-    },
-
     // Templates
     assemble: {
       options: {
@@ -111,7 +100,7 @@ module.exports = function(grunt) {
 
   // Default task to be run.
   grunt.registerTask('temp', ['clean:dist', 'clean:pretty']);
-  grunt.registerTask('default', ['clean:ghpages', 'less', 'assemble', 'prettify', 'copy', 'temp']);
+  grunt.registerTask('default', ['clean:ghpages', 'assemble', 'prettify', 'copy', 'temp']);
   grunt.registerTask('update', ['curl', 'default']);
 };
 
