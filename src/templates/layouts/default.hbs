@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>{{title}} | {{site.title}}</title>
-    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {{> header }}
+    <!-- Place anything custom after this. -->
   </head>
   <body>
+
+    <!-- Docs master nav -->
+    {{> nav-main }}
+
+    <!-- Docs page layout -->
+    <div class="bs-header">
+      <div class="container">
+        <h1>{{ title }}</h1>
+        <p>{{ lead }}</p>
+      </div>
+    </div>
+
     <div id="wrap" class="boxed">
       <header>
       <div class="container clearfix">

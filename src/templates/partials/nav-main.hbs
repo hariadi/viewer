@@ -1,0 +1,29 @@
+<div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">{{ title }}</a>
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="nav-collapse collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li{{#is slug "platform"}} class="active"{{/is}}>
+          <a href="./platform.html">Platform</a>
+        </li>
+        <li{{#is slug "sys-images"}} class="active"{{/is}}>
+          <a href="./sys-images.html">System Images</a>
+        </li>
+        <li{{#is slug "platform-tools"}} class="active"{{/is}}>
+          <a href="./platform-tools.html">Platform Tools</a>
+        </li>
+        <li{{#is slug "js"}} class="active"{{/is}}>
+          <a href="./javascript.html">JavaScript</a>
+        </li>
+        <li{{#is slug "customize"}} class="active"{{/is}}>
+          <a href="./customize.html">Customize</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
