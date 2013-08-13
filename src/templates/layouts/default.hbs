@@ -10,46 +10,11 @@
     <!-- Docs master nav -->
     {{> nav-main }}
 
-    <!-- Docs page layout -->
-    <div class="bs-header">
-      <div class="container">
-        <h1>{{ title }}</h1>
-        <p>{{ lead }}</p>
-      </div>
+    <div class="container clearfix">
+      {{> body }}
     </div>
-
-    <div id="wrap" class="boxed">
-      <header>
-      <div class="container clearfix">
-        <div class="six columns">
-          <div class="logo">
-            <a class="navbar-brand" href="{{relative page.dest "index.html"}}">{{ title }}</a><span>{{ desc }}</span>
-          </div>
-        </div>
-        <div class="ten columns">
-          <nav id="menu" class="navigation">
-            <ul id="nav">
-              <li><a href="platform.html">Platform</a></li>
-              <li><a href="sys-images.html">System Images</a></li>
-              <li><a href="platform-tools.html">Platform Tools</a></li>
-               <li><a href="javascript:void">More..</a>
-                <ul>
-                  <li><a href="sample.html">Sample</a></li>
-                  <li><a href="tool.html">Tool</a></li>
-                  <li><a href="doc.html">Docs</a></li>
-                  <li><a href="source.html">Source</a></li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="sixteen columns">
-          <hr>
-        </div>
-      </header>
-      <div class="container clearfix">
-        {{> body }}
-      </div>
-    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ assets }}/js/jquery.js"></script>
+    <script src="{{ assets }}/js/bootstrap.js"></script>
   </body>
 </html>

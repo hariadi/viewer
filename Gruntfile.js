@@ -42,6 +42,7 @@ module.exports = function(grunt) {
     // Templates
     assemble: {
       options: {
+        assets: '_gh-pages/assets',
         data: 'src/data/*.{json,yml}',
         layoutdir: 'src/templates/layouts',
         partials: [
