@@ -1,21 +1,29 @@
-// These are some really brittle experimental helpers. I'm just having some fun
-// playing around for our docs, but I strongly recommend you not use these on
-// your own projects. - Jon
+// Base on Assemble withSort helper
 
 (function() {
 
+  reversed: reversed = function(array, options) {
+      var getDescendantProp, item, result, _i, _len;
+      getDescendantProp = function(obj, desc) {
+        var arr;
+        arr = desc.split(".");
+        while (arr.length && (obj = obj[arr.shift()])) {
+          continue;
+        }
+        return obj;
+      };
+      result = '';
+      array = array.reverse();
+      for (_i = 0, _len = array.length; _i < _len; _i++) {
+        item = array[_i];
+        result += options.fn(item);
+      }
+
+      return result;
+    };
+
   module.exports.register = function(Handlebars, options) {
-
-    Handlebars.registerHelper('reversed', function(arr) {
-      var result = [],
-       ii = arr.length;
-	   for (var i = ii - 1;i !== 0;i--) {
-	       result.push(arr[i]);
-	   }
-	   return result;
-    });
-
-
+    Handlebars.registerHelper('reversed', reversed);
   };
 
 }).call(this);
