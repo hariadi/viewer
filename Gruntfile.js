@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     dest: 'dist',
-    pretty: 'prettify',
+    tmp: 'tmp',
     ghpages: '_gh-pages',
 
     curl: {
@@ -56,7 +56,7 @@ module.exports = function(grunt) {
           layout: 'default.hbs'
         },
         files: [
-          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= pretty %>' }
+          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
         ]
       },
     },
@@ -67,7 +67,7 @@ module.exports = function(grunt) {
       },
       pages: {
         files: [
-          {expand: true, cwd: '<%= dest %>', ext: '.html', src: ['*.html'], dest: '<%= ghpages %>'}
+          {expand: true, cwd: '<%= tmp %>', ext: '.html', src: ['*.html'], dest: '<%= ghpages %>'}
         ]
       }
     },
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
     copy: {
       android: {
         files: [
-          {expand: true, cwd: '<%= pretty %>',   src: ['*.html'], dest: '<%= dest %>'},
+          {expand: true, cwd: '<%= tmp %>',   src: ['*.html'], dest: '<%= dest %>'},
           {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
         ]
       },
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
     clean: {
       ghpages: ['<%= ghpages %>/*.html'],
       dist: ['<%= dest %>'],
-      pretty: ['<%= pretty %>']
+      tmp: ['<%= tmp %>']
     }
   });
 
@@ -100,9 +100,10 @@ module.exports = function(grunt) {
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
   // Default task to be run.
-  grunt.registerTask('temp', ['clean:dist', 'clean:pretty']);
+  grunt.registerTask('cleaning', ['clean:dist', 'clean:tmp']);
   grunt.registerTask('default', ['clean:ghpages', 'assemble', 'prettify', 'copy', 'temp']);
   grunt.registerTask('update', ['curl', 'default']);
+  grunt.registerTask('test', ['clean', 'assemble', 'prettify']);
 };
 
 

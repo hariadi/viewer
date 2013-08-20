@@ -3,6 +3,7 @@
   "indent_char": " ",
   "indent_scripts": "normal",
   "brace_style": "expand",
+  "preserve_newlines": false,
   "max_char": 0,
   "unformatted": ["pre", "code", "strong", "a"]
 }

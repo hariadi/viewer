@@ -1,2 +1,5 @@
 title: Viewer
 desc: Android Library Repository Viewer
+config:
+  analytic: false
+  schema: false
