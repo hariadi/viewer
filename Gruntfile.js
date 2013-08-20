@@ -100,10 +100,8 @@ module.exports = function(grunt) {
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
   // Default task to be run.
-  grunt.registerTask('cleaning', ['clean:dist', 'clean:tmp']);
-  grunt.registerTask('default', ['clean:ghpages', 'assemble', 'prettify', 'copy', 'temp']);
   grunt.registerTask('update', ['curl', 'default']);
-  grunt.registerTask('test', ['clean', 'assemble', 'prettify']);
+  grunt.registerTask('default', ['clean', 'assemble', 'prettify', 'clean:tmp']);
 };
 
 
