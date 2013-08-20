@@ -102,6 +102,7 @@ module.exports = function(grunt) {
   // Default task to be run.
   grunt.registerTask('update', ['curl', 'default']);
   grunt.registerTask('default', ['clean', 'assemble', 'prettify', 'clean:tmp']);
+  grunt.registerTask('debug', ['clean', 'assemble', 'prettify']);
 };
 
 
