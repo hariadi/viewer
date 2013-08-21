@@ -1,0 +1,40 @@
+---
+title: sys-image
+layout: android.hbs
+desc: Android Repository Viewer
+---
+<div class="sixteen columns">
+  <h1 class="page-title">{{ title }}<span class="line"></span></h1>
+  {{#reversed android.sdk-repository.system-image}}
+  <h2>{{ description }}</h2>
+  <dl class="dl-horizontal">
+    <dt>version</dt>
+    <dd>{{ version }}</dd>
+    <dt>api-level</dt>
+    <dd>{{ api-level }}</dd>
+    <dt>revision</dt>
+    <dd>{{ revision }}</dd>
+    {{#gt api-level 7}}
+    <dt>size</dt>
+    <dd>{{ archives.archive.size }}</dd>
+    <dt>checksum ({{ archives.archive.checksum.type }})</dt>
+    <dd>{{ archives.archive.checksum._ }}</dd>
+    <dt>url</dt>
+    <dd>{{ archives.archive.url }}</dd>
+    {{else}}
+    {{#each archives.archive}}
+    <dt>arch</dt>
+    <dd>{{ arch }}</dd>
+     <dt>os</dt>
+    <dd>{{ os }}</dd>
+    <dt>size</dt>
+    <dd>{{ size }}</dd>
+    <dt>checksum ({{ checksum.type }})</dt>
+    <dd>{{ checksum._ }}</dd>
+    <dt>url</dt>
+    <dd>{{ url }}</dd>
+    {{/each}}
+    {{/gt}}
+  </dl>
+  {{/reversed }}
+</div>
