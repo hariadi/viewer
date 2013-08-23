@@ -3,9 +3,7 @@ title: system-image
 layout: android.hbs
 desc: Android Repository Viewer
 ---
-<div class="sixteen columns">
-  <h1 class="page-title">{{ title }}<span class="line"></span></h1>
-  {{#reversed android.sdk-repository.system-image}}
+{{#reversed android.sdk-repository.system-image}}
   <h2>{{ description }}</h2>
   <dl class="dl-horizontal">
     <dt>version</dt>
@@ -37,4 +35,3 @@ desc: Android Repository Viewer
     {{/gt}}
   </dl>
   {{/reversed }}
-</div>

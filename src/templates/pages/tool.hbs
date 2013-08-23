@@ -3,9 +3,7 @@ title: tool
 layout: android.hbs
 desc: Android Repository Viewer
 ---
-<div class="sixteen columns">
-  <h1 class="page-title">{{ title }}<span class="line"></span></h1>
-  {{#if android.sdk-repository.tool}}
+{{#if android.sdk-repository.tool}}
   <h2>{{ description }}</h2>
   <dl class="dl-horizontal">
     <dt>version</dt>
@@ -37,4 +35,3 @@ desc: Android Repository Viewer
     {{/gt}}
   </dl>
   {{/if }}
-</div>
