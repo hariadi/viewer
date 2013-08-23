@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>system-image | Viewer</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/markdown.css">
+
+    <link rel="stylesheet" href="assets/css/assemble.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+
+  </head>
+
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">system-image</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="./platform.html">Platform</a>
+            </li>
+            <li>
+              <a href="./system-images.html">System Images</a>
+            </li>
+            <li>
+              <a href="./platform-tools.html">Platform Tools</a>
+            </li>
+            <li>
+              <a href="./javascript.html">JavaScript</a>
+            </li>
+            <li>
+              <a href="./customize.html">Customize</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+    <header class="masthead subhead">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-12">
+            <style type="text/css" media="screen">
+            #custom-tweet-button > a {
+              float: right;
+              display: inline-block;
+              padding: 8px 16px 8px 36px;
+              margin: 15px 0 0 0;
+              background: url('https://twitter.com/favicons/favicon.ico') 15px center no-repeat;
+              background-color: transparent;
+              border: none;
+              border-radius: 4px;
+            }
+            #custom-tweet-button > a:hover {
+              background-color: rgba(255, 255, 255, .07);
+            }
+            </style>
+            <div id="custom-tweet-button">
+              <a href="https://twitter.com/intent/tweet?screen_name=hariadi" data-related="hariadi:Hariadi Hinta" data-lang="en" target="_blank">&nbsp;Tweet</a>
+              <script>
+              ! function(d, s, id)
+              {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id))
+                {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "https://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, "script", "twitter-wjs");
+              </script>
+            </div>
+
+            <h1><span class="text-muted">Docs /&nbsp;</span> [object Object]</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col col-lg-3">
+          <div class="sidebar">
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Getting Started
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Configuration
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Data
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Templates
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Content
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+            <span class="nav-section-title">
+              Development
+            </span>
+            <ul class="nav nav-pills nav-stacked">
+
+
+
+
+
+
+
+
+
+
+
+            </ul>
+
+          </div>
+        </div>
+
+
+        <div class="col col-lg-9">
+          <div class="panel panel-docs">
+            <h1>system-image</h1>
+            <div class="sixteen columns">
+              <h1 class="page-title">system-image<span class="line"></span></h1>
+
+              <h2>Android SDK Platform 4.3</h2>
+              <dl class="dl-horizontal">
+                <dt>version</dt>
+                <dd></dd>
+                <dt>api-level</dt>
+                <dd>18</dd>
+                <dt>revision</dt>
+                <dd>1</dd>
+
+                <dt>size</dt>
+                <dd>125597583</dd>
+                <dt>checksum (sha1)</dt>
+                <dd>5a9b8ac5b57dd0e3278f47deb5ee58e1db6f1f9e</dd>
+                <dt>url</dt>
+                <dd>sysimg_armv7a-18_r01.zip</dd>
+
+              </dl>
+
+              <h2>Android SDK Platform 4.2.2</h2>
+              <dl class="dl-horizontal">
+                <dt>version</dt>
+                <dd></dd>
+                <dt>api-level</dt>
+                <dd>17</dd>
+                <dt>revision</dt>
+                <dd>2</dd>
+
+                <dt>size</dt>
+                <dd>116553808</dd>
+                <dt>checksum (sha1)</dt>
+                <dd>1c321cda1af793b84d47d1a8d15f85444d265e3c</dd>
+                <dt>url</dt>
+                <dd>sysimg_armv7a-17_r02.zip</dd>
+
+              </dl>
+
+              <h2>Android SDK Platform 4.1</h2>
+              <dl class="dl-horizontal">
+                <dt>version</dt>
+                <dd></dd>
+                <dt>api-level</dt>
+                <dd>16</dd>
+                <dt>revision</dt>
+                <dd>3</dd>
+
+                <dt>size</dt>
+                <dd>112528368</dd>
+                <dt>checksum (sha1)</dt>
+                <dd>d1cddb23f17aad5821a089c403d4cddad2cf9ef7</dd>
+                <dt>url</dt>
+                <dd>sysimg_armv7a-16_r03.zip</dd>
+
+              </dl>
+
+              <h2>Android SDK Platform 4.0.3</h2>
+              <dl class="dl-horizontal">
+                <dt>version</dt>
+                <dd></dd>
+                <dt>api-level</dt>
+                <dd>15</dd>
+                <dt>revision</dt>
+                <dd>2</dd>
+
+                <dt>size</dt>
+                <dd>96227377</dd>
+                <dt>checksum (sha1)</dt>
+                <dd>1bf977d6cb4e0ad38dceac0c4863d1caa21f326e</dd>
+                <dt>url</dt>
+                <dd>sysimg_armv7a-15_r02.zip</dd>
+
+              </dl>
+
+              <h2>Android SDK Platform 4.0</h2>
+              <dl class="dl-horizontal">
+                <dt>version</dt>
+                <dd></dd>
+                <dt>api-level</dt>
+                <dd>14</dd>
+                <dt>revision</dt>
+                <dd>2</dd>
+
+                <dt>size</dt>
+                <dd>99621822</dd>
+                <dt>checksum (sha1)</dt>
+                <dd>d8991b0c06b18d7d6ed4169d67460ee1add6661b</dd>
+                <dt>url</dt>
+                <dd>sysimg_armv7a-14_r02.zip</dd>
+
+              </dl>
+
+            </div>
+
+
+
+
+
+
+            <hr>
+            <p><a href="https://github.com/assemble/assemble-docs/blob/master/src/templates/pages/docs/system-image.md.hbs">See the template for this page → </a>
+            </p>
+            <div class="alert">
+
+
+              <style type="text/css" media="screen">
+              .alert iframe {
+                float: right;
+                margin: 7px -30px 0 0;
+                vertical-align: text-top;
+              }
+              </style>
+
+
+              <iframe src="http://ghbtns.com/github-btn.html?user=viewer&amp;repo=viewer&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+
+              <iframe src="http://ghbtns.com/github-btn.html?user=viewer&amp;repo=viewer&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+
+
+              <p>Find an error? <a class="alert-link" href="https://github.com/assemble/assemble-docs/issues?state=open">Let us know →</a>
+              </p>
+            </div>
+
+            <footer class="bs-footer">
+              <div class="more-info">
+                <div class="container">
+
+                  <style>
+                  .bs-social-buttons .twitter-follow-button {
+                    width: 160px !important;
+                  }
+                  </style>
+                  <div class="bs-social">
+                    <ul class="bs-social-buttons">
+                      <li>
+                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&repo=viewer&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+                      </li>
+                      <li>
+                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&repo=viewer&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+                      </li>
+                      <li class="follow-btn">
+                        <a href="https://twitter.com/hariadi" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="false">Follow @hariadi</a>
+                      </li>
+                      <li class="tweet-btn">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hariadi.org" data-count="horizontal" data-via="viewer" data-related="viewer:Hariadi Hinta">Tweet</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+
+              <p>Website design by <a href="http://twitter.com/jonschlinkert" target="_blank">@jonschlinkert</a>. Assemble built by <a href="http://twitter.com/jonschlinkert" target="_blank">@jonschlinkert</a> and <a href="http://twitter.com/doowb" target="_blank">@doowb</a>.</p>
+              <p>Code licensed under <a href="https://github.com/hariadi/viewer/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+              <ul class="footer-links">
+                <li><a href="http://hariadi.org">Blog</a>
+                </li>
+                <li class="muted">&middot;</li>
+                <li><a href="https://github.com/hariadi/viewer/issues?state=open">Issues</a>
+                </li>
+                <li class="muted">&middot;</li>
+                <li><a href="https://github.com/hariadi/viewer/">Repo</a>
+                </li>
+              </ul>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/highlight.js"></script>
+    <script src="assets/js/showup.js"></script>
+
+    <script>
+    $().showUp('.navbar');
+    </script>
+  </body>
+
+</html>
