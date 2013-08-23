@@ -50,45 +50,12 @@
           <div class="sidebar">
 
             <ul class="nav nav-pills nav-stacked">
+               {{debug page}}
               {{#each pages}}
-                {{#is data.section "Platform Tool"}}
-                <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.section}}</a></li>
-                {{/is}}
+                <li{{#is ../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.section}}</a></li>
               {{/each}}
             </ul>
 
-            <span class="nav-section-title">
-              Platform
-            </span>
-            <ul class="nav nav-pills nav-stacked">
-              {{#each pages}}
-                {{#is data.section "Platform"}}
-                <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.title}}</a></li>
-                {{/is}}
-              {{/each}}
-            </ul>
-
-            <span class="nav-section-title">
-              System Image
-            </span>
-            <ul class="nav nav-pills nav-stacked">
-              {{#each pages}}
-                {{#is data.section "System Image"}}
-                <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.title}}</a></li>
-                {{/is}}
-              {{/each}}
-            </ul>
-
-            <span class="nav-section-title">
-              Tool
-            </span>
-            <ul class="nav nav-pills nav-stacked">
-              {{#each pages}}
-                {{#is data.section "Tool"}}
-                <li{{#is ../../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.title}}</a></li>
-                {{/is}}
-              {{/each}}
-            </ul>
 
           </div>
         </div>
