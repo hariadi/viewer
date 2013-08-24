@@ -5,5 +5,5 @@
   "brace_style": "expand",
   "preserve_newlines": false,
   "max_char": 0,
-  "unformatted": ["pre", "code", "strong", "a"]
+  "unformatted": ["pre", "code", "strong", "a", "dl", "dt"]
 }

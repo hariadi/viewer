@@ -50,7 +50,6 @@
           <div class="sidebar">
 
             <ul class="nav nav-pills nav-stacked">
-               {{debug page}}
               {{#each pages}}
                 <li{{#is ../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.section}}</a></li>
               {{/each}}
@@ -65,8 +64,8 @@
         <div class="col col-lg-9">
           <div class="panel panel-docs">
             <h1>{{page.title}}</h1>
-            {{#markdown}}
               {{> body }}
+            {{#markdown}}
               {{> links-generated.md }}
             {{/markdown}}
             <hr>
