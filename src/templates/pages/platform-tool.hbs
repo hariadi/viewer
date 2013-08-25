@@ -19,7 +19,7 @@ section: Platform Tool
     <dt>checksum ({{ archives.archive.checksum.type }})</dt>
     <dd>{{ archives.archive.checksum._ }}</dd>
     <dt>url</dt>
-    <dd>{{ archives.archive.url }}</dd>
+    <dd><a class="label label-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
     {{else}}
     {{#each archives.archive}}
     <dt>arch</dt>
@@ -31,7 +31,7 @@ section: Platform Tool
     <dt>checksum ({{ checksum.type }})</dt>
     <dd>{{ checksum._ }}</dd>
     <dt>url</dt>
-    <dd>{{ url }}</dd>
+    <dd><a class="label label-primary" href="http://dl-ssl.google.com/android/repository/{{ url }}">{{ url }}</a></dd>
     {{/each}}
     {{/gt}}
   </dl>
