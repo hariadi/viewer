@@ -3,7 +3,7 @@
 <meta name="description" content="{{pkg.description}}">
 <meta name="author" content="">
 <title>{{#is title "Viewer"}}{{ title }}{{/is}}{{#isnt title "Viewer"}}{{ title }} &middot; Viewer{{/isnt}}</title>
-<!-- Bootstrap core CSS -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="assets/css/markdown.css">
 <link rel="stylesheet" href="assets/css/assemble.css">
 <style>pre code { background: transparent; }</style>
@@ -18,13 +18,5 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
                 <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
                                <link rel="shortcut icon" href="assets/ico/favicon.png">
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXXX-X']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+{{#if site.config.analytic}}{{> analytics }}{{/if}}
+{{#if site.config.schema}}{{> metadata }}{{/if}}
