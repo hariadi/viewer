@@ -17,13 +17,13 @@
     "node": ">= 0.8.0"
   },
   "devDependencies": {
-    "assemble": "~0.4.4",
+    "assemble": "~0.4.23",
     "grunt": "~0.4.1",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.2",
-    "grunt-prettify": "~0.2.8",
-    "grunt-convert": "https://github.com/assemble/grunt-convert/tarball/master",
-    "grunt-curl": "~1.1.1"
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-convert": "~0.1.5",
+    "grunt-curl": "~1.2.1",
+    "grunt-prettify": "~0.2.9"
   }
 }
