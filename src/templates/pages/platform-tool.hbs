@@ -4,35 +4,20 @@ layout: android.hbs
 desc: Android Repository Viewer
 section: Platform Tool
 ---
-{{#if android.sdk-repository.platform-tool}}
-  <h2>{{ description }}</h2>
+{{#if repository.sdk-repository.platform-tool}}
+  <h2>platform-tool</h2>
   <dl class="dl-horizontal">
-    <dt>version</dt>
-    <dd>{{ version }}</dd>
-    <dt>api-level</dt>
-    <dd>{{ api-level }}</dd>
     <dt>revision</dt>
-    <dd>{{ revision }}</dd>
-    {{#gt api-level 7}}
+    <dd>{{ repository.sdk-repository.platform-tool.revision.major }}</dd>
+    <dd>{{ repository.sdk-repository.platform-tool.revision.minor }}</dd>
+    <dd>{{ repository.sdk-repository.platform-tool.revision.micro }}</dd>
+    {{#each repository.sdk-repository.platform-tool.archives.archive}}
     <dt>size</dt>
-    <dd>{{ archives.archive.size }}</dd>
-    <dt>checksum ({{ archives.archive.checksum.type }})</dt>
-    <dd>{{ archives.archive.checksum._ }}</dd>
+    <dd>{{toAbbr size }}b</dd>
+    <dt>checksum</dt>
+    <dd>{{ checksum }}</dd>
     <dt>url</dt>
-    <dd><a class="label label-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
-    {{else}}
-    {{#each archives.archive}}
-    <dt>arch</dt>
-    <dd>{{ arch }}</dd>
-     <dt>os</dt>
-    <dd>{{ os }}</dd>
-    <dt>size</dt>
-    <dd>{{ size }}</dd>
-    <dt>checksum ({{ checksum.type }})</dt>
-    <dd>{{ checksum._ }}</dd>
-    <dt>url</dt>
-    <dd><a class="label label-primary" href="http://dl-ssl.google.com/android/repository/{{ url }}">{{ url }}</a></dd>
+    <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ url }}">{{ url }}</a></dd>
     {{/each}}
-    {{/gt}}
   </dl>
   {{/if }}
