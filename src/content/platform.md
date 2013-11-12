@@ -1,0 +1,1 @@
+> ***Important***: To download the most recent Android system components from the Android SDK Manager, you must first update the SDK Tools to the most recent release and restart the SDK Manager. If you do not, the latest Android system components will not be available for download.
