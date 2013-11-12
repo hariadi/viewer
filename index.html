@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -27,14 +26,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-
-
     <!-- Place anything custom after this. -->
   </head>
-
   <body>
-
     <!-- Docs master nav -->
     <div class="navbar">
       <div class="container">
@@ -62,16 +56,25 @@
         </div>
       </div>
     </div>
-
-
     <div class="container clearfix">
-
-      Index
-
+      <h2 id="android-sdk-platforms">Android SDK platforms</h2>
+      <p>An SDK platform is available for every production Android platform deployable to Android-powered devices. Each platform component includes a fully compliant Android library and system image, sample code, emulator skins, and any version specific tools.</p>
+      <h3 id="sdk-tools">SDK Tools</h3>
+      <p>Required. Your new SDK installation already has the latest version. Make sure you keep this up to date.</p>
+      <h3 id="sdk-platform-tools">SDK Platform-tools</h3>
+      <p>Required. You must install this package when you install the SDK for the first time.</p>
+      <h3 id="sdk-platform">SDK Platform</h3>
+      <p>Required. You must download at least one platform into your environment so you&#39;re able to compile your application. In order to provide the best user experience on the latest devices, we recommend that you use the latest platform version as your build target. You&#39;ll still be able to run your app on older versions, but you must build against the latest version in order to use new features when running on devices with the latest version of Android.</p>
+      <p>To get started, download the latest Android version, plus the lowest version you plan to support (we recommend Android 2.2 for your lowest version).</p>
+      <h3 id="system-image">System Image</h3>
+      <p>Recommended. Although you might have one or more Android-powered devices on which to test your app, it&#39;s unlikely you have a device for every version of Android your app supports. It&#39;s a good practice to download system images for all versions of Android your app supports and test your app running on them with the Android emulator.</p>
+      <h3 id="android-support">Android Support</h3>
+      <p>Recommended. Includes a static library that allows you to use some of the latest Android APIs (such as fragments, plus others not included in the framework at all) on devices running a platform version as old as Android 1.6. All of the activity templates available when creating a new project with the ADT Plugin require this. For more information, read Support Library.</p>
+      <h3 id="sdk-samples">SDK Samples</h3>
+      <p>Recommended. The samples give you source code that you can use to learn about Android, load as a project and run, or reuse in your own app. Note that multiple samples packages are available — one for each Android platform version. When you are choosing a samples package to download, select the one whose API Level matches the API Level of the Android platform that you plan to use.</p>
     </div>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../_gh-pages/assets/js/jquery.js"></script>
     <script src="../_gh-pages/assets/js/bootstrap.js"></script>
   </body>
-
 </html>

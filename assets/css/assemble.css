@@ -4350,3 +4350,6 @@ h5:hover .anchor {
 .panel hr + ul {
   padding: 0;
 }
+.separator {
+  padding: 10px 0;
+}
