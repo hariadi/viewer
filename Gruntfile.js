@@ -32,10 +32,24 @@ module.exports = function(grunt) {
     convert: {
       options: {
         explicitArray: false,
+        ignoreAttrs: true,
       },
       android: {
         src: ['src/data/repository-8.xml'],
         dest: 'src/data/android.json'
+      }
+    },
+
+    frep: {
+      repository: {
+        options: {
+          replacements: {
+            'sdk:': ''
+          }
+        },
+        files: {
+          'src/data/repository.json': ['src/data/android.json']
+        }
       }
     },
 
@@ -101,6 +115,7 @@ module.exports = function(grunt) {
 
   // Default task to be run.
   grunt.registerTask('update', ['curl', 'default']);
+  grunt.registerTask('data', ['convert', 'frep']);
   grunt.registerTask('default', ['clean', 'assemble', 'prettify', 'clean:tmp']);
   grunt.registerTask('debug', ['clean', 'assemble', 'prettify']);
 };
