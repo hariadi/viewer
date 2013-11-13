@@ -32,13 +32,13 @@
           <div class="sidebar">
 
             <ul class="nav nav-pills nav-stacked">
-
-              {{slug}}sluggggggggggg
-              {{#each pages}}
-                <li{{#is ../page.dest this.dest}} class="active"{{/is}}><a href="{{relative ../page.dest this.dest}}" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '{{data.section}}/{{data.title}}']);">{{data.section}}</a></li>
-              {{/each}}
+              {{#is slug 'platform'}}
+                {{> nav-platform }}
+              {{/is}}
+              {{#is slug 'system-image'}}
+                {{> nav-system-image }}
+              {{/is}}
             </ul>
-
 
           </div>
         </div>

@@ -62,13 +62,17 @@ module.exports = function(grunt) {
         partials: [
           'src/templates/partials/*.hbs'
         ],
-        helpers: 'src/lib/helper.js'
+        helpers: 'src/lib/*.js'
       },
+
       viewer: {
          options: {
           flatten: true,
           layout: 'default.hbs',
-          plugins: ['assemble-contrib-toc'],
+          //plugins: [ 'permalinks', 'assemble-contrib-toc'],
+          //permalinks: {
+          //  preset: 'pretty'
+          //},
         },
         files: [
           { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
@@ -82,7 +86,12 @@ module.exports = function(grunt) {
       },
       pages: {
         files: [
-          {expand: true, cwd: '<%= tmp %>', ext: '.html', src: ['*.html'], dest: '<%= ghpages %>'}
+          {
+            expand: true,
+            cwd: '<%= tmp %>',
+            ext: '.html',
+            src: ['**/*.html'],
+            dest: '<%= ghpages %>'}
         ]
       }
     },
