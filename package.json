@@ -29,6 +29,8 @@
     "grunt-convert": "~0.1.5",
     "grunt-curl": "~1.2.1",
     "grunt-prettify": "~0.2.9",
-    "grunt-frep": "~0.1.1"
+    "grunt-frep": "~0.1.1",
+    "assemble-contrib-toc": "~0.1.2",
+    "matchdep": "~0.3.0"
   }
 }

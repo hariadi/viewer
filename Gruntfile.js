@@ -64,10 +64,11 @@ module.exports = function(grunt) {
         ],
         helpers: 'src/lib/helper.js'
       },
-      docs: {
+      viewer: {
          options: {
           flatten: true,
-          layout: 'default.hbs'
+          layout: 'default.hbs',
+          plugins: ['assemble-contrib-toc'],
         },
         files: [
           { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
