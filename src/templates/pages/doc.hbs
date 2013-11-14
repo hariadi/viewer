@@ -1,0 +1,23 @@
+---
+title: Documentation
+layout: android.hbs
+desc: An offline copy of the latest documentation for the Android platform APIs.
+section: Documentation
+slug: Doc
+---
+{{{md './src/content/doc.md'}}}
+{{#if repository.sdk-repository.doc}}
+  <h2>Documentation</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>{{ repository.sdk-repository.doc.revision }}</dd>
+    <dt>api-level</dt>
+    <dd>{{ repository.sdk-repository.doc.api-level }}</dd>
+    <dt>size</dt>
+    <dd>{{toAbbr repository.sdk-repository.doc.archives.archive.size }}b</dd>
+    <dt>checksum</dt>
+    <dd>{{ repository.sdk-repository.doc.archives.archive.checksum }}</dd>
+    <dt>url</dt>
+    <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ repository.sdk-repository.doc.archives.archive.url }}">{{ repository.sdk-repository.doc.archives.archive.url }}</a></dd>
+  </dl>
+  {{/if }}
