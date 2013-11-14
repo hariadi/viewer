@@ -1,5 +1,5 @@
 title: SDK Viewer
 desc: Android Library Repository Viewer
 config:
-  analytic: false
-  schema: false
+  analytic: true
+  schema: true
