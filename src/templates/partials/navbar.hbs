@@ -11,7 +11,7 @@
         {{#each pages}}
         {{#isnt data.slug 'viewer'}}
         <li{{#is ../../page.dest this.dest}} class="active"{{/is}}>
-          <a href="{{relative ../../page.dest this.dest}}">{{data.title}}</a>
+          <a href="{{relative ../../page.dest this.dest}}">{{data.section}}</a>
         </li>
         {{/isnt}}
         {{/each}}
