@@ -3,4 +3,35 @@ title: SDK Viewer
 desc: Android Repository Viewer
 slug: viewer
 ---
-{{{md './src/content/index.md'}}}
+{{! Jumbotron component
+================================================== }}
+<header class="jumbotron masthead">
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-6">
+        <h1> {{{uppercase site.title}}} </h1>
+        <p class="lead">Allows you to browse and download Android SDK component. Parsed from <a href="http://dl-ssl.google.com/android/repository/repository-8.xml">Android Repository</a></p>
+        <p> <a class="btn btn-inverse" {{{track.masthead.download}}} href="./getting-start.html">Getting Start</a> </p>
+      </div>
+      <div class="col col-lg-6">
+          <img class="thumbnail" src="assets/img/android-sdk.jpg" alt="Android">
+      </div>
+    </div>
+  </div>
+</header>
+
+{{! TEASER COMPONENT
+====================================== }}
+<div class="teaser">
+  <a class="teaser-content" href="https://github.com/hariadi/viewer">
+    {{! GITHUB BUTTONS
+    ======================= }}
+    {{> btn-github-star }}
+    {{> btn-github-fork }}
+  </a>
+</div>
+
+<div class="container">
+  <p> Build with <a href="http://assemble.io">Assemble</a> </p>
+</div>
+

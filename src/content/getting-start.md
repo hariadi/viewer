@@ -1,3 +1,9 @@
+> **Note:** Please use SDK Manager to update first. Only download and install manually if you can't use SDK Manager for several reason.
+
+The Android SDK is composed of modular packages that you can download separately using the Android SDK Manager. For example, when the SDK Tools are updated or a new version of the Android platform is released, you can use the SDK Manager to quickly download them to your environment. Simply follow the procedures described in Adding Platforms and Packages.
+
+There are several different packages available for the Android SDK. Below describes most of the available packages and where they're located once you download them.
+
 ## Android SDK platforms
 
 An SDK platform is available for every production Android platform deployable to Android-powered devices. Each platform component includes a fully compliant Android library and system image, sample code, emulator skins, and any version specific tools.
@@ -27,4 +33,4 @@ Recommended. Includes a static library that allows you to use some of the latest
 
 ### SDK Samples
 
-Recommended. The samples give you source code that you can use to learn about Android, load as a project and run, or reuse in your own app. Note that multiple samples packages are available — one for each Android platform version. When you are choosing a samples package to download, select the one whose API Level matches the API Level of the Android platform that you plan to use. 
+Recommended. The samples give you source code that you can use to learn about Android, load as a project and run, or reuse in your own app. Note that multiple samples packages are available — one for each Android platform version. When you are choosing a samples package to download, select the one whose API Level matches the API Level of the Android platform that you plan to use.

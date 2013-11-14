@@ -4,17 +4,30 @@
     <!-- Meta, title, CSS, favicons, etc. -->
     {{> header }}
     <!-- Place anything custom after this. -->
+    <style type="text/css" media="screen">
+    .teaser iframe {
+      margin: -7px 0 0 25px;
+      vertical-align: text-top;
+    }
+    .teaser iframe + iframe {
+      margin-left: -20px;
+    }
+  </style>
   </head>
   <body>
 
     <!-- Docs master nav -->
     {{> navbar }}
 
-    <div class="container clearfix">
-      {{> body }}
-    </div>
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ assets }}/js/jquery.js"></script>
-    <script src="{{ assets }}/js/bootstrap.js"></script>
+    {{!-- content
+    =================================== --}}
+    {{> body }}
+
+    {{!-- footer scripts
+    =================================== --}}
+    {{> javascripts }}
+    <script>
+      $().showUp('.navbar');
+    </script>
   </body>
 </html>
