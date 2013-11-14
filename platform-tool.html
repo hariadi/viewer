@@ -39,17 +39,26 @@
         </button>
         <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li>
-              <a href="./platform.html">Platform</a>
+            <li class="active">
+              <a href="build-tool.html">Build Tool</a>
             </li>
-            <li>
-              <a href="./system-image.html">System Images</a>
+            <li class="active">
+              <a href="doc.html">Documentation</a>
             </li>
-            <li>
-              <a href="./platform-tool.html">Platform Tools</a>
+            <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
             </li>
-            <li>
-              <a href="./tool.html">Tool</a>
+            <li class="active">
+              <a href="platform.html">Platform</a>
+            </li>
+            <li class="active">
+              <a href="source.html">Source</a>
+            </li>
+            <li class="active">
+              <a href="system-image.html">System Image</a>
+            </li>
+            <li class="active">
+              <a href="tool.html">Tool</a>
             </li>
           </ul>
         </div>
@@ -100,23 +109,17 @@
         <div class="col col-lg-3">
           <div class="sidebar">
             <ul class="nav nav-pills nav-stacked">
-              <li>
-                <a href="index.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '/Viewer']);"></a>
-              </li>
-              <li class="active"><a href="platform-tool.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Platform Tool/Platform Tool']);">Platform Tool</a>
-              </li>
-              <li><a href="platform.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Platform/Platform']);">Platform</a>
-              </li>
-              <li><a href="system-image.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'System Image/System Image']);">System Image</a>
-              </li>
-              <li><a href="tool.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Tool/Tool']);">Tool</a>
-              </li>
             </ul>
           </div>
         </div>
         <div class="col col-lg-9">
           <div class="panel panel-docs">
             <h1>Platform Tool</h1>
+            <blockquote>
+              <p><strong>Install Location:</strong>  <code>&lt;sdk&gt;/platform-tools/</code>
+              </p>
+            </blockquote>
+            <p>Contains platform-dependent tools for developing and debugging your application. These tools support the latest features of the Android platform and are typically updated only when a new platform becomes available. These tools are always backward compatible with older platforms, but you must be sure that you have the latest version of these tools when you install a new SDK platform.</p>
             <h2>platform-tool</h2>
             <dl class="dl-horizontal">
               <dt>revision</dt>

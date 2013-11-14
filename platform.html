@@ -39,17 +39,26 @@
         </button>
         <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li>
-              <a href="./platform.html">Platform</a>
+            <li class="active">
+              <a href="build-tool.html">Build Tool</a>
             </li>
-            <li>
-              <a href="./system-image.html">System Images</a>
+            <li class="active">
+              <a href="doc.html">Documentation</a>
             </li>
-            <li>
-              <a href="./platform-tool.html">Platform Tools</a>
+            <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
             </li>
-            <li>
-              <a href="./tool.html">Tool</a>
+            <li class="active">
+              <a href="platform.html">Platform</a>
+            </li>
+            <li class="active">
+              <a href="source.html">Source</a>
+            </li>
+            <li class="active">
+              <a href="system-image.html">System Image</a>
+            </li>
+            <li class="active">
+              <a href="tool.html">Tool</a>
             </li>
           </ul>
         </div>
@@ -100,16 +109,44 @@
         <div class="col col-lg-3">
           <div class="sidebar">
             <ul class="nav nav-pills nav-stacked">
-              <li>
-                <a href="index.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', '/Viewer']);"></a>
+              <span class="nav-section-title">
+  Android SDK Platform
+</span> 
+              <li> <a href="#44">4.4</a> 
               </li>
-              <li><a href="platform-tool.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Platform Tool/Platform Tool']);">Platform Tool</a>
+              <li> <a href="#43">4.3</a> 
               </li>
-              <li class="active"><a href="platform.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Platform/Platform']);">Platform</a>
+              <li> <a href="#422">4.2.2</a> 
               </li>
-              <li><a href="system-image.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'System Image/System Image']);">System Image</a>
+              <li> <a href="#412">4.1.2</a> 
               </li>
-              <li><a href="tool.html" onclick="_gaq.push(['_trackEvent', 'Sidenav', 'clicked', 'Tool/Tool']);">Tool</a>
+              <li> <a href="#403">4.0.3</a> 
+              </li>
+              <li> <a href="#40">4.0</a> 
+              </li>
+              <li> <a href="#32">3.2</a> 
+              </li>
+              <li> <a href="#31">3.1</a> 
+              </li>
+              <li> <a href="#30">3.0</a> 
+              </li>
+              <li> <a href="#233">2.3.3</a> 
+              </li>
+              <li> <a href="#231">2.3.1</a> 
+              </li>
+              <li> <a href="#22">2.2</a> 
+              </li>
+              <li> <a href="#21">2.1</a> 
+              </li>
+              <li> <a href="#201">2.0.1</a> 
+              </li>
+              <li> <a href="#20">2.0</a> 
+              </li>
+              <li> <a href="#16">1.6</a> 
+              </li>
+              <li> <a href="#15">1.5</a> 
+              </li>
+              <li> <a href="#11">1.1</a> 
               </li>
             </ul>
           </div>
@@ -117,12 +154,13 @@
         <div class="col col-lg-9">
           <div class="panel panel-docs">
             <h1>Platform</h1>
-            <p>
-              <blockquote>
-                <p><strong><em>Important</em></strong>: To download the most recent Android system components from the Android SDK Manager, you must first update the SDK Tools to the most recent release and restart the SDK Manager. If you do not, the latest Android system components will not be available for download.</p>
-              </blockquote>
-            </p>
-            <h2>Android SDK Platform 4.4</h2>
+            <blockquote>
+              <p><strong>Install Location:</strong>  <code>&lt;sdk&gt;/platforms/&lt;android-version&gt;/</code>
+              </p>
+            </blockquote>
+            <p><strong><em>Important</em></strong>: To download the most recent Android system components from the Android SDK Manager, you must first update the SDK Tools to the most recent release and restart the SDK Manager. If you do not, the latest Android system components will not be available for download.</p>
+            <p>There&#39;s one SDK Platform available for each version of Android. It includes an <code>android.jar</code> file with a fully compliant Android library. In order to build an Android app, you must specify an SDK platform as your build target.</p>
+            <h2 id="44">Android SDK Platform 4.4</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.4</dd>
@@ -138,7 +176,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-19_r01.zip">android-19_r01.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 4.3</h2>
+            <h2 id="43">Android SDK Platform 4.3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.3</dd>
@@ -154,7 +192,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-18_r02.zip">android-18_r02.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 4.2.2</h2>
+            <h2 id="422">Android SDK Platform 4.2.2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.2.2</dd>
@@ -170,7 +208,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-17_r02.zip">android-17_r02.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 4.1.2</h2>
+            <h2 id="412">Android SDK Platform 4.1.2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.1.2</dd>
@@ -186,7 +224,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-16_r04.zip">android-16_r04.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 4.0.3</h2>
+            <h2 id="403">Android SDK Platform 4.0.3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.0.3</dd>
@@ -202,7 +240,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-15_r03.zip">android-15_r03.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 4.0</h2>
+            <h2 id="40">Android SDK Platform 4.0</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>4.0</dd>
@@ -218,7 +256,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-14_r03.zip">android-14_r03.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 3.2, revision 1</h2>
+            <h2 id="32">Android SDK Platform 3.2, revision 1</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>3.2</dd>
@@ -234,7 +272,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-3.2_r01-linux.zip">android-3.2_r01-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 3.1, revision 3</h2>
+            <h2 id="31">Android SDK Platform 3.1, revision 3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>3.1</dd>
@@ -250,7 +288,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-3.1_r03-linux.zip">android-3.1_r03-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 3.0, revision 2</h2>
+            <h2 id="30">Android SDK Platform 3.0, revision 2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>3.0</dd>
@@ -266,7 +304,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-3.0_r02-linux.zip">android-3.0_r02-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.3.3._r2</h2>
+            <h2 id="233">Android SDK Platform 2.3.3._r2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.3.3</dd>
@@ -282,7 +320,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.3.3_r02-linux.zip">android-2.3.3_r02-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.3.1_r2</h2>
+            <h2 id="231">Android SDK Platform 2.3.1_r2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.3.1</dd>
@@ -298,7 +336,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.3.1_r02-linux.zip">android-2.3.1_r02-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.2_r3</h2>
+            <h2 id="22">Android SDK Platform 2.2_r3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.2</dd>
@@ -314,7 +352,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.2_r03-linux.zip">android-2.2_r03-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.1_r3</h2>
+            <h2 id="21">Android SDK Platform 2.1_r3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.1</dd>
@@ -330,7 +368,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.1_r03-linux.zip">android-2.1_r03-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.0.1_r1</h2>
+            <h2 id="201">Android SDK Platform 2.0.1_r1</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.0.1</dd>
@@ -360,7 +398,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.0.1_r01-windows.zip">android-2.0.1_r01-windows.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 2.0, revision 1</h2>
+            <h2 id="20">Android SDK Platform 2.0, revision 1</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>2.0</dd>
@@ -390,7 +428,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-2.0_r01-windows.zip">android-2.0_r01-windows.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 1.6_r2</h2>
+            <h2 id="16">Android SDK Platform 1.6_r2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>1.6</dd>
@@ -420,7 +458,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-1.6_r03-windows.zip">android-1.6_r03-windows.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 1.5_r3</h2>
+            <h2 id="15">Android SDK Platform 1.5_r3</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>1.5</dd>
@@ -450,7 +488,7 @@
               <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-1.5_r04-linux.zip">android-1.5_r04-linux.zip</a>
               </dd>
             </dl>
-            <h2>Android SDK Platform 1.1_r1</h2>
+            <h2 id="11">Android SDK Platform 1.1_r1</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
               <dd>1.1</dd>
