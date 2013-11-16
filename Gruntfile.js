@@ -75,25 +75,9 @@ module.exports = function(grunt) {
           //},
         },
         files: [
-          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
+          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= ghpages %>' }
         ]
       },
-    },
-
-    prettify: {
-      options: {
-        prettifyrc: '.prettifyrc'
-      },
-      pages: {
-        files: [
-          {
-            expand: true,
-            cwd: '<%= tmp %>',
-            ext: '.html',
-            src: ['**/*.html'],
-            dest: '<%= ghpages %>'}
-        ]
-      }
     },
 
     copy: {
@@ -126,8 +110,8 @@ module.exports = function(grunt) {
   // Default task to be run.
   grunt.registerTask('update', ['curl']);
   grunt.registerTask('data', ['update', 'convert', 'frep']);
-  grunt.registerTask('default', ['clean', 'assemble', 'prettify', 'clean:tmp']);
-  grunt.registerTask('debug', ['clean', 'assemble', 'prettify']);
+  grunt.registerTask('default', ['clean', 'assemble', 'clean:tmp']);
+  grunt.registerTask('debug', ['clean', 'assemble']);
 };
 
 
