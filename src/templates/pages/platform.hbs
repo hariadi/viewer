@@ -18,7 +18,7 @@ slug: platform
     {{#gt api-level 6}}
     <dt>size</dt>
     <dd>{{toAbbr archives.archive.size }}b</dd>
-    <dt>checksum (sha1)</dt>
+    <dt>checksum</dt>
     <dd>{{ archives.archive.checksum }}</dd>
     <dt>download</dt>
     <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
@@ -26,7 +26,7 @@ slug: platform
     {{#each archives.archive}}
     <dt>size</dt>
     <dd>{{toAbbr size }}b</dd>
-    <dt>checksum (sha1)</dt>
+    <dt>checksum</dt>
     <dd>{{ checksum }}</dd>
     <dt>download</dt>
     <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ url }}">{{ url }}</a></dd>
