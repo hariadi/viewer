@@ -23,10 +23,15 @@ module.exports = function(grunt) {
     ghpages: '_gh-pages',
 
     curl: {
-      repository: {
+      addon: {
+        src: ['http://dl-ssl.google.com/android/repository/addon.xml'],
+        dest: 'src/data/addon.xml'
+      },
+
+      sdk: {
         src: ['http://dl-ssl.google.com/android/repository/repository-8.xml'],
-        dest: 'src/data/repository-8.xml'
-      }
+        dest: 'src/data/repository.xml'
+      },
     },
 
     convert: {
@@ -34,9 +39,13 @@ module.exports = function(grunt) {
         explicitArray: false,
         ignoreAttrs: true,
       },
-      android: {
-        src: ['src/data/repository-8.xml'],
-        dest: 'src/data/android.json'
+      sdk: {
+        src: ['<%= curl.sdk.dest %>'],
+        dest: 'src/data/repository.json'
+      },
+      addon: {
+        src: ['<%= curl.addon.dest %>'],
+        dest: 'src/data/addon.json'
       }
     },
 
@@ -48,7 +57,8 @@ module.exports = function(grunt) {
           }
         },
         files: {
-          'src/data/repository.json': ['src/data/android.json']
+          '<%= convert.sdk.dest %>': ['<%= convert.sdk.dest %>'],
+          '<%= convert.addon.dest %>': ['<%= convert.addon.dest %>']
         }
       }
     },
