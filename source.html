@@ -1,131 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Sources for Android SDK &middot; Viewer</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/markdown.css">
-    <link rel="stylesheet" href="assets/css/assemble.css">
-    <style>
-    pre code {
-      background: transparent;
-    }
-    </style>
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Sources for Android SDK &middot; Viewer</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/markdown.css">
+<link rel="stylesheet" href="assets/css/assemble.css">
+<style>pre code { background: transparent; }</style>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
   <script src="/assets/js/html5shiv.js"></script>
   <script src="/assets/js/respond.min.js"></script>
 <![endif]-->
-    <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <script>
-    (function(i, s, o, g, r, a, m)
-    {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function()
-      {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-45744225-1', 'ady.my');
-    ga('send', 'pageview');
-    </script>
-    <script type="application/ld+json">
-    [
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "Hariadi Hinta",
-      "description": "Android SDK Library Repository Viewer.",
-      "url": "https://github.com/hariadi"
-    }]
-    </script>
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                               <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+<script>
+  (function(a,n,d,r,o,i,D){a['GoogleAnalyticsObject']=o;a[o]=a[o]||function(){
+  (a[o].q=a[o].q||[]).push(arguments)},a[o].l=1*new Date();i=n.createElement(d),
+  D=n.getElementsByTagName(d)[0];i.async=1;i.src=r;D.parentNode.insertBefore(i,D)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45744225-1', 'ady.my');
+  ga('send', 'pageview');
+</script>
+
+<script type="application/ld+json">
+[
+  {
+    "@context" : "http://schema.org",
+    "@type" : "Person",
+    "name" : "Hariadi Hinta",
+    "description" : "Android SDK Library Repository Viewer.",
+    "url" : "https://github.com/hariadi"
+  }
+]
+</script>
+
+
     <!-- Place anything custom after this. -->
   </head>
   <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+
+    
     <div class="navbar">
-      <div class="container">
-        <a href="index.html" class="navbar-brand">Viewer</a>
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="build-tool.html">Build Tool</a>
-            </li>
-            <li class="active">
-              <a href="doc.html">Documentation</a>
-            </li>
-            <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
-            </li>
-            <li class="active">
-              <a href="platform.html">Platform</a>
-            </li>
-            <li class="active">
-              <a href="source.html">Source</a>
-            </li>
-            <li class="active">
-              <a href="system-image.html">System Image</a>
-            </li>
-            <li class="active">
-              <a href="tool.html">Tool</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div class="container">
+    <a href="index.html" class="navbar-brand">Viewer</a>
+    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <!--
+        <li> <a href="../_gh_pages/docs/">SDK</a> </li>
+        <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
+
+        
+        
+        
+        <li class="active">
+          <a href="build-tool.html">Build Tool</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="doc.html">Documentation</a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="platform-tool.html">Platform Tool</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="platform.html">Platform</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="source.html">Source</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="system-image.html">System Image</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="active">
+          <a href="tool.html">Tool</a>
+        </li>
+        
+        
+        
+      </ul>
     </div>
+  </div>
+</div>
+
+
+    
     <header class="masthead subhead">
       <div class="container">
         <div class="row">
           <div class="col col-lg-12">
             <style type="text/css" media="screen">
-            #custom-tweet-button > a {
-              float: right;
-              display: inline-block;
-              padding: 8px 16px 8px 36px;
-              margin: 15px 0 0 0;
-              background: url('https://twitter.com/favicons/favicon.ico') 15px center no-repeat;
-              background-color: transparent;
-              border: none;
-              border-radius: 4px;
-            }
-            #custom-tweet-button > a:hover {
-              background-color: rgba(255, 255, 255, .07);
-            }
-            </style>
-            <div id="custom-tweet-button">
-              <a href="https://twitter.com/intent/tweet?screen_name=hariadi" data-related="hariadi:Hariadi Hinta" data-lang="en" target="_blank">&nbsp;Tweet</a>
-              <script>
-              ! function(d, s, id)
-              {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (!d.getElementById(id))
-                {
-                  js = d.createElement(s);
-                  js.id = id;
-                  js.src = "https://platform.twitter.com/widgets.js";
-                  fjs.parentNode.insertBefore(js, fjs);
-                }
-              }(document, "script", "twitter-wjs");
-              </script>
-            </div>
+  #custom-tweet-button > a {
+    float: right;
+    display: inline-block;
+    padding: 8px 16px 8px 36px;
+    margin: 15px 0 0 0;
+    background: url('https://twitter.com/favicons/favicon.ico') 15px center no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+  }
+  #custom-tweet-button > a:hover {
+    background-color: rgba(255,255,255,.07);
+  }
+</style>
+<div id="custom-tweet-button">
+  <a href="https://twitter.com/intent/tweet?screen_name=hariadi" data-related="hariadi:Hariadi Hinta" data-lang="en" target="_blank">&nbsp;Tweet</a>
+  <script>
+    ! function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+    }(document, "script", "twitter-wjs");
+  </script>
+</div>
+
             <h1><span class="text-muted">SDK /&nbsp;</span> Source </h1>
           </div>
         </div>
@@ -133,183 +176,206 @@
     </header>
     <div class="container">
       <div class="row">
+
+        
         <div class="col col-lg-3">
           <div class="sidebar">
+
             <ul class="nav nav-pills nav-stacked">
-              <span class="nav-section-title">
+              
+              
+              
+                <span class="nav-section-title">
   Android SDK Source
 </span>
-              <li> <a href="#19">sources-19_r01.zip</a> 
-              </li>
-              <li> <a href="#18">sources-18_r01.zip</a> 
-              </li>
-              <li> <a href="#17">sources-17_r01.zip</a> 
-              </li>
-              <li> <a href="#16">sources-16_r02.zip</a> 
-              </li>
-              <li> <a href="#15">sources-15_r02.zip</a> 
-              </li>
-              <li> <a href="#14">sources-14_r01.zip</a> 
-              </li>
+
+<li> <a href="#19">sources-19_r01.zip</a> </li>
+
+<li> <a href="#18">sources-18_r01.zip</a> </li>
+
+<li> <a href="#17">sources-17_r01.zip</a> </li>
+
+<li> <a href="#16">sources-16_r02.zip</a> </li>
+
+<li> <a href="#15">sources-15_r02.zip</a> </li>
+
+<li> <a href="#14">sources-14_r01.zip</a> </li>
+
+
+              
+              
             </ul>
+
           </div>
         </div>
+
+        
         <div class="col col-lg-9">
           <div class="panel panel-docs">
             <h1>Sources for Android SDK</h1>
-            <blockquote>
-              <p><strong>Install Location:</strong>  <code>&lt;sdk&gt;/tools/</code>
-              </p>
-            </blockquote>
-            <p>Contains tools for debugging and testing, plus other utilities that are required to develop an app. If you&#39;ve just installed the SDK starter package, then you already have the latest version of this package. Make sure you keep this up to date.</p>
-            <h2 id="19">sources-19_r01.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>1</dd>
-              <dt>api-level</dt>
-              <dd>19</dd>
-              <dt>size</dt>
-              <dd>21.66mb</dd>
-              <dt>checksum</dt>
-              <dd>91d9f5f4117723eecc4434b7de0e7f6295ea0508</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-19_r01.zip">sources-19_r01.zip</a>
-              </dd>
-            </dl>
-            <h2 id="18">sources-18_r01.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>1</dd>
-              <dt>api-level</dt>
-              <dd>18</dd>
-              <dt>size</dt>
-              <dd>20.23mb</dd>
-              <dt>checksum</dt>
-              <dd>8b49fdf7433f4881a2bfb559b5dd05d8ec65fb78</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-18_r01.zip">sources-18_r01.zip</a>
-              </dd>
-            </dl>
-            <h2 id="17">sources-17_r01.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>1</dd>
-              <dt>api-level</dt>
-              <dd>17</dd>
-              <dt>size</dt>
-              <dd>18.98mb</dd>
-              <dt>checksum</dt>
-              <dd>6f1f18cd2d2b1852d7f6892df9cee3823349d43a</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-17_r01.zip">sources-17_r01.zip</a>
-              </dd>
-            </dl>
-            <h2 id="16">sources-16_r02.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>2</dd>
-              <dt>api-level</dt>
-              <dd>16</dd>
-              <dt>size</dt>
-              <dd>17.88mb</dd>
-              <dt>checksum</dt>
-              <dd>0f83c14ed333c45d962279ab5d6bc98a0269ef84</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-16_r02.zip">sources-16_r02.zip</a>
-              </dd>
-            </dl>
-            <h2 id="15">sources-15_r02.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>2</dd>
-              <dt>api-level</dt>
-              <dd>15</dd>
-              <dt>size</dt>
-              <dd>16.47mb</dd>
-              <dt>checksum</dt>
-              <dd>e5992a5747c9590783fbbdd700337bf0c9f6b1fa</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-15_r02.zip">sources-15_r02.zip</a>
-              </dd>
-            </dl>
-            <h2 id="14">sources-14_r01.zip</h2>
-            <dl class="dl-horizontal">
-              <dt>revision</dt>
-              <dd>1</dd>
-              <dt>api-level</dt>
-              <dd>14</dd>
-              <dt>size</dt>
-              <dd>16.15mb</dd>
-              <dt>checksum</dt>
-              <dd>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</dd>
-              <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-14_r01.zip">sources-14_r01.zip</a>
-              </dd>
-            </dl>
+              
+<blockquote>
+<p><strong>Install Location:</strong> <code>&lt;sdk&gt;/sources/</code></p>
+</blockquote>
+<p>Contains tools for debugging and testing, plus other utilities that are required to develop an app. If you&#39;ve just installed the SDK starter package, then you already have the latest version of this package. Make sure you keep this up to date.</p>
+
+
+  <h2 id="19">sources-19_r01.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>1</dd>
+    <dt>api-level</dt>
+    <dd>19</dd>
+    <dt>size</dt>
+    <dd>21.66mb</dd>
+    <dt>checksum</dt>
+    <dd>91d9f5f4117723eecc4434b7de0e7f6295ea0508</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-19_r01.zip">sources-19_r01.zip</a></dd>
+  </dl>
+  
+  <h2 id="18">sources-18_r01.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>1</dd>
+    <dt>api-level</dt>
+    <dd>18</dd>
+    <dt>size</dt>
+    <dd>20.23mb</dd>
+    <dt>checksum</dt>
+    <dd>8b49fdf7433f4881a2bfb559b5dd05d8ec65fb78</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-18_r01.zip">sources-18_r01.zip</a></dd>
+  </dl>
+  
+  <h2 id="17">sources-17_r01.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>1</dd>
+    <dt>api-level</dt>
+    <dd>17</dd>
+    <dt>size</dt>
+    <dd>18.98mb</dd>
+    <dt>checksum</dt>
+    <dd>6f1f18cd2d2b1852d7f6892df9cee3823349d43a</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-17_r01.zip">sources-17_r01.zip</a></dd>
+  </dl>
+  
+  <h2 id="16">sources-16_r02.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>2</dd>
+    <dt>api-level</dt>
+    <dd>16</dd>
+    <dt>size</dt>
+    <dd>17.88mb</dd>
+    <dt>checksum</dt>
+    <dd>0f83c14ed333c45d962279ab5d6bc98a0269ef84</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-16_r02.zip">sources-16_r02.zip</a></dd>
+  </dl>
+  
+  <h2 id="15">sources-15_r02.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>2</dd>
+    <dt>api-level</dt>
+    <dd>15</dd>
+    <dt>size</dt>
+    <dd>16.47mb</dd>
+    <dt>checksum</dt>
+    <dd>e5992a5747c9590783fbbdd700337bf0c9f6b1fa</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-15_r02.zip">sources-15_r02.zip</a></dd>
+  </dl>
+  
+  <h2 id="14">sources-14_r01.zip</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>1</dd>
+    <dt>api-level</dt>
+    <dd>14</dd>
+    <dt>size</dt>
+    <dd>16.15mb</dd>
+    <dt>checksum</dt>
+    <dd>eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sources-14_r01.zip">sources-14_r01.zip</a></dd>
+  </dl>
+  
+
+            
             <hr>
-            <p><a href="https://github.com/hariadi/viewer/blob/master/src/templates/pages/docs/source.hbs">See the template for this page → </a>
-            </p>
+            <p><a href="https://github.com/hariadi/viewer/blob/master/src/templates/pages/docs/source.hbs">See the template for this page → </a></p>
             <div class="alert">
+
+              
               <style type="text/css" media="screen">
-              .alert iframe {
-                float: right;
-                margin: 7px -30px 0 0;
-                vertical-align: text-top;
-              }
+                .alert iframe {
+                  float: right;
+                  margin: 7px -30px 0 0;
+                  vertical-align: text-top;
+                }
               </style>
+
+              
               <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+
               <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
-              <p>Find an error? <a class="alert-link" href="https://github.com/hariadi/viewer/issues?state=open">Let us know →</a>
-              </p>
+
+
+              <p>Find an error? <a class="alert-link" href="https://github.com/hariadi/viewer/issues/new">Let us know →</a></p>
             </div>
-            <footer class="bs-footer">
-              <div class="more-info">
-                <div class="container">
-                  <style>
-                  .bs-social-buttons .twitter-follow-button {
-                    width: 160px !important;
-                  }
-                  </style>
-                  <div class="bs-social">
-                    <ul class="bs-social-buttons">
-                      <li>
-                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&repo=viewer&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
-                      </li>
-                      <li>
-                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&repo=viewer&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
-                      </li>
-                      <li class="follow-btn">
-                        <a href="https://twitter.com/hariadi" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="false">Follow @hariadi</a>
-                      </li>
-                      <li class="tweet-btn">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hariadi.org" data-count="horizontal" data-via="viewer" data-related="viewer:Hariadi Hinta">Tweet</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <p>Template by <a href="http://twitter.com/assemblejs" target="_blank">@assemblejs</a>. Edited by <a href="http://twitter.com/hariadi" target="_blank">@hariadi</a>.</p>
-              <p>Code licensed under <a href="https://github.com/hariadi/viewer/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-              <ul class="footer-links">
-                <li><a href="http://hariadi.org">Blog</a>
-                </li>
-                <li class="muted">&middot;</li>
-                <li><a href="https://github.com/hariadi/viewer/issues?state=open">Issues</a>
-                </li>
-                <li class="muted">&middot;</li>
-                <li><a href="https://github.com/hariadi/viewer/">Repo</a>
-                </li>
-              </ul>
-            </footer>
+            
+<footer class="bs-footer">
+  <div class="more-info">
+    <div class="container">
+      
+<style>.bs-social-buttons .twitter-follow-button { width: 160px !important; }</style>
+<div class="bs-social">
+  <ul class="bs-social-buttons">
+    <li>
+      <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&amp;repo=viewer&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+    </li>
+    <li>
+      <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=viewer&amp;repo=viewer&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+    </li>
+    <li class="follow-btn">
+      <a href="https://twitter.com/hariadi" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="false">Follow @hariadi</a>
+    </li>
+    <li class="tweet-btn">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hariadi.org" data-count="horizontal" data-via="viewer" data-related="viewer:Hariadi Hinta">Tweet</a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+
+  <p>Template by <a href="http://twitter.com/assemblejs" target="_blank">@assemblejs</a>. Edited by <a href="http://twitter.com/hariadi" target="_blank">@hariadi</a>.</p>
+  <p>Code licensed under <a href="https://github.com/hariadi/viewer/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+  <ul class="footer-links">
+    <li><a href="http://hariadi.org">Blog</a></li>
+    <li class="muted">&middot;</li>
+    <li><a href="https://github.com/hariadi/viewer/issues/new">Issues</a></li>
+    <li class="muted">&middot;</li>
+    <li><a href="https://github.com/hariadi/viewer/">Repo</a></li>
+  </ul>
+</footer>
+
           </div>
         </div>
       </div>
     </div>
+
+    
     <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/highlight.js"></script>
-    <script src="assets/js/showup.js"></script>
+<script src="assets/js/highlight.js"></script>
+<script src="assets/js/showup.js"></script>
+
     <script>
-    $().showUp('.navbar');
+      $().showUp('.navbar');
     </script>
   </body>
 </html>
