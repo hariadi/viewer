@@ -8,6 +8,10 @@
     </button>
     <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav">
+        <!--
+        <li{{#is data.area "SDK"}} class="active"{{/is}}> <a href="{{relative page.dest "_gh_pages/docs"}}/">SDK</a> </li>
+        <li{{#is data.area "Addon"}} class="active"{{/is}}> <a href="{{relative page.dest "_gh_pages/docs"}}/">Addon</a> </li> -->
+
         {{#each pages}}
         {{#isnt data.slug 'viewer'}}
         {{#isnt data.slug 'getting-start'}}
