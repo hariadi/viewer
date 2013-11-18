@@ -1,5 +1,14 @@
+/**
+ * Custom Handlebars Helpers
+ * Copyright (c) 2013 Hariadi Hinta
+ * Licensed under the MIT License (MIT).
+ */
 
 'use strict';
+
+// Node.js
+var path = require('path');
+
 var helpers = {
   /**
    * {{reversed}}
@@ -36,7 +45,21 @@ var helpers = {
     }
 
     return input.replace(/[^a-z0-9 -]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-');
-  }
+  },
+
+  /**
+   * {{baseurl}}
+   * Returns the filename of a given url.
+   * @param  {[type]} file [description]
+   * @return {[type]}      [description]
+   * @example:
+   *   {{baseurl "http://example.com/toc.md"}}
+   * @returns:
+   *   toc.md
+   */
+  baseurl: function (file) {
+    return path.basename(file);
+  },
 
 };
 
