@@ -1,13 +1,13 @@
 ---
 title: Addons
 layout: android.hbs
-desc: Preview channels for Android Studio
+desc: Google APIs
 section: Addons
 slug: addon
 area: Addons
 ---
 {{{md './src/content/addon.md'}}}
-{{#each addon.sdk-addon.add-on}}
+{{#withSort addon.sdk-addon.add-on "api-level" dir="desc"}}
   <h2 id="{{replace archives.archive.url '.zip' '' }}"><a href="{{{ desc-url }}}">{{ name-display }} {{ api-level }}, revision {{ revision }}</a></h2>
   <dl class="dl-horizontal">
     <dt>description</dt>
@@ -25,4 +25,4 @@ area: Addons
     <dt>url</dt>
     <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
   </dl>
-  {{/each }}
+{{/withSort}}
