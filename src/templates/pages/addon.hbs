@@ -1,27 +1,28 @@
 ---
-title: Android Studio
+title: Addons
 layout: android.hbs
 desc: Preview channels for Android Studio
-section: Download
-slug: android-studio
-area: studio
+section: Addons
+slug: addon
+area: Addons
 ---
-{{{md './src/content/android-studio.md'}}}
-{{#if repository.sdk-repository.tool}}
-  <h2>tool</h2>
+{{{md './src/content/addon.md'}}}
+{{#each addon.sdk-addon.add-on}}
+  <h2 id="{{replace archives.archive.url '.zip' '' }}"><a href="{{{ desc-url }}}">{{ name-display }} {{ api-level }}, revision {{ revision }}</a></h2>
   <dl class="dl-horizontal">
+    <dt>description</dt>
+    <dd>{{ description }}</dd>
+    <dt>api-level</dt>
+    <dd>{{ api-level }}</dd>
     <dt>revision</dt>
-    <dd>{{ repository.sdk-repository.tool.revision.major }}</dd>
-    <dd>{{ repository.sdk-repository.tool.revision.minor }}</dd>
-    <dt>min-platform-tools-rev</dt>
-    <dd>{{ repository.sdk-repository.tool.min-platform-tools-rev.major }}</dd>
-    {{#each repository.sdk-repository.tool.archives.archive}}
+    <dd>{{ revision }}</dd>
+    <dt>vendor</dt>
+    <dd>{{ vendor-display }}</dd>
     <dt>size</dt>
-    <dd>{{toAbbr size }}b</dd>
+    <dd>{{toAbbr archives.archive.size }}b</dd>
     <dt>checksum</dt>
-    <dd>{{ checksum }}</dd>
+    <dd>{{ archives.archive.checksum }}</dd>
     <dt>url</dt>
-    <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ url }}">{{ url }}</a></dd>
-    {{/each}}
+    <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
   </dl>
-  {{/if }}
+  {{/each }}
