@@ -23,6 +23,6 @@ area: Addons
     <dt>checksum</dt>
     <dd>{{ archives.archive.checksum }}</dd>
     <dt>url</dt>
-    <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
+    <dd class="separator"><a class="btn btn-primary" href="{{#contains archives.archive.url "http"}}{{ archives.archive.url }}{{else}}http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}{{/contains}}">{{baseurl archives.archive.url }}</a></dd>
   </dl>
 {{/each}}
