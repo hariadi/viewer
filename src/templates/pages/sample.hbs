@@ -1,0 +1,24 @@
+---
+title: Sources for Android SDK
+layout: android.hbs
+desc: A copy of the Android platform source code that's useful for stepping through the code while debugging your app.
+section: Source
+slug: sample
+area: SDK
+---
+{{{md './src/content/sample.md'}}}
+{{#withSort repository.sdk-repository.sample "api-level" dir="desc"}}
+  <h2 id="{{slugify api-level }}">{{ archives.archive.url }}</h2>
+  <dl class="dl-horizontal">
+    <dt>revision</dt>
+    <dd>{{ revision }}</dd>
+    <dt>api-level</dt>
+    <dd>{{ api-level }}</dd>
+    <dt>size</dt>
+    <dd>{{toAbbr archives.archive.size }}b</dd>
+    <dt>checksum</dt>
+    <dd>{{ archives.archive.checksum }}</dd>
+    <dt>download</dt>
+    <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/{{ archives.archive.url }}">{{ archives.archive.url }}</a></dd>
+  </dl>
+  {{/withSort}}
