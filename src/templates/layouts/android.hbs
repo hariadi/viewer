@@ -5,7 +5,7 @@
     {{> header }}
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
 
     {{!-- NAVIGATION
     =================================== --}}
@@ -31,7 +31,7 @@
         <div class="col col-lg-3">
           <div class="sidebar">
 
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
               {{#is slug 'platform'}}
                 {{> nav-platform }}
               {{/is}}
