@@ -1,4 +1,4 @@
-> **Note:** Please use SDK Manager to update first. Only download and install manually if you can't use SDK Manager for several reason.
+> **Note**: Please use SDK Manager to update first. Only download and install manually if you can't use SDK Manager for several reason.
 
 The Android SDK is composed of modular packages that you can download separately using the Android SDK Manager. For example, when the SDK Tools are updated or a new version of the Android platform is released, you can use the SDK Manager to quickly download them to your environment. Simply follow the procedures described in Adding Platforms and Packages.
 
