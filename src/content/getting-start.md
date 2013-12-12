@@ -31,6 +31,6 @@ Recommended. Although you might have one or more Android-powered devices on whic
 
 Recommended. Includes a static library that allows you to use some of the latest Android APIs (such as fragments, plus others not included in the framework at all) on devices running a platform version as old as Android 1.6. All of the activity templates available when creating a new project with the ADT Plugin require this. For more information, read Support Library.
 
-### SDK Samples
+### [SDK Samples](http://hariadi.github.io/viewer/sample.html)
 
 Recommended. The samples give you source code that you can use to learn about Android, load as a project and run, or reuse in your own app. Note that multiple samples packages are available — one for each Android platform version. When you are choosing a samples package to download, select the one whose API Level matches the API Level of the Android platform that you plan to use.
