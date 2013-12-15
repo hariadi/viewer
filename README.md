@@ -26,7 +26,7 @@ To get started, download the latest Android version, plus the lowest version you
 
 ### [Android Support](http://hariadi.github.io/viewer/addon.html)
 
-****Recommended**. Includes a static library that allows you to use some of the latest Android APIs (such as fragments, plus others not included in the framework at all) on devices running a platform version as old as Android 1.6. All of the activity templates available when creating a new project with the ADT Plugin require this. For more information, read Support Library.
+**Recommended**. Includes a static library that allows you to use some of the latest Android APIs (such as fragments, plus others not included in the framework at all) on devices running a platform version as old as Android 1.6. All of the activity templates available when creating a new project with the ADT Plugin require this. For more information, read Support Library.
 
 ### [SDK Samples](http://hariadi.github.io/viewer/sample.html)
 
