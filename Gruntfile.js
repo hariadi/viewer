@@ -22,6 +22,23 @@ module.exports = function(grunt) {
     tmp: 'tmp',
     ghpages: '_gh-pages',
 
+    jshint: {
+      all: ['Gruntfile.js', 'src/lib/*.js'],
+      options: {
+        "curly": true,
+        "eqeqeq": true,
+        "immed": true,
+        "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "sub": true,
+        "undef": true,
+        "boss": true,
+        "eqnull": true,
+        "node": true
+      }
+    },
+
     curl: {
       addon: {
         src: ['http://dl-ssl.google.com/android/repository/addon.xml'],
@@ -136,7 +153,7 @@ module.exports = function(grunt) {
   // Default task to be run.
   grunt.registerTask('update', ['curl']);
   grunt.registerTask('data', ['update', 'convert', 'frep']);
-  grunt.registerTask('default', ['clean', 'assemble', 'prettify', 'clean:tmp']);
+  grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'prettify', 'clean:tmp']);
   grunt.registerTask('debug', ['clean', 'assemble']);
 };
 

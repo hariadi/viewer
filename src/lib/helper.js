@@ -33,7 +33,9 @@ var helpers = {
   },
 
   slugify: function(input) {
-    if (!input || typeof input !== 'string') return input;
+    if (!input || typeof input !== 'string') {
+      return input;
+    }
 
     input = input.replace(/^\s+|\s+$/g, '').toLowerCase();
 
