@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,11 +129,11 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
               <span class="nav-section-title">
                 Android SDK Platform
               </span>
-              <li> <a href="#44">4.4</a> 
+              <li> <a href="#442">4.4.2</a> 
               </li>
               <li> <a href="#43">4.3</a> 
               </li>
@@ -181,23 +184,24 @@
             <p>
               <strong>
                 <em>Important</em>
-              </strong>: To download the most recent Android system components from the Android SDK Manager, you must first update the SDK Tools to the most recent release and restart the SDK Manager. If you do not, the latest Android system components will not be available for download.</p>
+              </strong>: To download the most recent Android system components from the Android SDK Manager, you must first update the SDK Tools to the most recent release and restart the SDK Manager. If you do not, the latest Android system components will not
+              be available for download.</p>
             <p>There&#39;s one SDK Platform available for each version of Android. It includes an
               <code>android.jar</code>file with a fully compliant Android library. In order to build an Android app, you must specify an SDK platform as your build target.</p>
-            <h2 id="44">Android SDK Platform 4.4</h2>
+            <h2 id="442">Android SDK Platform 4.4.2</h2>
             <dl class="dl-horizontal">
               <dt>version</dt>
-              <dd>4.4</dd>
+              <dd>4.4.2</dd>
               <dt>api-level</dt>
               <dd>19</dd>
               <dt>revision</dt>
-              <dd>1</dd>
+              <dd>2</dd>
               <dt>size</dt>
-              <dd>59.28mb</dd>
+              <dd>59.55mb</dd>
               <dt>checksum</dt>
-              <dd>96281811998272dce46e8285d15fce444a3d5a96</dd>
+              <dd>fb87a779320bcb8a0a0932f6db8843ba72d1993b</dd>
               <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-19_r01.zip">android-19_r01.zip</a>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/android-19_r02.zip">android-19_r02.zip</a>
               </dd>
             </dl>
             <h2 id="43">Android SDK Platform 4.3</h2>

@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,7 +129,7 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
               <span class="nav-section-title"><a href="#android-studio-previews">Android Studio Previews</a>
               </span>
               <li> <a href="#canary-channel">Canary channel</a> 
@@ -154,10 +157,12 @@
             <p>Android Studio is a new Android development environment based on IntelliJ IDEA. Similar to Eclipse with the ADT Plugin, Android Studio provides integrated Android developer tools for development and debugging.</p>
             <blockquote>
               <p>
-                <strong>Caution</strong>: Android Studio is currently available as an early access preview. Several features are either incomplete or not yet implemented and you may encounter bugs. If you are not comfortable using an unfinished product, you may want to instead download (or continue to use) the <a href="http://developer.android.com/sdk/index.html">ADT Bundle</a> (Eclipse with the ADT Plugin).</p>
+                <strong>Caution</strong>: Android Studio is currently available as an early access preview. Several features are either incomplete or not yet implemented and you may encounter bugs. If you are not comfortable using an unfinished product, you may
+                want to instead download (or continue to use) the <a href="http://developer.android.com/sdk/index.html">ADT Bundle</a> (Eclipse with the ADT Plugin).</p>
             </blockquote>
             <h2 id="android-studio-previews">Android Studio Previews</h2>
-            <p>Android Studio has a built-in preview update mechanism. The IDE connects regularly to the update server and will present a popup at startup when a new version is available. Android Studio categories updates using &quot;channels&quot;. There are 4 channels available:</p>
+            <p>Android Studio has a built-in preview update mechanism. The IDE connects regularly to the update server and will present a popup at startup when a new version is available. Android Studio categories updates using &quot;channels&quot;. There
+              are 4 channels available:</p>
             <h3 id="canary-channel">Canary channel</h3>
             <p>Canary builds are the bleeding edge, released about weekly. While these builds do get tested, they are still subject to bugs, as we want people to see what&#39;s new as soon as possible. This is not recommended for production.</p>
             <h3 id="dev-channel">Dev channel</h3>

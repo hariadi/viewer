@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,7 +129,7 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
               <li> <a href="#google_apis-3-r03">Google APIs 3</a> 
               </li>
               <li> <a href="#google_apis-4_r02">Google APIs 4</a> 
@@ -159,13 +162,11 @@
               </li>
               <li> <a href="#google_apis-18_r03">Google APIs 18</a> 
               </li>
-              <li> <a href="#google_apis-19_r01">Google APIs 19</a> 
+              <li> <a href="#google_apis-19_r02">Google APIs 19</a> 
               </li>
               <li> <a href="#google_tv-12_r02">Google TV Addon 12</a> 
               </li>
               <li> <a href="#google_tv-13_r01">Google TV Addon 13</a> 
-              </li>
-              <li> <a href="#https://dl-ssl.google.com/glass/xe11/google-gdk">Glass Development Kit Sneak Peek 15</a> 
               </li>
             </ul>
           </div>
@@ -484,7 +485,7 @@
               <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/google_apis-18_r03.zip">google_apis-18_r03.zip</a>
               </dd>
             </dl>
-            <h2 id="google_apis-19_r01"><a href="">Google APIs 19, revision 1</a>
+            <h2 id="google_apis-19_r02"><a href="">Google APIs 19, revision 2</a>
             </h2>
             <dl class="dl-horizontal">
               <dt>description</dt>
@@ -492,15 +493,15 @@
               <dt>api-level</dt>
               <dd>19</dd>
               <dt>revision</dt>
-              <dd>1</dd>
+              <dd>2</dd>
               <dt>vendor</dt>
               <dd>Google Inc.</dd>
               <dt>size</dt>
-              <dd>150.69mb</dd>
+              <dd>154.65mb</dd>
               <dt>checksum</dt>
-              <dd>6c530a8318446e4da1e3ab7d2abd154bc493bc5a</dd>
+              <dd>e7cf87e9acdd90ef16b9419a486026cdfa1e95d6</dd>
               <dt>url</dt>
-              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/google_apis-19_r01.zip">google_apis-19_r01.zip</a>
+              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/google_apis-19_r02.zip">google_apis-19_r02.zip</a>
               </dd>
             </dl>
             <h2 id="google_tv-12_r02"><a href="http://developer.android.com/">Google TV Addon 12, revision 2</a>
@@ -539,25 +540,6 @@
               <dd>b73f7c66011ac8180b44aa4e83b8d78c66ea9a09</dd>
               <dt>url</dt>
               <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/google_tv-13_r01.zip">google_tv-13_r01.zip</a>
-              </dd>
-            </dl>
-            <h2 id="https://dl-ssl.google.com/glass/xe11/google-gdk"><a href="https://developers.google.com/glass/gdk/">Glass Development Kit Sneak Peek 15, revision 01</a>
-            </h2>
-            <dl class="dl-horizontal">
-              <dt>description</dt>
-              <dd>Sneak peek of the Glass Development Kit</dd>
-              <dt>api-level</dt>
-              <dd>15</dd>
-              <dt>revision</dt>
-              <dd>01</dd>
-              <dt>vendor</dt>
-              <dd>Google Inc.</dd>
-              <dt>size</dt>
-              <dd>281.84kb</dd>
-              <dt>checksum</dt>
-              <dd>a3c7317fb2fe8a0dfc06828a5aabc457372b82a7</dd>
-              <dt>url</dt>
-              <dd class="separator"><a class="btn btn-primary" href="https://dl-ssl.google.com/glass/xe11/google-gdk.zip">google-gdk.zip</a>
               </dd>
             </dl>
             <hr>

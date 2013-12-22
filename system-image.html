@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,8 +129,8 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
-              <li> <a href="#19">Android SDK Platform 4.4</a> 
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
+              <li> <a href="#19">Android SDK Platform 4.4.2</a> 
               </li>
               <li> <a href="#18">Android SDK Platform 4.3</a> 
               </li>
@@ -151,21 +154,22 @@
                 <code>&lt;sdk&gt;/system-images/&lt;android-version&gt;/</code>
               </p>
             </blockquote>
-            <p>Each platform version offers one or more different system images (such as for ARM and x86). The Android emulator requires a system image to operate. You should always test your app on the latest version of Android and using the emulator with the latest system image is a good way to do so.</p>
-            <h2 id="19">Android SDK Platform 4.4</h2>
+            <p>Each platform version offers one or more different system images (such as for ARM and x86). The Android emulator requires a system image to operate. You should always test your app on the latest version of Android and using the emulator with
+              the latest system image is a good way to do so.</p>
+            <h2 id="19">Android SDK Platform 4.4.2</h2>
             <dl class="dl-horizontal">
               <dt>revision</dt>
-              <dd>1</dd>
+              <dd>2</dd>
               <dt>api-level</dt>
               <dd>19</dd>
               <dt>abi</dt>
               <dd>armeabi-v7a</dd>
               <dt>size</dt>
-              <dd>155.84mb</dd>
+              <dd>158.48mb</dd>
               <dt>checksum</dt>
-              <dd>12dd1187dfd953b1ffcef5067d94578590f9e600</dd>
+              <dd>e0d375397e28e3d5d9577a00132463a4696248e5</dd>
               <dt>download</dt>
-              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sysimg_armv7a-19_r01.zip">sysimg_armv7a-19_r01.zip</a>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/sysimg_armv7a-19_r02.zip">sysimg_armv7a-19_r02.zip</a>
               </dd>
             </dl>
             <h2 id="18">Android SDK Platform 4.3</h2>

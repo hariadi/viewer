@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,7 +129,7 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
             </ul>
           </div>
         </div>
@@ -166,8 +169,38 @@
             <p>Now that your project is imported to Android Studio, read <a href="http://developer.android.com/sdk/installing/studio-tips.html">Tips and Tricks</a> for some help getting started.</p>
             <blockquote>
               <p>
-                <strong>Note</strong>: It&#39;s possible to import an existing Android project to Android Studio even if you don&#39;t generate a Gradle build file from Eclipse—Android Studio will successfully build and run projects using an existing Ant build file. However, in order to take advantage of build variants and other advanced features in the future, we strongly suggest that you generate a Gradle build file using the ADT plugin or write your own Gradle build file for use with Android Studio. For more information about the Gradle build system, see the <a href="http://tools.android.com/tech-docs/new-build-system/user-guide">Gradle Plugin User Guide</a>.</p>
+                <strong>Note</strong>: It&#39;s possible to import an existing Android project to Android Studio even if you don&#39;t generate a Gradle build file from Eclipse—Android Studio will successfully build and run projects using an existing Ant build
+                file. However, in order to take advantage of build variants and other advanced features in the future, we strongly suggest that you generate a Gradle build file using the ADT plugin or write your own Gradle build file for use with Android
+                Studio. For more information about the Gradle build system, see the <a href="http://tools.android.com/tech-docs/new-build-system/user-guide">Gradle Plugin User Guide</a>.</p>
             </blockquote>
+            <h2 id="19">Build Tool 19.0.1</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>19</dd>
+              <dd>0</dd>
+              <dd>1</dd>
+              <dt>size</dt>
+              <dd>20.5mb</dd>
+              <dt>checksum (sha1)</dt>
+              <dd>5ef422bac5b28f4ced108319ed4a6bc7050a6234</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/build-tools_r19.0.1-windows.zip">build-tools_r19.0.1-windows.zip</a>
+              </dd>
+              <dt>size</dt>
+              <dd>21.23mb</dd>
+              <dt>checksum (sha1)</dt>
+              <dd>18d2312dc4368858914213087f4e61445aca4517</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/build-tools_r19.0.1-linux.zip">build-tools_r19.0.1-linux.zip</a>
+              </dd>
+              <dt>size</dt>
+              <dd>21.45mb</dd>
+              <dt>checksum (sha1)</dt>
+              <dd>efaf50fb19a3edb8d03efbff76f89a249ad2920b</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/build-tools_r19.0.1-macosx.zip">build-tools_r19.0.1-macosx.zip</a>
+              </dd>
+            </dl>
             <h2 id="19">Build Tool 19.0.0</h2>
             <dl class="dl-horizontal">
               <dt>revision</dt>

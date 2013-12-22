@@ -38,7 +38,7 @@
     </script>
     <!-- Place anything custom after this. -->
   </head>
-  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar">
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
     <div class="navbar">
       <div class="container">
         <a href="index.html" class="navbar-brand">Viewer</a>
@@ -53,6 +53,9 @@
         <li> <a href="../_gh_pages/docs/">SDK</a> </li>
         <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
             <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
               <a href="addon.html">Addons</a>
             </li>
             <li class="active">
@@ -65,10 +68,10 @@
               <a href="android-studio.html">IDE</a>
             </li>
             <li class="active">
-              <a href="platform-tool.html">Platform Tool</a>
+              <a href="platform.html">Platform</a>
             </li>
             <li class="active">
-              <a href="platform.html">Platform</a>
+              <a href="sample.html">Source</a>
             </li>
             <li class="active">
               <a href="source.html">Source</a>
@@ -98,7 +101,7 @@
               border: none;
               border-radius: 4px;
             }
-            #custom-tweet-button > a:hover {
+            #custom-tweet-button > a: hover {
               background-color: rgba(255, 255, 255, .07);
             }
             </style>
@@ -126,7 +129,7 @@
       <div class="row">
         <div class="col col-lg-3">
           <div class="sidebar">
-            <ul class="nav nav-pills nav-stacked">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
             </ul>
           </div>
         </div>
@@ -139,33 +142,34 @@
                 <code>&lt;sdk&gt;/platform-tools/</code>
               </p>
             </blockquote>
-            <p>Contains platform-dependent tools for developing and debugging your application. These tools support the latest features of the Android platform and are typically updated only when a new platform becomes available. These tools are always backward compatible with older platforms, but you must be sure that you have the latest version of these tools when you install a new SDK platform.</p>
+            <p>Contains platform-dependent tools for developing and debugging your application. These tools support the latest features of the Android platform and are typically updated only when a new platform becomes available. These tools are always backward
+              compatible with older platforms, but you must be sure that you have the latest version of these tools when you install a new SDK platform.</p>
             <h2>platform-tool</h2>
             <dl class="dl-horizontal">
               <dt>revision</dt>
               <dd>19</dd>
               <dd>0</dd>
-              <dd>0</dd>
+              <dd>1</dd>
               <dt>size</dt>
-              <dd>1.12mb</dd>
+              <dd>1.11mb</dd>
               <dt>checksum</dt>
-              <dd>755dcb5b5b72bbca90dd055eec4c8d0b1fce7cfd</dd>
+              <dd>15aefa42b25b401edeee0645f218043b5a3af7bb</dd>
               <dt>url</dt>
-              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19-windows.zip">platform-tools_r19-windows.zip</a>
+              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19.0.1-windows.zip">platform-tools_r19.0.1-windows.zip</a>
               </dd>
               <dt>size</dt>
               <dd>1.17mb</dd>
               <dt>checksum</dt>
-              <dd>66ee37daf8a2a8f1aa8939ccd4093658e30aa49b</dd>
+              <dd>0178481651d60a8d8266dfc08ee14bad38001f61</dd>
               <dt>url</dt>
-              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19-linux.zip">platform-tools_r19-linux.zip</a>
+              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19.0.1-linux.zip">platform-tools_r19.0.1-linux.zip</a>
               </dd>
               <dt>size</dt>
               <dd>1.12mb</dd>
               <dt>checksum</dt>
-              <dd>69af30f488163dfc3da8cef1bb6cc7e8a6df5681</dd>
+              <dd>340a497e4199d076ea93d4ee0e7a50858344d176</dd>
               <dt>url</dt>
-              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19-macosx.zip">platform-tools_r19-macosx.zip</a>
+              <dd class="separator"><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/platform-tools_r19.0.1-macosx.zip">platform-tools_r19.0.1-macosx.zip</a>
               </dd>
             </dl>
             <hr>
