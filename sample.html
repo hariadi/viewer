@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sources for Android SDK &middot; Viewer</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/markdown.css">
+    <link rel="stylesheet" href="assets/css/assemble.css">
+    <style>
+    pre code {
+      background: transparent;
+    }
+    </style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+  <script src="/assets/js/html5shiv.js"></script>
+  <script src="/assets/js/respond.min.js"></script>
+<![endif]-->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <script src="assets/js/analytics.js"></script>
+    <script type="application/ld+json">
+    [{
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Hariadi Hinta",
+      "description": "Android SDK Library Repository Viewer.",
+      "url": "https://github.com/hariadi"
+    }]
+    </script>
+    <!-- Place anything custom after this. -->
+  </head>
+  <body style="background: white;" data-spy="scroll" data-target=".bs-sidebar" itemscope itemtype="http://schema.org/Article">
+    <div class="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Viewer</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="nav-collapse collapse bs-navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <!--
+        <li> <a href="../_gh_pages/docs/">SDK</a> </li>
+        <li> <a href="../_gh_pages/docs/">Addon</a> </li> -->
+            <li class="active">
+              <a href="platform-tool.html">Platform Tool</a>
+            </li>
+            <li class="active">
+              <a href="addon.html">Addons</a>
+            </li>
+            <li class="active">
+              <a href="build-tool.html">Build Tool</a>
+            </li>
+            <li class="active">
+              <a href="doc.html">Documentation</a>
+            </li>
+            <li class="active">
+              <a href="android-studio.html">IDE</a>
+            </li>
+            <li class="active">
+              <a href="platform.html">Platform</a>
+            </li>
+            <li class="active">
+              <a href="sample.html">Source</a>
+            </li>
+            <li class="active">
+              <a href="source.html">Source</a>
+            </li>
+            <li class="active">
+              <a href="system-image.html">System Image</a>
+            </li>
+            <li class="active">
+              <a href="tool.html">Tool</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header class="masthead subhead">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-12">
+            <style type="text/css" media="screen">
+            #custom-tweet-button > a {
+              float: right;
+              display: inline-block;
+              padding: 8px 16px 8px 36px;
+              margin: 15px 0 0 0;
+              background: url('https://twitter.com/favicons/favicon.ico') 15px center no-repeat;
+              background-color: transparent;
+              border: none;
+              border-radius: 4px;
+            }
+            #custom-tweet-button > a: hover {
+              background-color: rgba(255, 255, 255, .07);
+            }
+            </style>
+            <div id="custom-tweet-button">
+              <a href="https://twitter.com/intent/tweet?screen_name=hariadi" data-related="hariadi:Hariadi Hinta" data-lang="en" target="_blank">&nbsp;Tweet</a>
+              <script>
+              ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "https://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, "script", "twitter-wjs");
+              </script>
+            </div>
+            <h1>
+              <span class="text-muted">SDK /&nbsp;</span>Source</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-3">
+          <div class="sidebar">
+            <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement">
+              <li> <a href="#9">samples-2.3_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#8">samples-2.2_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#7">samples-2.1_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#19">samples-19_r02.zip</a> 
+              </li>
+              <li> <a href="#18">samples-18_r01.zip</a> 
+              </li>
+              <li> <a href="#17">samples-17_r01.zip</a> 
+              </li>
+              <li> <a href="#16">samples-16_r01.zip</a> 
+              </li>
+              <li> <a href="#15">samples-15_r02.zip</a> 
+              </li>
+              <li> <a href="#14">samples-14_r02.zip</a> 
+              </li>
+              <li> <a href="#13">samples-3.2_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#12">samples-3.1_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#11">samples-3.0_r01-linux.zip</a> 
+              </li>
+              <li> <a href="#10">samples-2.3.3_r01-linux.zip</a> 
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-lg-9">
+          <div class="panel panel-docs">
+            <h1>Sources for Android SDK</h1>
+            <blockquote>
+              <p>
+                <strong>Install Location:</strong>
+                <code>&lt;sdk&gt;/platforms/&lt;android-version&gt;/samples/</code>
+              </p>
+            </blockquote>
+            <p>A collection of sample apps that demonstrate a variety of the platform APIs. These are a great resource to browse Android app code. The API Demos app in particular provides a huge number of small demos you should explore.</p>
+            <h2 id="9">samples-2.3_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>9</dd>
+              <dt>size</dt>
+              <dd>8.52mb</dd>
+              <dt>checksum</dt>
+              <dd>36f7dd6c8b5dbb50b3cf3e3ac5209f3fe55db2aa</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-2.3_r01-linux.zip">samples-2.3_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="8">samples-2.2_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>8</dd>
+              <dt>size</dt>
+              <dd>7.97mb</dd>
+              <dt>checksum</dt>
+              <dd>d16d8bf2dd84cedf73b98b948d66461c8f19d6fb</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-2.2_r01-linux.zip">samples-2.2_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="7">samples-2.1_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>7</dd>
+              <dt>size</dt>
+              <dd>7.68mb</dd>
+              <dt>checksum</dt>
+              <dd>51e4907f60f248ede5c58b54ce7b6ae0b473e0ca</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-2.1_r01-linux.zip">samples-2.1_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="19">samples-19_r02.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>2</dd>
+              <dt>api-level</dt>
+              <dd>19</dd>
+              <dt>size</dt>
+              <dd>25.97mb</dd>
+              <dt>checksum</dt>
+              <dd>635d721de1985dc7f58b6744fcfb592387801df0</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-19_r02.zip">samples-19_r02.zip</a>
+              </dd>
+            </dl>
+            <h2 id="18">samples-18_r01.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>1</dd>
+              <dt>api-level</dt>
+              <dd>18</dd>
+              <dt>size</dt>
+              <dd>19.9mb</dd>
+              <dt>checksum</dt>
+              <dd>73e879ce46c04a6e63ad1a9107018b4782945007</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-18_r01.zip">samples-18_r01.zip</a>
+              </dd>
+            </dl>
+            <h2 id="17">samples-17_r01.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>1</dd>
+              <dt>api-level</dt>
+              <dd>17</dd>
+              <dt>size</dt>
+              <dd>14.84mb</dd>
+              <dt>checksum</dt>
+              <dd>12d58cb26503610fc05bd7618c434cc6f983bc41</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-17_r01.zip">samples-17_r01.zip</a>
+              </dd>
+            </dl>
+            <h2 id="16">samples-16_r01.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>1</dd>
+              <dt>api-level</dt>
+              <dd>16</dd>
+              <dt>size</dt>
+              <dd>14.73mb</dd>
+              <dt>checksum</dt>
+              <dd>dce3a2d41db50a381ef47ee8bddbe928520e685e</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-16_r01.zip">samples-16_r01.zip</a>
+              </dd>
+            </dl>
+            <h2 id="15">samples-15_r02.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>2</dd>
+              <dt>api-level</dt>
+              <dd>15</dd>
+              <dt>size</dt>
+              <dd>16.37mb</dd>
+              <dt>checksum</dt>
+              <dd>042f368c5b09eca4d278264e6dbf9c12c5f73d1f</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-15_r02.zip">samples-15_r02.zip</a>
+              </dd>
+            </dl>
+            <h2 id="14">samples-14_r02.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>2</dd>
+              <dt>api-level</dt>
+              <dd>14</dd>
+              <dt>size</dt>
+              <dd>16.25mb</dd>
+              <dt>checksum</dt>
+              <dd>1312c22ab0b650e26835cc3945d4ff8cea183416</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-14_r02.zip">samples-14_r02.zip</a>
+              </dd>
+            </dl>
+            <h2 id="13">samples-3.2_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>13</dd>
+              <dt>size</dt>
+              <dd>12.19mb</dd>
+              <dt>checksum</dt>
+              <dd>078bcf1abc1cb8921f3fa482c252963a782bed60</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-3.2_r01-linux.zip">samples-3.2_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="12">samples-3.1_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>12</dd>
+              <dt>size</dt>
+              <dd>12.15mb</dd>
+              <dt>checksum</dt>
+              <dd>df0ace37cbca73373fe94080f94c71557cac73a7</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-3.1_r01-linux.zip">samples-3.1_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="11">samples-3.0_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>11</dd>
+              <dt>size</dt>
+              <dd>11.98mb</dd>
+              <dt>checksum</dt>
+              <dd>3749ace584631270268d65bb1d0ad61b0d691682</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-3.0_r01-linux.zip">samples-3.0_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <h2 id="10">samples-2.3.3_r01-linux.zip</h2>
+            <dl class="dl-horizontal">
+              <dt>revision</dt>
+              <dd>01</dd>
+              <dt>api-level</dt>
+              <dd>10</dd>
+              <dt>size</dt>
+              <dd>8.54mb</dd>
+              <dt>checksum</dt>
+              <dd>93b0c3f3bdf5b07f1f115100b4954f0665297a0d</dd>
+              <dt>download</dt>
+              <dd><a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/samples-2.3.3_r01-linux.zip">samples-2.3.3_r01-linux.zip</a>
+              </dd>
+            </dl>
+            <hr>
+            <p><a href="https://github.com/hariadi/viewer/blob/master/src/templates/pages/sample.hbs">See the template for this page → </a>
+            </p>
+            <div class="alert">
+              <style type="text/css" media="screen">
+              .alert iframe {
+                float: right;
+                margin: 7px -30px 0 0;
+                vertical-align: text-top;
+              }
+              </style>
+              <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+              <p>Find an error? <a class="alert-link" href="https://github.com/hariadi/viewer/issues/new">Let us know →</a>
+              </p>
+            </div>
+            <footer class="bs-footer">
+              <div class="more-info">
+                <div class="container">
+                  <style>
+                  .bs-social-buttons .twitter-follow-button {
+                    width: 160px !important;
+                  }
+                  </style>
+                  <div class="bs-social">
+                    <ul class="bs-social-buttons">
+                      <li>
+                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+                      </li>
+                      <li>
+                        <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="102px" height="20px"></iframe>
+                      </li>
+                      <li class="follow-btn">
+                        <a href="https://twitter.com/hariadi" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="false">Follow @hariadi</a>
+                      </li>
+                      <li class="tweet-btn">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hariadi.github.com/viewer/sample.html" data-count="horizontal" data-via="hariadi" data-related="viewer:Hariadi Hinta">Tweet</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <p>Template by <a href="http://twitter.com/assemblejs" target="_blank">@assemblejs</a>. Edited by <a href="http://twitter.com/hariadi" target="_blank">@hariadi</a>.</p>
+              <p>Code licensed under <a href="https://github.com/hariadi/viewer/LICENSE-MIT" target="_blank">MIT License</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+              <ul class="footer-links">
+                <li><a href="http://hariadi.org">Blog</a>
+                </li>
+                <li class="muted">&middot;</li>
+                <li><a href="https://github.com/hariadi/viewer/issues/new">Issues</a>
+                </li>
+                <li class="muted">&middot;</li>
+                <li><a href="https://github.com/hariadi/viewer/">Repo</a>
+                </li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/highlight.js"></script>
+    <script src="assets/js/showup.js"></script>
+    <script>
+    $().showUp('.navbar');
+    </script>
+  </body>
+</html>
