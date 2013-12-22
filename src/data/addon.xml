@@ -770,14 +770,14 @@ August 15, 2011
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Mon Oct 28 22:29:49 2013 from git_klp-release @ 892118 -->
+        <!-- Generated at Thu Dec  5 14:00:38 2013 from git_klp-dev @ 938007 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>19</sdk:api-level>
-        <sdk:revision>1</sdk:revision>
+        <sdk:revision>2</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -791,9 +791,9 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive arch="any" os="any">
-                <sdk:size>150689239</sdk:size>
-                <sdk:checksum type="sha1">6c530a8318446e4da1e3ab7d2abd154bc493bc5a</sdk:checksum>
-                <sdk:url>google_apis-19_r01.zip</sdk:url>
+                <sdk:size>154646970</sdk:size>
+                <sdk:checksum type="sha1">e7cf87e9acdd90ef16b9419a486026cdfa1e95d6</sdk:checksum>
+                <sdk:url>google_apis-19_r02.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -847,6 +847,9 @@ August 15, 2011
 
     <sdk:extra>
         <!-- Generated at Wed Oct 30 14:52:38 2013 from git_klp-dev @ 894928 -->
+        <!-- Note this is the LEGACY support-19 rev 1. More recent versions of the
+             support lib are described in the addon-6.xml file and can use a full
+             revision number (this one only supports a single major revision number.) -->
         <sdk:revision>19</sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
