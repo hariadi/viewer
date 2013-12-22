@@ -426,7 +426,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "1",
+        "revision": "2",
         "libs": {
           "lib": [
             {
@@ -442,9 +442,9 @@
         },
         "archives": {
           "archive": {
-            "size": "150689239",
-            "checksum": "6c530a8318446e4da1e3ab7d2abd154bc493bc5a",
-            "url": "google_apis-19_r01.zip"
+            "size": "154646970",
+            "checksum": "e7cf87e9acdd90ef16b9419a486026cdfa1e95d6",
+            "url": "google_apis-19_r02.zip"
           }
         },
         "uses-license": ""
