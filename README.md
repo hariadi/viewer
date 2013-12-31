@@ -12,7 +12,7 @@ An SDK platform is available for every production Android platform deployable to
 
 ### [SDK Platform-tools](http://hariadi.github.io/viewer/platform-tool.html)
 
-Required. You must install this package when you install the SDK for the first time.
+**Required**. You must install this package when you install the SDK for the first time.
 
 ### [SDK Platform](http://hariadi.github.io/viewer/platform.html)
 
