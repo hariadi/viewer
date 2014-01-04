@@ -506,7 +506,7 @@
         "uses-license": ""
       },
       {
-        "revision": "3",
+        "revision": "4",
         "vendor-display": "Android",
         "vendor-id": "android",
         "name-display": "Android Support Repository",
@@ -514,9 +514,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "6282146",
-            "checksum": "db4650f817f1507211ec6186d2d9e72074e6df12",
-            "url": "android_m2repository_r03.zip"
+            "size": "8854680",
+            "checksum": "a8c1d2661e41c901c518d45232ad381a064f0b4c",
+            "url": "android_m2repository_r04.zip"
           }
         },
         "uses-license": ""

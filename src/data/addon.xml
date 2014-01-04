@@ -867,8 +867,8 @@ August 15, 2011
     </sdk:extra>
 
     <sdk:extra>
-        <!-- Generated from git_klp-dev @ 894928  -->
-        <sdk:revision>3</sdk:revision>
+        <!-- Generated from git_klp-dev @ 938007  -->
+        <sdk:revision>4</sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
         <sdk:name-display>Android Support Repository</sdk:name-display>
@@ -876,9 +876,9 @@ August 15, 2011
         <sdk:path>m2repository</sdk:path>
         <sdk:archives>
             <sdk:archive arch="any" os="any">
-                <sdk:size>6282146</sdk:size>
-                <sdk:checksum type="sha1">db4650f817f1507211ec6186d2d9e72074e6df12</sdk:checksum>
-                <sdk:url>android_m2repository_r03.zip</sdk:url>
+                <sdk:size>8854680</sdk:size>
+                <sdk:checksum type="sha1">a8c1d2661e41c901c518d45232ad381a064f0b4c</sdk:checksum>
+                <sdk:url>android_m2repository_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
