@@ -32,6 +32,7 @@
     "grunt-frep": "~0.1.2",
     "assemble-contrib-toc": "~0.1.2",
     "matchdep": "~0.3.0",
-    "assemble-contrib-permalinks": "~0.3.2"
+    "assemble-contrib-permalinks": "~0.3.2",
+    "assemble-contrib-sitemap": "~0.1.7"
   }
 }
