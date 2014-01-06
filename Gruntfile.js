@@ -96,10 +96,15 @@ module.exports = function(grunt) {
          options: {
           flatten: true,
           layout: 'default.hbs',
+          plugins: ['assemble-contrib-sitemap'],
           //plugins: [ 'permalinks', 'assemble-contrib-toc'],
           //permalinks: {
           //  preset: 'pretty'
           //},
+          sitemap: {
+            homepage: 'http://ady.my',
+            relativedest: true
+          }
         },
         files: [
           { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
@@ -127,12 +132,8 @@ module.exports = function(grunt) {
       android: {
         files: [
           {expand: true, cwd: '<%= tmp %>',   src: ['*.html'], dest: '<%= dest %>'},
+          {expand: true, cwd: '<%= tmp %>',   src: ['*.xml'], dest: '<%= ghpages %>'},
           {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
-        ]
-      },
-      html: {
-        files: [
-          {expand: true, cwd: '<%= dest %>',   src: ['*.html'], dest: '<%= ghpages %>'}
         ]
       }
     },
@@ -153,7 +154,7 @@ module.exports = function(grunt) {
   // Default task to be run.
   grunt.registerTask('update', ['curl']);
   grunt.registerTask('data', ['update', 'convert', 'frep']);
-  grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'prettify', 'clean:tmp']);
+  grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'prettify', 'copy', 'clean:tmp']);
   grunt.registerTask('debug', ['clean', 'assemble']);
 };
 
