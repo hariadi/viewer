@@ -131,7 +131,6 @@ module.exports = function(grunt) {
     copy: {
       android: {
         files: [
-          {expand: true, cwd: '<%= tmp %>',   src: ['*.html'], dest: '<%= dest %>'},
           {expand: true, cwd: '<%= tmp %>',   src: ['*.xml'], dest: '<%= ghpages %>'},
           {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
         ]
