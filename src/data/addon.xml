@@ -891,14 +891,14 @@ August 15, 2011
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-display>Google Repository</sdk:name-display>
         <sdk:path>m2repository</sdk:path>
-        <sdk:revision>4</sdk:revision>
+        <sdk:revision>5</sdk:revision>
         <sdk:description>Local Maven repository for Google Libraries</sdk:description>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive os="any">
-                <sdk:size>3891592</sdk:size>
-                <sdk:checksum type="sha1">c418daafd203a8cb4899d49bd321da83b927586e</sdk:checksum>
-                <sdk:url>google_m2repository_r04.zip</sdk:url>
+                <sdk:size>5277365</sdk:size>
+                <sdk:checksum type="sha1">6ecbf77f7466f60abac5428e74e3afa7a8334bc1</sdk:checksum>
+                <sdk:url>google_m2repository_r05.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
@@ -964,15 +964,15 @@ August 15, 2011
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-display>Google Play services</sdk:name-display>
         <sdk:path>google_play_services</sdk:path>
-        <sdk:revision>13</sdk:revision>
+        <sdk:revision>14</sdk:revision>
         <sdk:description>Google Play services client library and sample code</sdk:description>
         <sdk:desc-url>https://developers.google.com/android/google-play-services/index</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive os="any">
-                <sdk:size>7958511</sdk:size>
-                <sdk:checksum type="sha1">1be94e8f767616e862f0088ab673e1980a6022c4</sdk:checksum>
-                <sdk:url>google_play_services_4030530_r13.zip</sdk:url>
+                <sdk:size>9389292</sdk:size>
+                <sdk:checksum type="sha1">0f2b00927b981cd52ca27bf4fbaaccb365cebb11</sdk:checksum>
+                <sdk:url>google_play_services_4132530_r14.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>

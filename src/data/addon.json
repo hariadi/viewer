@@ -526,14 +526,14 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Repository",
         "path": "m2repository",
-        "revision": "4",
+        "revision": "5",
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "3891592",
-            "checksum": "c418daafd203a8cb4899d49bd321da83b927586e",
-            "url": "google_m2repository_r04.zip"
+            "size": "5277365",
+            "checksum": "6ecbf77f7466f60abac5428e74e3afa7a8334bc1",
+            "url": "google_m2repository_r05.zip"
           }
         }
       },
@@ -595,15 +595,15 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Play services",
         "path": "google_play_services",
-        "revision": "13",
+        "revision": "14",
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "7958511",
-            "checksum": "1be94e8f767616e862f0088ab673e1980a6022c4",
-            "url": "google_play_services_4030530_r13.zip"
+            "size": "9389292",
+            "checksum": "0f2b00927b981cd52ca27bf4fbaaccb365cebb11",
+            "url": "google_play_services_4132530_r14.zip"
           }
         }
       },
