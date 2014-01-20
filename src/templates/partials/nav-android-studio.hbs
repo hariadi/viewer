@@ -3,10 +3,11 @@
 <li> <a href="#dev-channel">Dev channel</a> </li>
 <li> <a href="#beta-channel">Beta channel</a> </li>
 <li> <a href="#stable-channel">Stable channel</a> </li>
-<span class="nav-section-title">Android Studio</span>
+<span class="nav-section-title">Android Studio Canary</span>
 {{#each studio.canary}}
-<li> <a href="#{{slugify title }}">Canary</a> </li>
+<li> <a href="#{{slugify title }}">{{ version }}</a> </li>
 {{/each}}
+<span class="nav-section-title">Android Studio Dev</span>
 {{#each studio.dev}}
-<li> <a href="#{{slugify title }}">Dev</a> </li>
+<li> <a href="#{{slugify title }}">{{ version }}</a> </li>
 {{/each}}
