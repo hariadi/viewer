@@ -9,3 +9,4 @@ dist/
 prettify/
 tmp
 vendor/
+test.js
