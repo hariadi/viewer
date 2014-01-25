@@ -1,0 +1,27 @@
+{
+  "name": "viewer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hariadi/viewer",
+  "authors": [
+    "Hariadi Hinta <diperakui@yahoo.com>"
+  ],
+  "description": "Android SDK Library Repository Viewer",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "android",
+    "sdk",
+    "viewer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.0.3",
+    "bootswatch": "~3.0.3+1"
+  }
+}
