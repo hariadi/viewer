@@ -16,7 +16,7 @@
         {{#each pages}}
         {{#isnt data.slug 'viewer'}}
         {{#isnt data.slug 'getting-start'}}
-        <li{{#is dest this.dest}} class="active"{{/is}}>
+        <li{{#if this.isCurrentPage}} class="active"{{/if}}>
           <a href="{{relative dest this.dest}}">{{data.section}}</a>
         </li>
         {{/isnt}}

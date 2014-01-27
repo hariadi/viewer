@@ -5,7 +5,9 @@
   "keywords": [
     "android",
     "sdk",
-    "repository"
+    "repository",
+    "handlebars-helper-prettify",
+    "handlebars-helper-isActive"
   ],
   "author": {
     "name": "Hariadi Hinta",

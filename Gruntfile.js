@@ -128,7 +128,7 @@ module.exports = function(grunt) {
         layoutdir: 'src/templates/layouts',
         layout: 'default.hbs',
         partials: ['src/templates/{includes,partials}/**/*.{hbs,md}'],
-        helpers: ['src/lib/*.js', 'handlebars-helper-prettify'],
+        helpers: ['handlebars-helper-prettify', 'src/lib/*.js'],
         plugins: ['assemble-contrib-sitemap'],
         prettify: {
           indent: 2,
@@ -153,7 +153,7 @@ module.exports = function(grunt) {
       theme: {
         files: [
           // copy the whole bootstrap dist
-          { src: ['vendor/bootstrap/dist/*', '!vendor/bootstrap/dist/*-theme.css', '!vendor/bootstrap/dist/*-theme.min.css'], dest: 'src/assets'},
+          //{ src: ['vendor/bootstrap/dist/*', '!vendor/bootstrap/dist/*-theme.css', '!vendor/bootstrap/dist/*-theme.min.css'], dest: 'src/assets'},
           // replace with bootswatch theme choice
           {expand: true, cwd: 'vendor/bootswatch/<%= theme %>',   src: ['*.css'], dest: 'src/assets/css'},
           { src: 'vendor/jquery/jquery.min.js', dest: 'src/assets/js/jquery.min.js'},
