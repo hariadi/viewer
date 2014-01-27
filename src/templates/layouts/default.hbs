@@ -1,18 +1,33 @@
-<!DOCTYPE html>
+{{#prettify}}<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    {{> header }}
-    <!-- Place anything custom after this. -->
-    <style type="text/css" media="screen">
-    .teaser iframe {
-      margin: -7px 0 0 25px;
-      vertical-align: text-top;
-    }
-    .teaser iframe + iframe {
-      margin-left: -20px;
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{pkg.description}}">
+    <meta name="author" content="{{pkg.author.name}}">
+    <title>{{#is title "Viewer"}}{{ title }}{{/is}}{{#isnt title "Viewer"}}{{ title }} &middot; Viewer{{/isnt}}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{{assets}}/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    {{#if site.config.analytic}}{{> analytics }}{{/if}}
+    {{#if site.config.schema}}
+    <script type="application/ld+json">
+      [
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Person",
+          "name" : "Hariadi Hinta",
+          "description" : "Android SDK Library Repository Viewer.",
+          "url" : "https://github.com/hariadi"
+        }
+      ]
+      </script>
+      {{/if}}
   </head>
   <body>
 
@@ -21,13 +36,12 @@
 
     {{!-- content
     =================================== --}}
-    {{> body }}
+    <div class="container">{{> body }}</div>
 
     {{!-- footer scripts
     =================================== --}}
-    {{> javascripts }}
-    <script>
-      $().showUp('.navbar');
-    </script>
+    <script src="{{assets}}/js/jquery.min.js"></script>
+    <script src="{{assets}}/js/bootstrap.min.js"></script>
+    {{#if social}}<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>{{/if}}
   </body>
-</html>
+</html>{{/prettify}}

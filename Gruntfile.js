@@ -21,6 +21,7 @@ module.exports = function(grunt) {
     dest: 'dist',
     tmp: 'tmp',
     ghpages: '_gh-pages',
+    theme: 'yeti',
 
     jshint: {
       all: ['Gruntfile.js', 'src/lib/*.js'],
@@ -80,67 +81,94 @@ module.exports = function(grunt) {
       }
     },
 
-    // Templates
-    assemble: {
-      options: {
-        assets: '_gh-pages/assets',
-        data: 'src/data/*.{json,yml}',
-        layoutdir: 'src/templates/layouts',
-        partials: [
-          'src/templates/partials/*.hbs'
-        ],
-        helpers: 'src/lib/*.js'
+    watch: {
+      assemble: {
+        files: ['src/{content,data,templates}/{,*/}*.{md,hbs,yml}'],
+        tasks: ['assemble']
       },
-
-      viewer: {
-         options: {
-          flatten: true,
-          layout: 'default.hbs',
-          plugins: ['assemble-contrib-sitemap'],
-          //plugins: [ 'permalinks', 'assemble-contrib-toc'],
-          //permalinks: {
-          //  preset: 'pretty'
-          //},
-          sitemap: {
-            homepage: 'http://ady.my',
-            relativedest: true
-          }
+      livereload: {
+        options: {
+          livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= tmp %>' }
-        ]
-      },
-    },
-
-    prettify: {
-      options: {
-        brace_style: 'collapse',
-        indent_scripts: 'keep',
-        unformatted: ['a', 'sub', 'sup', 'b', 'i', 'u', 'script']
-      },
-      all: {
-        expand: true,
-        cwd: '<%= tmp %>',
-        ext: '.html',
-        src: ['*.html'],
-        dest: '<%= ghpages %>'
-      },
-
-    },
-
-    copy: {
-      android: {
-        files: [
-          {expand: true, cwd: '<%= tmp %>',   src: ['*.xml'], dest: '<%= ghpages %>'},
-          {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
+          'Gruntfile.js',
+          '<%= ghpages %>/{,*/}*.html',
+          '<%= ghpages %>/assets/{,*/}*.css',
+          '<%= ghpages %>/assets/{,*/}*.js',
+          '<%= ghpages %>/assets/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
     },
 
+    // The actual grunt server settings
+    connect: {
+      options: {
+        port: 9000,
+        livereload: 35729,
+        // change this to '0.0.0.0' to access the server from outside
+        hostname: 'localhost'
+      },
+      livereload: {
+        options: {
+          open: true,
+          base: [
+            '<%= ghpages %>'
+          ]
+        }
+      }
+    },
+
+    // Templates
+    assemble: {
+      options: {
+        production: true,
+        flatten: true,
+        assets: '<%= ghpages %>/assets',
+        data: 'src/data/*.{json,yml}',
+        layoutdir: 'src/templates/layouts',
+        layout: 'default.hbs',
+        partials: ['src/templates/{includes,partials}/**/*.{hbs,md}'],
+        helpers: ['handlebars-helper-prettify', 'src/lib/*.js'],
+        plugins: ['assemble-contrib-sitemap'],
+        prettify: {
+          indent: 2,
+          condense: true,
+          padcomments: true
+        },
+        sitemap: {
+          homepage: 'http://ady.my',
+          relativedest: true
+        },
+        social: false
+      },
+
+      viewer: {
+        files: [
+          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= ghpages %>' }
+        ]
+      },
+    },
+
+    copy: {
+      theme: {
+        files: [
+          // copy the whole bootstrap dist
+          //{ src: ['vendor/bootstrap/dist/*', '!vendor/bootstrap/dist/*-theme.css', '!vendor/bootstrap/dist/*-theme.min.css'], dest: 'src/assets'},
+          // replace with bootswatch theme choice
+          {expand: true, cwd: 'vendor/bootswatch/<%= theme %>',   src: ['*.css'], dest: 'src/assets/css'},
+          { src: 'vendor/jquery/jquery.min.js', dest: 'src/assets/js/jquery.min.js'},
+        ]
+      },
+      android: {
+        files: [
+          {expand: true, cwd: 'src/assets',   src: ['**'], dest: '<%= ghpages %>/assets'},
+        ]
+      },
+    },
+
     // remove files from previous build.
     clean: {
-      ghpages: ['<%= ghpages %>/*.html'],
-      dist: ['<%= dest %>'],
+      ghpages: ['<%= ghpages %>'],
       tmp: ['<%= tmp %>']
     }
   });
@@ -150,10 +178,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('assemble');
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
+  grunt.registerTask('serve', [
+    'default',
+    'connect:livereload',
+    'watch'
+  ]);
+
   // Default task to be run.
   grunt.registerTask('update', ['curl']);
   grunt.registerTask('data', ['update', 'convert', 'frep']);
-  grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'prettify', 'copy', 'clean:tmp']);
+  grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'copy']);
   grunt.registerTask('debug', ['clean', 'assemble']);
 };
 
