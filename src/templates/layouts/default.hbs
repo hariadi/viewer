@@ -37,7 +37,7 @@
 
     {{!-- content
     =================================== --}}
-    <div class="container">{{> body }}</div>
+    <div class="container{{#isnt basename 'index'}} well{{/isnt}}">{{> body }}</div>
 
     {{!-- footer scripts
     =================================== --}}
