@@ -8,6 +8,7 @@
     <title>{{#is title "Viewer"}}{{ title }}{{/is}}{{#isnt title "Viewer"}}{{ title }} &middot; Viewer{{/isnt}}</title>
     <!-- Bootstrap core CSS -->
     <link href="{{assets}}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{assets}}/css/viewer.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,7 +37,7 @@
 
     {{!-- content
     =================================== --}}
-    <div class="container">{{> body }}</div>
+    <div class="container{{#isnt basename 'index'}} well{{/isnt}}">{{> body }}</div>
 
     {{!-- footer scripts
     =================================== --}}
