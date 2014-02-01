@@ -168,7 +168,7 @@ module.exports = function(grunt) {
 
     // remove files from previous build.
     clean: {
-      ghpages: ['<%= ghpages %>'],
+      ghpages: ['<%= ghpages %>/*.{html,xml,txt}', '<%= ghpages %>/assets', '!.git*'],
       tmp: ['<%= tmp %>']
     }
   });
