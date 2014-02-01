@@ -978,20 +978,20 @@ August 15, 2011
     </sdk:extra>
 
     <sdk:extra>
-        <!-- Generated at Thu Jul 18 16:46:04 PDT 2013 from git_master @ 745409 -->
+        <!-- Generated at Fri Jan 31 11:16:08 2014 from git_master @ 1000745 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-display>Google USB Driver</sdk:name-display>
         <sdk:path>usb_driver</sdk:path>
-        <sdk:revision>8</sdk:revision>
-        <sdk:description>USB Driver for Windows, revision 8</sdk:description>
+        <sdk:revision>9</sdk:revision>
+        <sdk:description>USB Driver for Windows, revision 9</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive os="windows">
-                <sdk:size>8682230</sdk:size>
-                <sdk:checksum type="sha1">2b2f91098a984a865a70f0bd841a843fb54462fc</sdk:checksum>
-                <sdk:url>usb_driver_r08-windows.zip</sdk:url>
+                <sdk:url>usb_driver_r09-windows.zip</sdk:url>
+                <sdk:checksum type="sha1">3242b5bd31ba55acc26fb2673cc95f62bae4c3ee</sdk:checksum>
+                <sdk:size>8682706</sdk:size>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
@@ -1031,6 +1031,7 @@ August 15, 2011
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
     </sdk:extra>
 
     <sdk:extra>
@@ -1072,7 +1073,7 @@ August 15, 2011
     <sdk:extra>
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
-        <sdk:name-display>[Deprecated] Google Cloud Messaging for Android Library</sdk:name-display>
+        <sdk:name-display>Google Cloud Messaging for Android Library</sdk:name-display>
         <sdk:path>gcm</sdk:path>
         <sdk:revision>3</sdk:revision>
         <sdk:description>GCM library has been moved to Google Play Services (com.google.android.gms.gcm) and this standalone version is no longer supported</sdk:description>
@@ -1085,5 +1086,6 @@ August 15, 2011
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
     </sdk:extra>
 </sdk:sdk-addon>
