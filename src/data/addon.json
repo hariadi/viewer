@@ -612,15 +612,15 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google USB Driver",
         "path": "usb_driver",
-        "revision": "8",
-        "description": "USB Driver for Windows, revision 8",
+        "revision": "9",
+        "description": "USB Driver for Windows, revision 9",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "8682230",
-            "checksum": "2b2f91098a984a865a70f0bd841a843fb54462fc",
-            "url": "usb_driver_r08-windows.zip"
+            "url": "usb_driver_r09-windows.zip",
+            "checksum": "3242b5bd31ba55acc26fb2673cc95f62bae4c3ee",
+            "size": "8682706"
           }
         }
       },
@@ -657,7 +657,8 @@
             "url": "https://dl-ssl.google.com/googleadmobadssdk/googleadmobadssdkandroid-6.4.1.zip"
           }
         },
-        "uses-license": ""
+        "uses-license": "",
+        "obsolete": ""
       },
       {
         "vendor-id": "google",
@@ -696,7 +697,7 @@
       {
         "vendor-id": "google",
         "vendor-display": "Google Inc.",
-        "name-display": "[Deprecated] Google Cloud Messaging for Android Library",
+        "name-display": "Google Cloud Messaging for Android Library",
         "path": "gcm",
         "revision": "3",
         "description": "GCM library has been moved to Google Play Services (com.google.android.gms.gcm) and this standalone version is no longer supported",
@@ -708,7 +709,8 @@
             "url": "gcm_r03.zip"
           }
         },
-        "uses-license": ""
+        "uses-license": "",
+        "obsolete": ""
       }
     ]
   }
