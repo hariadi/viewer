@@ -5,6 +5,7 @@ section: Addons
 slug: addon
 area: Addons
 ---
+<h1>{{title}}</h1>
 {{{md './src/content/addon.md'}}}
 {{#each addon.sdk-addon.add-on}}
   <h2 id="{{replace archives.archive.url '.zip' '' }}"><a href="{{{ desc-url }}}">{{ name-display }} {{ api-level }}, revision {{ revision }}</a></h2>

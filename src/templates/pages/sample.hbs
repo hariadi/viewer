@@ -5,6 +5,7 @@ section: Sample
 slug: sample
 area: SDK
 ---
+<h1>{{title}}</h1>
 {{{md './src/content/sample.md'}}}
 {{#withSort repository.sdk-repository.sample "api-level" dir="desc"}}
   <h2 id="{{slugify api-level }}">{{ archives.archive.url }}</h2>
