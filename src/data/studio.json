@@ -174,5 +174,29 @@
         }
       ]
     }
+  },{
+    "title": "Android Studio 0.4.4",
+    "version": "0.4.4",
+    "description": "Android Studio 0.4.4 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-4-3",
+    "download": {
+      "archive": [
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-linux.zip"
+        }
+      ]
+    }
   }]
 }
