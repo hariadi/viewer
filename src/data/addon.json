@@ -426,7 +426,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "2",
+        "revision": "3",
         "libs": {
           "lib": [
             {
@@ -442,9 +442,9 @@
         },
         "archives": {
           "archive": {
-            "size": "154646970",
-            "checksum": "e7cf87e9acdd90ef16b9419a486026cdfa1e95d6",
-            "url": "google_apis-19_r02.zip"
+            "size": "156415202",
+            "checksum": "f3649d9f9aaa38d2a1928b943ba523346fe20645",
+            "url": "google_apis-19_r03.zip"
           }
         },
         "uses-license": ""
@@ -526,14 +526,14 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Repository",
         "path": "m2repository",
-        "revision": "5",
+        "revision": "6",
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "5277365",
-            "checksum": "6ecbf77f7466f60abac5428e74e3afa7a8334bc1",
-            "url": "google_m2repository_r05.zip"
+            "size": "8394177",
+            "checksum": "74912c17e0dc1072869c3181256bf46476e80c30",
+            "url": "google_m2repository_r06.zip"
           }
         }
       },
@@ -595,15 +595,15 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Play services",
         "path": "google_play_services",
-        "revision": "14",
+        "revision": "15",
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "9389292",
-            "checksum": "0f2b00927b981cd52ca27bf4fbaaccb365cebb11",
-            "url": "google_play_services_4132530_r14.zip"
+            "size": "10360335",
+            "checksum": "c54e034fd16f4b35e2237ab57d6e25a93cd70853",
+            "url": "google_play_services_4242030_r15.zip"
           }
         }
       },
