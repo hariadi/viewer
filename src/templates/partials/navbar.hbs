@@ -17,7 +17,7 @@
         {{#isnt data.slug 'viewer'}}
         {{#isnt data.slug 'getting-start'}}
         <li{{#if this.isCurrentPage}} class="active"{{/if}}>
-          <a href="{{relative dest this.dest}}">{{data.section}}</a>
+          <a href="/{{basename}}/index.html">{{data.section}}</a>
         </li>
         {{/isnt}}
         {{/isnt}}
