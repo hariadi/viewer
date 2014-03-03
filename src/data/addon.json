@@ -423,7 +423,7 @@
         "vendor-id": "google",
         "vendor-display": "Google Inc.",
         "name-id": "google_apis",
-        "name-display": "Google APIs",
+        "name-display": "Google APIs (ARM System Image)",
         "description": "Android + Google APIs",
         "api-level": "19",
         "revision": "3",
