@@ -124,25 +124,41 @@ module.exports = function(grunt) {
         production: true,
         flatten: true,
         assets: '<%= ghpages %>/assets',
-        data: 'src/data/*.{json,yml}',
+        data: ['package.json', 'src/data/*.{json,yml}'],
         layoutdir: 'src/templates/layouts',
         layout: 'default.hbs',
         partials: ['src/templates/{includes,partials}/**/*.{hbs,md}'],
         helpers: ['handlebars-helper-prettify', 'src/lib/*.js'],
-        plugins: ['assemble-contrib-sitemap'],
+        plugins: ['assemble-contrib-permalinks', 'assemble-contrib-sitemap'],
         prettify: {
           indent: 2,
           condense: true,
           padcomments: true
         },
-        sitemap: {
-          homepage: 'http://ady.my',
-          relativedest: true
-        },
         social: false
+      },
+      // old url, redirection to new format
+      redirect: {
+        options: {
+          layout: 'redirect.hbs',
+          permalinks: {
+            structure: ':basename:ext',
+          },
+        },
+        files: {
+          '<%= ghpages %>/': ['src/templates/pages/**/*.hbs']
+        }
       },
 
       viewer: {
+        options: {
+          sitemap: {
+            relativedest: true
+          },
+          permalinks: {
+            preset: 'pretty'
+          },
+        },
         files: {
           '<%= ghpages %>/': ['src/templates/pages/**/*.hbs']
         }
@@ -168,7 +184,7 @@ module.exports = function(grunt) {
 
     // remove files from previous build.
     clean: {
-      ghpages: ['<%= ghpages %>/*.{html,xml,txt}', '<%= ghpages %>/assets', '!.git*'],
+      ghpages: ['!<%= ghpages %>/.git*', '<%= ghpages %>/**/*.{html,xml,txt}', '<%= ghpages %>/assets'],
       tmp: ['<%= tmp %>']
     }
   });
