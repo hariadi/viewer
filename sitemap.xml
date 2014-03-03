@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://ady.my/platform-tool.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/platform-tool/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.006Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/addon.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/addon/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/build-tool.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/build-tool/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/doc.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/doc/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/getting-start.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/getting-start/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://ady.my/index.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/android-studio.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/android-studio/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/platform.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/platform/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/sample.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/sample/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/source.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/source/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/system-image.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/system-image/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://ady.my/tool.html</loc>
-    <lastmod>2014-01-24T00:12:22.595Z</lastmod>
+    <loc>http://ady.my/tool/index.html</loc>
+    <lastmod>2014-03-03T07:03:01.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

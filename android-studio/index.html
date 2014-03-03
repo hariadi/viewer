@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Android SDK Library Repository Viewer">
+    <meta name="author" content="Hariadi Hinta">
+    <title>Android Studio &middot; Viewer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/viewer.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/analytics.js"></script>
+    <script type="application/ld+json">
+      [{
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Hariadi Hinta",
+        "description": "Android SDK Library Repository Viewer.",
+        "url": "https://github.com/hariadi"
+      }]
+    </script>
+  </head>
+  <body>
+
+    <!-- Docs master nav -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">Viewer</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/platform-tool/index.html">Platform Tool</a>
+            </li>
+            <li>
+              <a href="/addon/index.html">Addons</a>
+            </li>
+            <li>
+              <a href="/build-tool/index.html">Build Tool</a>
+            </li>
+            <li>
+              <a href="/doc/index.html">Documentation</a>
+            </li>
+            <li class="active">
+              <a href="/android-studio/index.html">IDE</a>
+            </li>
+            <li>
+              <a href="/platform/index.html">Platform</a>
+            </li>
+            <li>
+              <a href="/sample/index.html">Sample</a>
+            </li>
+            <li>
+              <a href="/source/index.html">Source</a>
+            </li>
+            <li>
+              <a href="/system-image/index.html">System Image</a>
+            </li>
+            <li>
+              <a href="/tool/index.html">Tool</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/hariadi/viewer">Github Repo</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--/.nav-collapse -->
+      </div>
+
+      <!-- /container -->
+    </div>
+
+    <!-- /navbar -->
+    <div class="container well">
+      <h1>Android Studio</h1>
+      <blockquote>
+        <p>Install Android Studio manually.</p>
+      </blockquote>
+      <p>Android Studio is a new Android development environment based on IntelliJ IDEA. Similar to Eclipse with the ADT Plugin, Android Studio provides integrated Android developer tools for development and debugging.</p>
+      <blockquote>
+        <p><strong>Caution</strong>: Android Studio is currently available as an early access preview. Several features are either incomplete or not yet implemented and you may encounter bugs. If you are not comfortable using an unfinished product, you may
+          want to instead download (or continue to use) the
+          <a href="http://developer.android.com/sdk/index.html">ADT Bundle</a>(Eclipse with the ADT Plugin).</p>
+      </blockquote>
+      <h2 id="android-studio-previews">Android Studio Previews</h2>
+      <p>Android Studio has a built-in preview update mechanism. The IDE connects regularly to the update server and will present a popup at startup when a new version is available. Android Studio categories updates using &quot;channels&quot;. There are
+        4 channels available:</p>
+      <h3 id="canary-channel">Canary channel</h3>
+      <p>Canary builds are the bleeding edge, released about weekly. While these builds do get tested, they are still subject to bugs, as we want people to see what&#39;s new as soon as possible. This is not recommended for production.</p>
+      <h3 id="dev-channel">Dev channel</h3>
+      <p>Dev builds are hand-picked older canary builds that survived the test of time. It should be updated roughly bi-weekly or monthly.</p>
+      <h3 id="beta-channel">Beta channel</h3>
+      <p>Not used yet. This will be used when we&#39;ll have beta-quality releases. Right now Android Studio is considered preview-quality.</p>
+      <h3 id="stable-channel">Stable channel</h3>
+      <p>Not used yet. That will be for version 1.0 and following stable milestones.</p>
+      <p>By default, Android Studio uses the Canary channel. To change that, use <strong>File &gt; Settings &gt; Updates</strong>:</p>
+      <p>
+        <img src="http://tools.android.com/_/rsrc/1380832144218/preview-channel/2013-10-03%20sa%200.2.11%20settings%20channels.png" alt="image">
+      </p>
+      <p>Viewer only display latest <strong><em>Canary</em></strong> and <strong><em>Dev</em></strong> channel Zip files (Android Studio without SDK).</p>
+      <h2 id="android-studio-036">
+        <a href="http://tools.android.com/download/studio/canary/0-3-6">Android Studio 0.3.6</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.3.6 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.3.6</dd>
+        <dt>size</dt>
+        <dd>147.85mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.6/android-studio-ide-132.917931-windows.zip">android-studio-ide-132.917931-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>146.8mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.6/android-studio-ide-132.917931-mac.zip">android-studio-ide-132.917931-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>145.75mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.6/android-studio-ide-132.917931-linux.zip">android-studio-ide-132.917931-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-037">
+        <a href="http://tools.android.com/download/studio/canary/0-3-7">Android Studio 0.3.7</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.3.7 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.3.7</dd>
+        <dt>size</dt>
+        <dd>147.85mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.7/android-studio-ide-132.932373-windows.zip">android-studio-ide-132.932373-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>146.8mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.7/android-studio-ide-132.932373-mac.zip">android-studio-ide-132.932373-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>145.75mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.3.7/android-studio-ide-132.932373-linux.zip">android-studio-ide-132.932373-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-040">
+        <a href="http://tools.android.com/download/studio/canary/0-4-0">Android Studio 0.4.0</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.4.0 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.4.0</dd>
+        <dt>size</dt>
+        <dd>147.85mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.0/android-studio-ide-132.955124-windows.zip">android-studio-ide-132.955124-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>146.8mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.0/android-studio-ide-132.955124-mac.zip">android-studio-ide-132.955124-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>145.75mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.0/android-studio-ide-132.955124-linux.zip">android-studio-ide-132.955124-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-041">
+        <a href="http://tools.android.com/download/studio/canary/0-4-1">Android Studio 0.4.1</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.4.1 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.4.1</dd>
+        <dt>size</dt>
+        <dd>164.63mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.1/android-studio-ide-133.967590-windows.zip">android-studio-ide-133.967590-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>163.58mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.1/android-studio-ide-133.967590-mac.zip">android-studio-ide-133.967590-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>163.58mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.1/android-studio-ide-133.967590-linux.zip">android-studio-ide-133.967590-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-042">
+        <a href="http://tools.android.com/download/studio/canary/0-4-2">Android Studio 0.4.2</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.4.2 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.4.2</dd>
+        <dt>size</dt>
+        <dd>164.63mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.2/android-studio-ide-133.970939-windows.zip">android-studio-ide-133.970939-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>163.58mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.2/android-studio-ide-133.970939-mac.zip">android-studio-ide-133.970939-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>163.58mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.2/android-studio-ide-133.970939-linux.zip">android-studio-ide-133.970939-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-043">
+        <a href="http://tools.android.com/download/studio/canary/0-4-3">Android Studio 0.4.3</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.4.3 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.4.3</dd>
+        <dt>size</dt>
+        <dd>165.68mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.3/android-studio-ide-133.988757-windows.zip">android-studio-ide-133.988757-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>165.68mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.3/android-studio-ide-133.988757-mac.zip">android-studio-ide-133.988757-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>164.63mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.3/android-studio-ide-133.988757-linux.zip">android-studio-ide-133.988757-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-044">
+        <a href="http://tools.android.com/download/studio/canary/0-4-3">Android Studio 0.4.4</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.4.4 Canary Channel</dd>
+        <dt>version</dt>
+        <dd>0.4.4</dd>
+        <dt>size</dt>
+        <dd>165.68mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-windows.zip">android-studio-ide-133.1005886-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>165.68mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-mac.zip">android-studio-ide-133.1005886-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>164.63mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-linux.zip">android-studio-ide-133.1005886-linux.zip</a>
+        </dd>
+      </dl>
+      <h2 id="android-studio-032">
+        <a href="http://tools.android.com/download/studio/canary/0-3-2">Android Studio 0.3.2</a>
+      </h2>
+      <dl class="dl-horizontal">
+        <dt>description</dt>
+        <dd>Android Studio 0.3.2 Dev Channel</dd>
+        <dt>version</dt>
+        <dd>0.3.2</dd>
+        <dt>size</dt>
+        <dd>499.12mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="https://dl-ssl.google.com/android/studio/ide-zips/android-studio-ide-132.893413-windows.zip">android-studio-ide-132.893413-windows.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>141.56mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="https://dl-ssl.google.com/android/studio/ide-zips/android-studio-ide-132.893413-mac.zip">android-studio-ide-132.893413-mac.zip</a>
+        </dd>
+        <dt>size</dt>
+        <dd>140.51mb</dd>
+        <dt>checksum</dt>
+        <dd></dd>
+        <dt>download</dt>
+        <dd>
+          <a class="btn btn-primary" href="https://dl-ssl.google.com/android/studio/ide-zips/android-studio-ide-132.893413-linux.zip">android-studio-ide-132.893413-linux.zip</a>
+        </dd>
+      </dl>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
