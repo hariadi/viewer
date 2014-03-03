@@ -153,6 +153,7 @@ module.exports = function(grunt) {
       viewer: {
         options: {
           sitemap: {
+            dest: '<%= ghpages %>',
             relativedest: true
           },
           permalinks: {
