@@ -143,9 +143,9 @@ module.exports = function(grunt) {
       },
 
       viewer: {
-        files: [
-          { expand: true, cwd: 'src/templates/pages', src: ['*.hbs'], dest: '<%= ghpages %>' }
-        ]
+        files: {
+          '<%= ghpages %>/': ['src/templates/pages/**/*.hbs']
+        }
       },
     },
 
