@@ -1169,6 +1169,33 @@ November 13, 2012
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:build-tool>
 
+    <sdk:build-tool>
+        <!-- Generated at Wed Feb 12 12:38:29 2014 from git_klp-sdk-release @ 1009316 -->
+        <sdk:revision>
+            <sdk:major>19</sdk:major>
+            <sdk:minor>0</sdk:minor>
+            <sdk:micro>2</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive arch="any" os="windows">
+                <sdk:size>20621117</sdk:size>
+                <sdk:checksum type="sha1">af664672d0d709c9ae30937b1062317d3ade7f95</sdk:checksum>
+                <sdk:url>build-tools_r19.0.2-windows.zip</sdk:url>
+            </sdk:archive>
+            <sdk:archive arch="any" os="linux">
+                <sdk:size>21352552</sdk:size>
+                <sdk:checksum type="sha1">a03a6bdea0091aea32e1b35b90a7294c9f04e3dd</sdk:checksum>
+                <sdk:url>build-tools_r19.0.2-linux.zip</sdk:url>
+            </sdk:archive>
+            <sdk:archive arch="any" os="macosx">
+                <sdk:size>21453726</sdk:size>
+                <sdk:checksum type="sha1">145bc43065d45f756d99d87329d899052b9a9288</sdk:checksum>
+                <sdk:url>build-tools_r19.0.2-macosx.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
+
     <!-- TOOLS ........................ -->
 
     <sdk:tool>

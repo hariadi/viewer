@@ -774,7 +774,7 @@ August 15, 2011
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
-        <sdk:name-display>Google APIs</sdk:name-display>
+        <sdk:name-display>Google APIs (ARM System Image)</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>19</sdk:api-level>
         <sdk:revision>3</sdk:revision>

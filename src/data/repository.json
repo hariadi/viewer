@@ -904,6 +904,33 @@
           ]
         },
         "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "19",
+          "minor": "0",
+          "micro": "2"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "20621117",
+              "checksum": "af664672d0d709c9ae30937b1062317d3ade7f95",
+              "url": "build-tools_r19.0.2-windows.zip"
+            },
+            {
+              "size": "21352552",
+              "checksum": "a03a6bdea0091aea32e1b35b90a7294c9f04e3dd",
+              "url": "build-tools_r19.0.2-linux.zip"
+            },
+            {
+              "size": "21453726",
+              "checksum": "145bc43065d45f756d99d87329d899052b9a9288",
+              "url": "build-tools_r19.0.2-macosx.zip"
+            }
+          ]
+        },
+        "uses-license": ""
       }
     ],
     "tool": [
