@@ -428,7 +428,7 @@
         "uses-license": ""
       },
       {
-        "revision": "2",
+        "revision": "3",
         "description": "Android SDK Platform 4.4.2",
         "version": "4.4.2",
         "api-level": "19",
@@ -441,9 +441,9 @@
         },
         "archives": {
           "archive": {
-            "size": "59549530",
-            "checksum": "fb87a779320bcb8a0a0932f6db8843ba72d1993b",
-            "url": "android-19_r02.zip"
+            "size": "63798840",
+            "checksum": "5f33d8fd36a384fe2b170035e04a29c274a9ef95",
+            "url": "android-19_r03.zip"
           }
         },
         "uses-license": ""
@@ -931,69 +931,64 @@
           ]
         },
         "uses-license": ""
-      }
-    ],
-    "tool": [
-      {
-        "revision": {
-          "major": "22",
-          "minor": "3"
-        },
-        "min-platform-tools-rev": {
-          "major": "18"
-        },
-        "archives": {
-          "archive": [
-            {
-              "size": "108726734",
-              "checksum": "1cdc825c9a84ccf69b4a6386076a881d962dd7a9",
-              "url": "tools_r22.3-windows.zip"
-            },
-            {
-              "size": "101224750",
-              "checksum": "f76251916a23cb3d85e579f01cc6711a334f9064",
-              "url": "tools_r22.3-linux.zip"
-            },
-            {
-              "size": "74859563",
-              "checksum": "697d7f6fa44f02e6894d0eeb948ea97e3cdc8c3c",
-              "url": "tools_r22.3-macosx.zip"
-            }
-          ]
-        },
-        "uses-license": ""
       },
       {
         "revision": {
-          "major": "22",
-          "minor": "6",
-          "preview": "4"
-        },
-        "min-platform-tools-rev": {
-          "major": "18"
+          "major": "19",
+          "minor": "0",
+          "micro": "3"
         },
         "archives": {
           "archive": [
             {
-              "size": "108883922",
-              "checksum": "4ca0a2cff81db780f0fb455442bcb67b7399a147",
-              "url": "tools_r22.6_rc4-windows.zip"
+              "size": "20730715",
+              "checksum": "cb46b433b67a0a6910ff00db84be8b527ea3102f",
+              "url": "build-tools_r19.0.3-windows.zip"
             },
             {
-              "size": "101402658",
-              "checksum": "a3746218ac804f7b86d8291aedf8f021314deb1e",
-              "url": "tools_r22.6_rc4-linux.zip"
+              "size": "21462150",
+              "checksum": "c2d6055478e9d2d4fba476ee85f99181ddd1160c",
+              "url": "build-tools_r19.0.3-linux.zip"
             },
             {
-              "size": "74675185",
-              "checksum": "7bf25d7223d1e2194f893fd0f141052c329c993f",
-              "url": "tools_r22.6_rc4-macosx.zip"
+              "size": "21563992",
+              "checksum": "651cf8754373b2d52e7f6aab2c52eabffe4e9ea4",
+              "url": "build-tools_r19.0.3-macosx.zip"
             }
           ]
         },
         "uses-license": ""
       }
     ],
+    "tool": {
+      "revision": {
+        "major": "22",
+        "minor": "6"
+      },
+      "min-platform-tools-rev": {
+        "major": "18"
+      },
+      "archives": {
+        "archive": [
+          {
+            "size": "108739674",
+            "checksum": "00f8b9fe5ea293d8cd914c062b51060074e0a491",
+            "url": "tools_r22.6-windows.zip"
+          },
+          {
+            "size": "101259411",
+            "checksum": "5c79485004fa97bea556e3b92bfadf6261e9ffe7",
+            "url": "tools_r22.6-linux.zip"
+          },
+          {
+            "size": "74512634",
+            "checksum": "dd0602c4af4793b1babdfe9bfb8f2c81bb75749f",
+            "url": "tools_r22.6-macosx.zip"
+          }
+        ]
+      },
+      "uses-license": ""
+    },
     "doc": {
       "revision": "2",
       "api-level": "19",

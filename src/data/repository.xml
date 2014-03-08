@@ -639,8 +639,8 @@ November 13, 2012
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Thu Dec  5 14:02:42 2013 from git_klp-dev @ 938007 -->
-        <sdk:revision>2</sdk:revision>
+        <!-- Generated at Fri Feb 28 18:03:43 2014 from git_klp-sdk-release @ 1035858 -->
+        <sdk:revision>3</sdk:revision>
         <sdk:description>Android SDK Platform 4.4.2</sdk:description>
         <sdk:version>4.4.2</sdk:version>
         <sdk:api-level>19</sdk:api-level>
@@ -653,9 +653,9 @@ November 13, 2012
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive arch="any" os="any">
-                <sdk:size>59549530</sdk:size>
-                <sdk:checksum type="sha1">fb87a779320bcb8a0a0932f6db8843ba72d1993b</sdk:checksum>
-                <sdk:url>android-19_r02.zip</sdk:url>
+                <sdk:size>63798840</sdk:size>
+                <sdk:checksum type="sha1">5f33d8fd36a384fe2b170035e04a29c274a9ef95</sdk:checksum>
+                <sdk:url>android-19_r03.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -1196,62 +1196,59 @@ November 13, 2012
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:build-tool>
 
-    <!-- TOOLS ........................ -->
-
-    <sdk:tool>
-        <!-- Generated at Mon Oct 28 23:45:30 2013 from git_mirror-aosp-tools_r22.2 @ 887826 -->
+    <sdk:build-tool>
+        <!-- Generated at Fri Feb 28 17:11:02 2014 from git_klp-sdk-release @ 1035858 -->
         <sdk:revision>
-            <sdk:major>22</sdk:major>
-            <sdk:minor>3</sdk:minor>
+            <sdk:major>19</sdk:major>
+            <sdk:minor>0</sdk:minor>
+            <sdk:micro>3</sdk:micro>
         </sdk:revision>
-        <sdk:min-platform-tools-rev>
-            <sdk:major>18</sdk:major>
-        </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive arch="any" os="windows">
-                <sdk:size>108726734</sdk:size>
-                <sdk:checksum type="sha1">1cdc825c9a84ccf69b4a6386076a881d962dd7a9</sdk:checksum>
-                <sdk:url>tools_r22.3-windows.zip</sdk:url>
+                <sdk:size>20730715</sdk:size>
+                <sdk:checksum type="sha1">cb46b433b67a0a6910ff00db84be8b527ea3102f</sdk:checksum>
+                <sdk:url>build-tools_r19.0.3-windows.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="linux">
-                <sdk:size>101224750</sdk:size>
-                <sdk:checksum type="sha1">f76251916a23cb3d85e579f01cc6711a334f9064</sdk:checksum>
-                <sdk:url>tools_r22.3-linux.zip</sdk:url>
+                <sdk:size>21462150</sdk:size>
+                <sdk:checksum type="sha1">c2d6055478e9d2d4fba476ee85f99181ddd1160c</sdk:checksum>
+                <sdk:url>build-tools_r19.0.3-linux.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="macosx">
-                <sdk:size>74859563</sdk:size>
-                <sdk:checksum type="sha1">697d7f6fa44f02e6894d0eeb948ea97e3cdc8c3c</sdk:checksum>
-                <sdk:url>tools_r22.3-macosx.zip</sdk:url>
+                <sdk:size>21563992</sdk:size>
+                <sdk:checksum type="sha1">651cf8754373b2d52e7f6aab2c52eabffe4e9ea4</sdk:checksum>
+                <sdk:url>build-tools_r19.0.3-macosx.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
-    </sdk:tool>
+    </sdk:build-tool>
+
+    <!-- TOOLS ........................ -->
 
     <sdk:tool>
-        <!-- Generated at Thu Feb  6 23:54:44 2014 from git_mirror-aosp-tools_r22.6 @ 1012920 -->
+        <!-- Generated at Fri Feb 28 18:09:51 2014 from git_mirror-aosp-tools_r22.6-with-vendor @ 1049357 -->
         <sdk:revision>
             <sdk:major>22</sdk:major>
             <sdk:minor>6</sdk:minor>
-            <sdk:preview>4</sdk:preview>
         </sdk:revision>
         <sdk:min-platform-tools-rev>
             <sdk:major>18</sdk:major>
         </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive arch="any" os="windows">
-                <sdk:size>108883922</sdk:size>
-                <sdk:checksum type="sha1">4ca0a2cff81db780f0fb455442bcb67b7399a147</sdk:checksum>
-                <sdk:url>tools_r22.6_rc4-windows.zip</sdk:url>
+                <sdk:size>108739674</sdk:size>
+                <sdk:checksum type="sha1">00f8b9fe5ea293d8cd914c062b51060074e0a491</sdk:checksum>
+                <sdk:url>tools_r22.6-windows.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="linux">
-                <sdk:size>101402658</sdk:size>
-                <sdk:checksum type="sha1">a3746218ac804f7b86d8291aedf8f021314deb1e</sdk:checksum>
-                <sdk:url>tools_r22.6_rc4-linux.zip</sdk:url>
+                <sdk:size>101259411</sdk:size>
+                <sdk:checksum type="sha1">5c79485004fa97bea556e3b92bfadf6261e9ffe7</sdk:checksum>
+                <sdk:url>tools_r22.6-linux.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="macosx">
-                <sdk:size>74675185</sdk:size>
-                <sdk:checksum type="sha1">7bf25d7223d1e2194f893fd0f141052c329c993f</sdk:checksum>
-                <sdk:url>tools_r22.6_rc4-macosx.zip</sdk:url>
+                <sdk:size>74512634</sdk:size>
+                <sdk:checksum type="sha1">dd0602c4af4793b1babdfe9bfb8f2c81bb75749f</sdk:checksum>
+                <sdk:url>tools_r22.6-macosx.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
