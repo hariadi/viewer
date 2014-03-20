@@ -961,14 +961,14 @@ November 13, 2012
     </sdk:sample>
 
     <sdk:sample>
-        <!-- Generated at Mon Feb 10 10:44:32 2014 from git_klp-dev @ 1014793 -->
-        <sdk:revision>3</sdk:revision>
+        <!-- Generated at Mon Mar 10 16:34:18 2014 from git_klp-docs @ 1064548 -->
+        <sdk:revision>4</sdk:revision>
         <sdk:api-level>19</sdk:api-level>
         <sdk:archives>
             <sdk:archive arch="any" os="any">
-                <sdk:size>28702068</sdk:size>
-                <sdk:checksum type="sha1">6dd0dd84b3c60424f39b1427d54d370a49bbcf69</sdk:checksum>
-                <sdk:url>samples-19_r03.zip</sdk:url>
+                <sdk:size>29919726</sdk:size>
+                <sdk:checksum type="sha1">527f2a588820155d049ef38202277f46f49e9fb9</sdk:checksum>
+                <sdk:url>samples-19_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -1226,29 +1226,30 @@ November 13, 2012
     <!-- TOOLS ........................ -->
 
     <sdk:tool>
-        <!-- Generated at Fri Feb 28 18:09:51 2014 from git_mirror-aosp-tools_r22.6-with-vendor @ 1049357 -->
+        <!-- Generated at Tue Mar 11 13:49:49 2014 from git_mirror-aosp-tools_r22.6-with-vendor @ 1066720 -->
         <sdk:revision>
             <sdk:major>22</sdk:major>
             <sdk:minor>6</sdk:minor>
+            <sdk:micro>1</sdk:micro>
         </sdk:revision>
         <sdk:min-platform-tools-rev>
             <sdk:major>18</sdk:major>
         </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive arch="any" os="windows">
-                <sdk:size>108739674</sdk:size>
-                <sdk:checksum type="sha1">00f8b9fe5ea293d8cd914c062b51060074e0a491</sdk:checksum>
-                <sdk:url>tools_r22.6-windows.zip</sdk:url>
+                <sdk:size>108792070</sdk:size>
+                <sdk:checksum type="sha1">6ccb2552f04a2dedefce1e021ba70662b52230ae</sdk:checksum>
+                <sdk:url>tools_r22.6.1-windows.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="linux">
-                <sdk:size>101259411</sdk:size>
-                <sdk:checksum type="sha1">5c79485004fa97bea556e3b92bfadf6261e9ffe7</sdk:checksum>
-                <sdk:url>tools_r22.6-linux.zip</sdk:url>
+                <sdk:size>101318467</sdk:size>
+                <sdk:checksum type="sha1">380595c66e488fd511f01fb6ce77a464cb8f3d17</sdk:checksum>
+                <sdk:url>tools_r22.6.1-linux.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="macosx">
-                <sdk:size>74512634</sdk:size>
-                <sdk:checksum type="sha1">dd0602c4af4793b1babdfe9bfb8f2c81bb75749f</sdk:checksum>
-                <sdk:url>tools_r22.6-macosx.zip</sdk:url>
+                <sdk:size>74604370</sdk:size>
+                <sdk:checksum type="sha1">2d8797b9b5e335c311279eb840f54696c2fd94d3</sdk:checksum>
+                <sdk:url>tools_r22.6.1-macosx.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>

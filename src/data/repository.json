@@ -703,13 +703,13 @@
         "uses-license": ""
       },
       {
-        "revision": "3",
+        "revision": "4",
         "api-level": "19",
         "archives": {
           "archive": {
-            "size": "28702068",
-            "checksum": "6dd0dd84b3c60424f39b1427d54d370a49bbcf69",
-            "url": "samples-19_r03.zip"
+            "size": "29919726",
+            "checksum": "527f2a588820155d049ef38202277f46f49e9fb9",
+            "url": "samples-19_r04.zip"
           }
         },
         "uses-license": ""
@@ -963,7 +963,8 @@
     "tool": {
       "revision": {
         "major": "22",
-        "minor": "6"
+        "minor": "6",
+        "micro": "1"
       },
       "min-platform-tools-rev": {
         "major": "18"
@@ -971,19 +972,19 @@
       "archives": {
         "archive": [
           {
-            "size": "108739674",
-            "checksum": "00f8b9fe5ea293d8cd914c062b51060074e0a491",
-            "url": "tools_r22.6-windows.zip"
+            "size": "108792070",
+            "checksum": "6ccb2552f04a2dedefce1e021ba70662b52230ae",
+            "url": "tools_r22.6.1-windows.zip"
           },
           {
-            "size": "101259411",
-            "checksum": "5c79485004fa97bea556e3b92bfadf6261e9ffe7",
-            "url": "tools_r22.6-linux.zip"
+            "size": "101318467",
+            "checksum": "380595c66e488fd511f01fb6ce77a464cb8f3d17",
+            "url": "tools_r22.6.1-linux.zip"
           },
           {
-            "size": "74512634",
-            "checksum": "dd0602c4af4793b1babdfe9bfb8f2c81bb75749f",
-            "url": "tools_r22.6-macosx.zip"
+            "size": "74604370",
+            "checksum": "2d8797b9b5e335c311279eb840f54696c2fd94d3",
+            "url": "tools_r22.6.1-macosx.zip"
           }
         ]
       },
