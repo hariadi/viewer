@@ -37,12 +37,63 @@
 
     {{!-- content
     =================================== --}}
-    <div class="container{{#isnt basename 'index'}} well{{/isnt}}">{{> body }}</div>
+    <div class="container{{#isnt basename 'index'}} well{{/isnt}}">
+
+      <div class="col-md-3" id="leftCol">
+
+            <ul class="nav nav-stacked" id="sidebar">
+              <li><a href="#sec0">Section 0</a></li>
+              <li><a href="#sec1">Section 1</a></li>
+              <li><a href="#sec2">Section 2</a></li>
+              <li><a href="#sec3">Section 3</a></li>
+              <li><a href="#sec4">Section 4</a></li>
+            </ul>
+
+      </div>
+
+      <div class="col-md-9">{{> body }}</div>
+
+    </div>
 
     {{!-- footer scripts
     =================================== --}}
     <script src="{{assets}}/js/jquery.min.js"></script>
     <script src="{{assets}}/js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+
+        $(document).ready(function() {
+
+          $('#sidebar').affix({
+            offset: {
+              top: 235
+            }
+          });
+
+          var $body   = $(document.body);
+          var navHeight = $('.navbar').outerHeight(true) + 10;
+
+          $body.scrollspy({
+            target: '#leftCol',
+            offset: navHeight
+          });
+
+          /* smooth scrolling sections */
+          $('a[href*=#]:not([href=#])').click(function() {
+              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                  $('html,body').animate({
+                    scrollTop: target.offset().top - 50
+                  }, 1000);
+                  return false;
+                }
+              }
+          });
+
+        });
+
+    </script>
     {{#if social}}<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>{{/if}}
   </body>
 </html>{{/prettify}}

@@ -39,6 +39,5 @@
     "repository",
     "handlebars-helper-prettify",
     "handlebars-helper-isActive"
-  ],
-
+  ]
 }
