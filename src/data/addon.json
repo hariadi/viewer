@@ -426,7 +426,7 @@
         "name-display": "Google APIs (ARM System Image)",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "3",
+        "revision": "4",
         "libs": {
           "lib": [
             {
@@ -442,9 +442,9 @@
         },
         "archives": {
           "archive": {
-            "size": "156415202",
-            "checksum": "f3649d9f9aaa38d2a1928b943ba523346fe20645",
-            "url": "google_apis-19_r03.zip"
+            "size": "157246354",
+            "checksum": "27f8a07d59d4744194216d11fbaef9651b518690",
+            "url": "google_apis-19_r04.zip"
           }
         },
         "uses-license": ""
@@ -506,7 +506,7 @@
         "uses-license": ""
       },
       {
-        "revision": "4",
+        "revision": "5",
         "vendor-display": "Android",
         "vendor-id": "android",
         "name-display": "Android Support Repository",
@@ -514,9 +514,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "8854680",
-            "checksum": "a8c1d2661e41c901c518d45232ad381a064f0b4c",
-            "url": "android_m2repository_r04.zip"
+            "size": "11664393",
+            "checksum": "2ee9723da079ba0d4fe2a185e00ded842de96f13",
+            "url": "android_m2repository_r05.zip"
           }
         },
         "uses-license": ""
@@ -526,14 +526,14 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Repository",
         "path": "m2repository",
-        "revision": "6",
+        "revision": "7",
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "8394177",
-            "checksum": "74912c17e0dc1072869c3181256bf46476e80c30",
-            "url": "google_m2repository_r06.zip"
+            "size": "8781867",
+            "checksum": "a1519ed92052fa823ff6b06bdd21fea0b700fd50",
+            "url": "google_m2repository_r07.zip"
           }
         }
       },
@@ -595,15 +595,15 @@
         "vendor-display": "Google Inc.",
         "name-display": "Google Play services",
         "path": "google_play_services",
-        "revision": "15",
+        "revision": "16",
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "10360335",
-            "checksum": "c54e034fd16f4b35e2237ab57d6e25a93cd70853",
-            "url": "google_play_services_4242030_r15.zip"
+            "size": "11986240",
+            "checksum": "17de9c9c711b3e5361f23b94583460df7675f10a",
+            "url": "google_play_services_4323030_r16.zip"
           }
         }
       },

@@ -178,7 +178,7 @@
     "title": "Android Studio 0.4.4",
     "version": "0.4.4",
     "description": "Android Studio 0.4.4 Canary Channel",
-    "desc-url": "http://tools.android.com/download/studio/canary/0-4-3",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-4-4",
     "download": {
       "archive": [
         {
@@ -195,6 +195,126 @@
           "size": "164626432",
           "checksum": "",
           "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.4/android-studio-ide-133.1005886-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.4.5",
+    "version": "0.4.5",
+    "description": "Android Studio 0.4.5 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-4-5",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.5/android-studio-ide-133.1021040-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.5/android-studio-ide-133.1021040-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.5/android-studio-ide-133.1021040-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.4.6",
+    "version": "0.4.6",
+    "description": "Android Studio 0.4.6 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-4-6",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.6/android-studio-ide-133.1028713-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.6/android-studio-ide-133.1021040-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.4.6/android-studio-ide-133.1021040-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.5.0",
+    "version": "0.5.0",
+    "description": "Android Studio 0.5.0 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-5-0",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.0/android-studio-ide-133.1028713-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.0/android-studio-ide-133.1021040-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.0/android-studio-ide-133.1021040-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.5.1",
+    "version": "0.5.1",
+    "description": "Android Studio 0.5.1 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-5-1",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.1/android-studio-ide-133.1028713-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.1/android-studio-ide-133.1021040-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.1/android-studio-ide-133.1021040-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.5.2",
+    "version": "0.5.2",
+    "description": "Android Studio 0.5.2 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-5-2",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.2/android-studio-ide-133.1028713-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.2/android-studio-ide-133.1021040-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.2/android-studio-ide-133.1021040-linux.zip"
         }
       ]
     }
