@@ -44,14 +44,32 @@
         <div class="col-md-9 col-md-push-3 main-content">{{> body }}</div>
 
         <div class="col-md-3 col-md-pull-9 sidebar" id="leftCol">
-
-              <ul class="nav nav-stacked" id="sidebar">
-                <li><a href="#sec0">Section 0</a></li>
-                <li><a href="#sec1">Section 1</a></li>
-                <li><a href="#sec2">Section 2</a></li>
-                <li><a href="#sec3">Section 3</a></li>
-                <li><a href="#sec4">Section 4</a></li>
-              </ul>
+              <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement" id="sidebar">
+              {{#is slug 'platform'}}
+                {{> nav-platform }}
+              {{/is}}
+              {{#is slug 'system-image'}}
+                {{> nav-system-image }}
+              {{/is}}
+              {{#is slug 'source'}}
+                {{> nav-source }}
+              {{/is}}
+              {{#is slug 'getting-start'}}
+                {{> nav-getting-start }}
+              {{/is}}
+              {{#is slug 'android-studio'}}
+                {{> nav-android-studio }}
+              {{/is}}
+              {{#is slug 'addon'}}
+                {{> nav-addon }}
+              {{/is}}
+              {{#is slug 'sample'}}
+                {{> nav-sample }}
+              {{/is}}
+              {{#is slug 'tool'}}
+                {{> nav-tool }}
+              {{/is}}
+            </ul>
 
         </div>
 
