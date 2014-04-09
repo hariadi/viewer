@@ -39,21 +39,25 @@
     =================================== --}}
     <div class="container{{#isnt basename 'index'}} well{{/isnt}}">
 
-      <div class="col-md-3" id="leftCol">
+      <div class="row">
 
-            <ul class="nav nav-stacked" id="sidebar">
-              <li><a href="#sec0">Section 0</a></li>
-              <li><a href="#sec1">Section 1</a></li>
-              <li><a href="#sec2">Section 2</a></li>
-              <li><a href="#sec3">Section 3</a></li>
-              <li><a href="#sec4">Section 4</a></li>
-            </ul>
+        <div class="col-md-9 col-md-push-3 main-content">{{> body }}</div>
 
-      </div>
+        <div class="col-md-3 col-md-pull-9 sidebar" id="leftCol">
 
-      <div class="col-md-9">{{> body }}</div>
+              <ul class="nav nav-stacked" id="sidebar">
+                <li><a href="#sec0">Section 0</a></li>
+                <li><a href="#sec1">Section 1</a></li>
+                <li><a href="#sec2">Section 2</a></li>
+                <li><a href="#sec3">Section 3</a></li>
+                <li><a href="#sec4">Section 4</a></li>
+              </ul>
 
-    </div>
+        </div>
+
+
+      </div><!--//.row -->
+    </div><!--//.container -->
 
     {{!-- footer scripts
     =================================== --}}
