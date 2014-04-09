@@ -26,17 +26,17 @@ module.exports = function(grunt) {
     jshint: {
       all: ['Gruntfile.js', 'src/lib/*.js'],
       options: {
-        "curly": true,
-        "eqeqeq": true,
-        "immed": true,
-        "latedef": true,
-        "newcap": true,
-        "noarg": true,
-        "sub": true,
-        "undef": true,
-        "boss": true,
-        "eqnull": true,
-        "node": true
+        curly: true,
+        eqeqeq: true,
+        immed: true,
+        latedef: true,
+        newcap: true,
+        noarg: true,
+        sub: true,
+        undef: true,
+        boss: true,
+        eqnull: true,
+        node: true
       }
     },
 
