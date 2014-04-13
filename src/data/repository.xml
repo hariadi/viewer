@@ -961,14 +961,14 @@ November 13, 2012
     </sdk:sample>
 
     <sdk:sample>
-        <!-- Generated at Mon Mar 10 16:34:18 2014 from git_klp-docs @ 1064548 -->
-        <sdk:revision>4</sdk:revision>
+        <!-- Generated at Mon Apr 14 13:54:08 2014 from git_klp-docs @ 1120072 -->
+        <sdk:revision>5</sdk:revision>
         <sdk:api-level>19</sdk:api-level>
         <sdk:archives>
             <sdk:archive arch="any" os="any">
-                <sdk:size>29919726</sdk:size>
-                <sdk:checksum type="sha1">527f2a588820155d049ef38202277f46f49e9fb9</sdk:checksum>
-                <sdk:url>samples-19_r04.zip</sdk:url>
+                <sdk:size>31894819</sdk:size>
+                <sdk:checksum type="sha1">fe1aebd0a727c592611d4ccdc392b84b8181d0d9</sdk:checksum>
+                <sdk:url>samples-19_r05.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
