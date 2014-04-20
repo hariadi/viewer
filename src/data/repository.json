@@ -703,13 +703,13 @@
         "uses-license": ""
       },
       {
-        "revision": "4",
+        "revision": "5",
         "api-level": "19",
         "archives": {
           "archive": {
-            "size": "29919726",
-            "checksum": "527f2a588820155d049ef38202277f46f49e9fb9",
-            "url": "samples-19_r04.zip"
+            "size": "31894819",
+            "checksum": "fe1aebd0a727c592611d4ccdc392b84b8181d0d9",
+            "url": "samples-19_r05.zip"
           }
         },
         "uses-license": ""

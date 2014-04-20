@@ -318,5 +318,54 @@
         }
       ]
     }
+  },{
+    "title": "Android Studio 0.5.3",
+    "version": "0.5.3",
+    "description": "Android Studio 0.5.3 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-5-3",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.3/android-studio-ide-135.1092050-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.3/android-studio-ide-135.1092050-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.3/android-studio-ide-135.1092050-linux.zip"
+        }
+      ]
+    }
+  },{
+    "title": "Android Studio 0.5.4",
+    "version": "0.5.4",
+    "description": "Android Studio 0.5.4 Canary Channel",
+    "desc-url": "http://tools.android.com/download/studio/canary/0-5-3",
+    "date": "Apr 3, 2014, 9:48 AM",
+    "download": {
+      "archive": [
+        {
+          "size": "166723584",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.4/android-studio-ide-135.1101912-windows.zip"
+        },
+        {
+          "size": "165675008",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.4/android-studio-ide-135.1101912-mac.zip"
+        },
+        {
+          "size": "164626432",
+          "checksum": "",
+          "url": "http://dl.google.com/dl/android/studio/ide-zips/0.5.4/android-studio-ide-135.1101912-linux.zip"
+        }
+      ]
+    }
   }]
 }
