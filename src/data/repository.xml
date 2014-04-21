@@ -1226,30 +1226,30 @@ November 13, 2012
     <!-- TOOLS ........................ -->
 
     <sdk:tool>
-        <!-- Generated at Fri Mar 21 17:02:58 2014 from git_mirror-aosp-tools_r22.6-with-vendor @ 1085508 -->
+        <!-- Generated at Tue Apr 15 13:57:52 2014 from git_mirror-aosp-tools_r22.6 @ 1123206 -->
         <sdk:revision>
             <sdk:major>22</sdk:major>
             <sdk:minor>6</sdk:minor>
-            <sdk:micro>2</sdk:micro>
+            <sdk:micro>3</sdk:micro>
         </sdk:revision>
         <sdk:min-platform-tools-rev>
             <sdk:major>18</sdk:major>
         </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive arch="any" os="windows">
-                <sdk:size>108794847</sdk:size>
-                <sdk:checksum type="sha1">31a7c0d23e2a4a1c4ed33196eecdeb87a5e8fe0f</sdk:checksum>
-                <sdk:url>tools_r22.6.2-windows.zip</sdk:url>
+                <sdk:size>108817855</sdk:size>
+                <sdk:checksum type="sha1">1eab7bf737087b60053e88823e68090a4342bb34</sdk:checksum>
+                <sdk:url>tools_r22.6.3-windows.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="linux">
-                <sdk:size>101320177</sdk:size>
-                <sdk:checksum type="sha1">a22f653daff4b783cb4f68e177beef100fc251a1</sdk:checksum>
-                <sdk:url>tools_r22.6.2-linux.zip</sdk:url>
+                <sdk:size>101343700</sdk:size>
+                <sdk:checksum type="sha1">3410a13c9eb7d1667e9a735bfecb0a7e2944087a</sdk:checksum>
+                <sdk:url>tools_r22.6.3-linux.zip</sdk:url>
             </sdk:archive>
             <sdk:archive arch="any" os="macosx">
-                <sdk:size>74604588</sdk:size>
-                <sdk:checksum type="sha1">3d19dab7920278f59073e14790c61aa6e59143b0</sdk:checksum>
-                <sdk:url>tools_r22.6.2-macosx.zip</sdk:url>
+                <sdk:size>74617892</sdk:size>
+                <sdk:checksum type="sha1">a5612402e512785aa01a90d3c56961c96c60b9c6</sdk:checksum>
+                <sdk:url>tools_r22.6.3-macosx.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>

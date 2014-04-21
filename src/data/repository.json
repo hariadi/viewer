@@ -964,7 +964,7 @@
       "revision": {
         "major": "22",
         "minor": "6",
-        "micro": "2"
+        "micro": "3"
       },
       "min-platform-tools-rev": {
         "major": "18"
@@ -972,19 +972,19 @@
       "archives": {
         "archive": [
           {
-            "size": "108794847",
-            "checksum": "31a7c0d23e2a4a1c4ed33196eecdeb87a5e8fe0f",
-            "url": "tools_r22.6.2-windows.zip"
+            "size": "108817855",
+            "checksum": "1eab7bf737087b60053e88823e68090a4342bb34",
+            "url": "tools_r22.6.3-windows.zip"
           },
           {
-            "size": "101320177",
-            "checksum": "a22f653daff4b783cb4f68e177beef100fc251a1",
-            "url": "tools_r22.6.2-linux.zip"
+            "size": "101343700",
+            "checksum": "3410a13c9eb7d1667e9a735bfecb0a7e2944087a",
+            "url": "tools_r22.6.3-linux.zip"
           },
           {
-            "size": "74604588",
-            "checksum": "3d19dab7920278f59073e14790c61aa6e59143b0",
-            "url": "tools_r22.6.2-macosx.zip"
+            "size": "74617892",
+            "checksum": "a5612402e512785aa01a90d3c56961c96c60b9c6",
+            "url": "tools_r22.6.3-macosx.zip"
           }
         ]
       },
