@@ -89,29 +89,76 @@
 
     <!-- /navbar -->
     <div class="container well">
-      <h1>Documentation</h1>
-      <blockquote>
-        <p><strong>Install Location:</strong>  <code>&lt;sdk&gt;/docs/</code>
-        </p>
-      </blockquote>
-      <p>An offline copy of the latest documentation for the Android platform APIs.</p>
-      <h2>Documentation</h2>
-      <dl class="dl-horizontal">
-        <dt>revision</dt>
-        <dd>2</dd>
-        <dt>api-level</dt>
-        <dd>19</dd>
-        <dt>size</dt>
-        <dd>180.6mb</dd>
-        <dt>checksum</dt>
-        <dd>6aae26e12b0809dc40768eae6b6a9919aa89dbe6</dd>
-        <dt>url</dt>
-        <dd class="separator">
-          <a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/docs-19_r02.zip">docs-19_r02.zip</a>
-        </dd>
-      </dl>
+      <div class="row">
+        <div class="col-md-9 col-md-push-3 main-content">
+          <h1>Documentation</h1>
+          <blockquote>
+            <p><strong>Install Location:</strong>  <code>&lt;sdk&gt;/docs/</code>
+            </p>
+          </blockquote>
+          <p>An offline copy of the latest documentation for the Android platform APIs.</p>
+          <h2>Documentation</h2>
+          <dl class="dl-horizontal">
+            <dt>revision</dt>
+            <dd>2</dd>
+            <dt>api-level</dt>
+            <dd>19</dd>
+            <dt>size</dt>
+            <dd>180.6mb</dd>
+            <dt>checksum</dt>
+            <dd>6aae26e12b0809dc40768eae6b6a9919aa89dbe6</dd>
+            <dt>url</dt>
+            <dd class="separator">
+              <a class="btn btn-primary" href="http://dl-ssl.google.com/android/repository/docs-19_r02.zip">docs-19_r02.zip</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-3 col-md-pull-9 sidebar" id="leftCol">
+          <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement" id="sidebar">
+            <span class="nav-section-title">
+              Android SDK Doc
+            </span>
+            <li>
+              <a href="#Doc2">docs-19_r02.zip</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--//.row -->
     </div>
+
+    <!--//.container -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('#sidebar').affix({
+          offset: {
+            top: 235
+          }
+        });
+        var $body = $(document.body);
+        var navHeight = $('.navbar').outerHeight(true) + 10;
+        $body.scrollspy({
+          target: '#leftCol',
+          offset: navHeight
+        });
+
+        /* smooth scrolling sections */
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top - 50
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>

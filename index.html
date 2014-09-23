@@ -89,37 +89,78 @@
 
     <!-- /navbar -->
     <div class="container">
-      <header class="jumbotron masthead">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-6">
-              <h1>SDK VIEWER</h1>
-              <p class="lead">Allows you to browse and download Android SDK component. Parsed from
-                <a href="http://dl-ssl.google.com/android/repository/repository-8.xml">Android Repository</a>
-              </p>
-              <p>
-                <a class="btn btn-large btn-primary" href="./getting-start.html">Getting Start</a>
-              </p>
+      <div class="row">
+        <div class="col-md-9 col-md-push-3 main-content">
+          <header class="jumbotron masthead">
+            <div class="container">
+              <div class="row">
+                <div class="col col-lg-6">
+                  <h1>SDK VIEWER</h1>
+                  <p class="lead">Allows you to browse and download Android SDK component. Parsed from
+                    <a href="http://dl-ssl.google.com/android/repository/repository-8.xml">Android Repository</a>
+                  </p>
+                  <p>
+                    <a class="btn btn-large btn-primary" href="./getting-start/index.html">Getting Start</a>
+                  </p>
+                </div>
+                <div class="col col-lg-6">
+                  <img class="thumbnail" src="assets/img/android-sdk.jpg" alt="Android">
+                </div>
+              </div>
             </div>
-            <div class="col col-lg-6">
-              <img class="thumbnail" src="assets/img/android-sdk.jpg" alt="Android">
-            </div>
+          </header>
+          <div class="teaser">
+            <a class="teaser-content" href="https://github.com/hariadi/viewer">
+              <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+              <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+            </a>
+          </div>
+          <div class="container">
+            <p>Build with
+              <a href="http://assemble.io">Assemble</a>
+            </p>
           </div>
         </div>
-      </header>
-      <div class="teaser">
-        <a class="teaser-content" href="https://github.com/hariadi/viewer">
-          <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=watch&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
-          <iframe src="http://ghbtns.com/github-btn.html?user=hariadi&amp;repo=viewer&amp;type=fork&amp;count=true&amp;size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
-        </a>
+        <div class="col-md-3 col-md-pull-9 sidebar" id="leftCol">
+          <ul class="nav nav-pills nav-stacked" itemscope itemtype="http://schema.org/SiteNavigationElement" id="sidebar">
+          </ul>
+        </div>
       </div>
-      <div class="container">
-        <p>Build with
-          <a href="http://assemble.io">Assemble</a>
-        </p>
-      </div>
+
+      <!--//.row -->
     </div>
+
+    <!--//.container -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+      $(document).ready(function() {
+        $('#sidebar').affix({
+          offset: {
+            top: 235
+          }
+        });
+        var $body = $(document.body);
+        var navHeight = $('.navbar').outerHeight(true) + 10;
+        $body.scrollspy({
+          target: '#leftCol',
+          offset: navHeight
+        });
+
+        /* smooth scrolling sections */
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top - 50
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
