@@ -520,40 +520,22 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
     </sdk:system-image>
 
     <sdk:system-image>
-        <!-- Generated at Mon Jun 23 19:22:34 2014 from git_lmp-preview-release @ 1242878 -->
+        <!-- Generated at Tue Oct 14 22:13:46 2014 from git_lmp-release @ 1504858 -->
         <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform L</sdk:description>
-        <sdk:api-level>20</sdk:api-level>
-        <sdk:codename>L</sdk:codename>
+        <sdk:description>Android SDK Platform 5.0</sdk:description>
+        <sdk:api-level>21</sdk:api-level>
         <sdk:abi>armeabi-v7a</sdk:abi>
         <sdk:tag-id>default</sdk:tag-id>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>227716008</sdk:size>
-                <sdk:checksum type="sha1">1d5d81a7078b5b2a685620d93e1e04a51d2e786a</sdk:checksum>
-                <sdk:url>sysimg_armv7a-L_r01.zip</sdk:url>
+                <sdk:size>186452618</sdk:size>
+                <sdk:checksum type="sha1">74a74b89a06ffba03448ccdfbb414c49026e660c</sdk:checksum>
+                <sdk:url>sysimg_arm-21_r01.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:system-image>
 
-    <sdk:system-image>
-        <!-- Generated at Mon Jun 23 19:23:13 2014 from git_lmp-preview-release @ 1242878 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform L</sdk:description>
-        <sdk:api-level>20</sdk:api-level>
-        <sdk:codename>L</sdk:codename>
-        <sdk:abi>x86</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>245850484</sdk:size>
-                <sdk:checksum type="sha1">c2d32d6244821ff59f370469778525f6a5345010</sdk:checksum>
-                <sdk:url>sysimg_x86-L_r01.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-    </sdk:system-image>
     <!-- X86 SYSTEM IMAGES ........................ -->
 
     <sdk:system-image>
@@ -651,6 +633,40 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:tag-id>default</sdk:tag-id>
+    </sdk:system-image>
+
+    <sdk:system-image>
+        <!-- Generated at Tue Oct 14 22:12:37 2014 from git_lmp-release @ 1504858 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android SDK Platform 5.0</sdk:description>
+        <sdk:api-level>21</sdk:api-level>
+        <sdk:abi>x86</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>201545245</sdk:size>
+                <sdk:checksum type="sha1">1b5d4228736afc32c7ad1439740abb39b1bc0fae</sdk:checksum>
+                <sdk:url>sysimg_x86-21_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:system-image>
+
+    <sdk:system-image>
+        <!-- Generated at Tue Oct 14 22:13:13 2014 from git_lmp-release @ 1504858 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android SDK Platform 5.0</sdk:description>
+        <sdk:api-level>21</sdk:api-level>
+        <sdk:abi>x86_64</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>285147575</sdk:size>
+                <sdk:checksum type="sha1">0e48bdfbcbf4b7f276af7b1f10140babc9af52b3</sdk:checksum>
+                <sdk:url>sysimg_x86_64-21_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:system-image>
 
     <!-- MIPS SYSTEM IMAGES ........................ -->

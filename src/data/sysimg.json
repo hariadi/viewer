@@ -99,32 +99,15 @@
       },
       {
         "revision": "1",
-        "description": "Android SDK Platform L",
-        "api-level": "20",
-        "codename": "L",
+        "description": "Android SDK Platform 5.0",
+        "api-level": "21",
         "abi": "armeabi-v7a",
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "227716008",
-            "checksum": "1d5d81a7078b5b2a685620d93e1e04a51d2e786a",
-            "url": "sysimg_armv7a-L_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
-        "description": "Android SDK Platform L",
-        "api-level": "20",
-        "codename": "L",
-        "abi": "x86",
-        "tag-id": "default",
-        "archives": {
-          "archive": {
-            "size": "245850484",
-            "checksum": "c2d32d6244821ff59f370469778525f6a5345010",
-            "url": "sysimg_x86-L_r01.zip"
+            "size": "186452618",
+            "checksum": "74a74b89a06ffba03448ccdfbb414c49026e660c",
+            "url": "sysimg_arm-21_r01.zip"
           }
         },
         "uses-license": ""
@@ -218,6 +201,36 @@
         },
         "uses-license": "",
         "tag-id": "default"
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform 5.0",
+        "api-level": "21",
+        "abi": "x86",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "201545245",
+            "checksum": "1b5d4228736afc32c7ad1439740abb39b1bc0fae",
+            "url": "sysimg_x86-21_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform 5.0",
+        "api-level": "21",
+        "abi": "x86_64",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "285147575",
+            "checksum": "0e48bdfbcbf4b7f276af7b1f10140babc9af52b3",
+            "url": "sysimg_x86_64-21_r01.zip"
+          }
+        },
+        "uses-license": ""
       },
       {
         "revision": "1",

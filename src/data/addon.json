@@ -427,7 +427,7 @@
         "name-display": "Google APIs (ARM System Image)",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "7",
+        "revision": "8",
         "libs": {
           "lib": [
             {
@@ -443,9 +443,27 @@
         },
         "archives": {
           "archive": {
-            "size": "160661775",
-            "checksum": "150f5a3fec4f03313ca770b90126605619bd713c",
-            "url": "google_apis-19_r07.zip"
+            "size": "176895117",
+            "checksum": "d791c0cf5db387e0934497b0bb4c96f0dfb35a3b",
+            "url": "google_apis-19_r08.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "vendor-id": "google",
+        "vendor-display": "Google Inc.",
+        "name-id": "google_apis",
+        "name-display": "Google APIs",
+        "description": "Android + Google APIs",
+        "api-level": "21",
+        "revision": "1",
+        "libs": "",
+        "archives": {
+          "archive": {
+            "size": "179499",
+            "checksum": "66a754efb24e9bb07cc51648426443c7586c9d4a",
+            "url": "google_apis-21_r01.zip"
           }
         },
         "uses-license": ""
@@ -493,7 +511,7 @@
     "extra": [
       {
         "revision": {
-          "major": "20",
+          "major": "21",
           "minor": "0",
           "micro": "0"
         },
@@ -504,16 +522,16 @@
         "old-paths": "compatibility",
         "archives": {
           "archive": {
-            "size": "5508097",
-            "checksum": "719c260dc3eb950712988f987daaf91afa9e36af",
-            "url": "support_r20.zip"
+            "size": "7526462",
+            "checksum": "f9ef8def5c64f17cd8bc41c5efddd37cb155f0be",
+            "url": "support_r21.zip"
           }
         },
         "uses-license": ""
       },
       {
         "revision": {
-          "major": "6"
+          "major": "7"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -522,9 +540,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "22271942",
-            "checksum": "d4874fd330f41a7c16de392ce917c2a3562dd620",
-            "url": "android_m2repository_r06.zip"
+            "size": "17629507",
+            "checksum": "856c225afc9a5fbd30ada8445df3a2bc8c4fd2a4",
+            "url": "android_m2repository_r07.zip"
           }
         },
         "uses-license": ""
@@ -535,15 +553,15 @@
         "name-display": "Google Repository",
         "path": "m2repository",
         "revision": {
-          "major": "11"
+          "major": "12"
         },
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "18832133",
-            "checksum": "08b5114037d187cf3d4b44a25570149ef4f8ab3d",
-            "url": "google_m2repository_r11.zip"
+            "size": "20661857",
+            "checksum": "fb76ca36b99d9251188c05f69617f64804ca30e9",
+            "url": "google_m2repository_r12.zip"
           }
         }
       },
@@ -612,35 +630,16 @@
         "name-display": "Google Play services",
         "path": "google_play_services",
         "revision": {
-          "major": "19"
+          "major": "20"
         },
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "13982276",
-            "checksum": "847a8806dd3c43effc2afdd7b49fc6ba27f72d5d",
-            "url": "google_play_services_5089000_r19.zip"
-          }
-        }
-      },
-      {
-        "vendor-id": "google",
-        "vendor-display": "Google Inc.",
-        "name-display": "Google Play services for Fit Preview",
-        "path": "google_play_services_fit_preview",
-        "revision": {
-          "major": "1"
-        },
-        "description": "Google Play services client library and sample code",
-        "desc-url": "https://developers.google.com/android/google-play-services/index",
-        "uses-license": "",
-        "archives": {
-          "archive": {
-            "size": "15224769",
-            "checksum": "34369ca796268ec7274bc49d659d9e8f042b55ae",
-            "url": "google_play_services_fit_preview_5208000_r01.zip"
+            "size": "15510065",
+            "checksum": "490309d1d935395b0f62e1ac3ca16683ce3a255b",
+            "url": "google_play_services_6111000_r20.zip"
           }
         }
       },

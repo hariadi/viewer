@@ -648,51 +648,51 @@ June 2014.
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Thu Dec 15 16:53:11 2011 from git_ics-mr0 @ 238991 -->
-        <sdk:revision>3</sdk:revision>
+        <!-- Generated at Thu Sep 11 14:16:21 2014 from git_ics-mr0 @ 1406408 -->
+        <sdk:revision>4</sdk:revision>
         <sdk:description>Android SDK Platform 4.0</sdk:description>
         <sdk:version>4.0</sdk:version>
         <sdk:api-level>14</sdk:api-level>
         <sdk:layoutlib>
-            <sdk:api>7</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>45919570</sdk:size>
-                <sdk:checksum type="sha1">41ba83b51e886461628c41b1b4d47762e0688ed5</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-14_r03.zip</sdk:url>
+                <sdk:size>46038082</sdk:size>
+                <sdk:checksum type="sha1">d4f1d8fbca25225b5f0e7a0adf0d39c3d6e60b3c</sdk:checksum>
+                <sdk:url>android-14_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Fri Mar 16 11:22:43 2012 from ics-mr1 @ 291902 -->
-        <sdk:revision>3</sdk:revision>
+        <!-- Generated at Thu Sep 11 14:16:02 2014 from git_ics-mr1 @ 1406430 -->
+        <sdk:revision>5</sdk:revision>
         <sdk:description>Android SDK Platform 4.0.3</sdk:description>
         <sdk:version>4.0.3</sdk:version>
         <sdk:api-level>15</sdk:api-level>
         <sdk:min-tools-rev>
-            <sdk:major>15</sdk:major>
+            <sdk:major>21</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>7</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>44414679</sdk:size>
-                <sdk:checksum type="sha1">23da24610a8da51054c5391001c51ce43a778b97</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-15_r03.zip</sdk:url>
+                <sdk:size>44533475</sdk:size>
+                <sdk:checksum type="sha1">69ab4c443b37184b2883af1fd38cc20cbeffd0f3</sdk:checksum>
+                <sdk:url>android-15_r05.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Thu Dec  6 10:54:05 2012 from git_jb-dev @ 543062 -->
-        <sdk:revision>4</sdk:revision>
+        <!-- Generated at Thu Sep 11 14:15:43 2014 from git_jb-dev @ 1425332 -->
+        <sdk:revision>5</sdk:revision>
         <sdk:description>Android SDK Platform 4.1.2</sdk:description>
         <sdk:version>4.1.2</sdk:version>
         <sdk:api-level>16</sdk:api-level>
@@ -700,22 +700,22 @@ June 2014.
             <sdk:major>21</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>9</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>48005140</sdk:size>
-                <sdk:checksum type="sha1">90b9157b8b45f966be97e11a22fba4591b96c2ee</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-16_r04.zip</sdk:url>
+                <sdk:size>48128695</sdk:size>
+                <sdk:checksum type="sha1">12a5ce6235a76bc30f62c26bda1b680e336abd07</sdk:checksum>
+                <sdk:url>android-16_r05.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Wed Feb 13 11:27:09 2013 from git_jb-mr1.1-dev @ 576024 -->
-        <sdk:revision>2</sdk:revision>
+        <!-- Generated at Thu Sep 11 14:15:23 2014 from git_jb-mr1.1-dev @ 1425461 -->
+        <sdk:revision>3</sdk:revision>
         <sdk:description>Android SDK Platform 4.2.2</sdk:description>
         <sdk:version>4.2.2</sdk:version>
         <sdk:api-level>17</sdk:api-level>
@@ -723,45 +723,45 @@ June 2014.
             <sdk:major>21</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>9</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>48057484</sdk:size>
-                <sdk:checksum type="sha1">c442c32c1b702173ab0929a74486e4f86fe528ec</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-17_r02.zip</sdk:url>
+                <sdk:size>57030216</sdk:size>
+                <sdk:checksum type="sha1">dbe14101c06e6cdb34e300393e64e64f8c92168a</sdk:checksum>
+                <sdk:url>android-17_r03.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Wed Sep 11 18:15:07 2013 from git_jb-mr2-dev @ 819563 -->
-        <sdk:revision>2</sdk:revision>
-        <sdk:description>Android SDK Platform 4.3</sdk:description>
-        <sdk:version>4.3</sdk:version>
+        <!-- Generated at Thu Sep 11 14:14:59 2014 from git_jb-mr2-dev @ 1425645 -->
+        <sdk:revision>3</sdk:revision>
+        <sdk:description>Android SDK Platform 4.3.1</sdk:description>
+        <sdk:version>4.3.1</sdk:version>
         <sdk:api-level>18</sdk:api-level>
         <sdk:min-tools-rev>
             <sdk:major>21</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>10</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>57319855</sdk:size>
-                <sdk:checksum type="sha1">62a9438d4cf6692f4d6510c27a380be195db9534</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-18_r02.zip</sdk:url>
+                <sdk:size>57771739</sdk:size>
+                <sdk:checksum type="sha1">e6b09b3505754cbbeb4a5622008b907262ee91cb</sdk:checksum>
+                <sdk:url>android-18_r03.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Fri Feb 28 18:03:43 2014 from git_klp-sdk-release @ 1035858 -->
-        <sdk:revision>3</sdk:revision>
+        <!-- Generated at Mon Sep 22 15:22:30 2014 from git_klp-sdk-release @ 1456859 -->
+        <sdk:revision>4</sdk:revision>
         <sdk:description>Android SDK Platform 4.4.2</sdk:description>
         <sdk:version>4.4.2</sdk:version>
         <sdk:api-level>19</sdk:api-level>
@@ -769,14 +769,14 @@ June 2014.
             <sdk:major>22</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>10</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>63798840</sdk:size>
-                <sdk:checksum type="sha1">5f33d8fd36a384fe2b170035e04a29c274a9ef95</sdk:checksum>
-                <sdk:url>https://dl-ssl.google.com/android/repository/android-19_r03.zip</sdk:url>
+                <sdk:size>63871092</sdk:size>
+                <sdk:checksum type="sha1">2ff20d89e68f2f5390981342e009db5a2d456aaa</sdk:checksum>
+                <sdk:url>android-19_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -806,12 +806,11 @@ June 2014.
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Mon Sep  8 12:04:48 2014 from git_lmp-preview-dev @ 1416733 -->
-        <sdk:revision>4</sdk:revision>
-        <sdk:description>Android SDK Platform L</sdk:description>
-        <sdk:version>L</sdk:version>
-        <sdk:api-level>20</sdk:api-level>
-        <sdk:codename>L</sdk:codename>
+        <!-- Generated at Thu Oct 16 16:52:42 2014 from git_lmp-release @ 1521886 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android SDK Platform 5.0</sdk:description>
+        <sdk:version>5.0</sdk:version>
+        <sdk:api-level>21</sdk:api-level>
         <sdk:min-tools-rev>
             <sdk:major>22</sdk:major>
         </sdk:min-tools-rev>
@@ -821,12 +820,12 @@ June 2014.
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>69493337</sdk:size>
-                <sdk:checksum type="sha1">801c01e31d81d086ab73eef93993629ef0b33de0</sdk:checksum>
-                <sdk:url>android-L_r04.zip</sdk:url>
+                <sdk:size>67082420</sdk:size>
+                <sdk:checksum type="sha1">218ca22f8cb744396fa11e65b8a3d2d1ae07f10e</sdk:checksum>
+                <sdk:url>android-21_r01.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:platform>
 
     <!-- SAMPLES ........................ -->
@@ -1056,47 +1055,32 @@ June 2014.
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:sample>
 
-    <sdk:sample>
-        <!-- Generated at Wed Aug 27 10:44:44 2014 from git_lmp-preview-dev @ 1378586 -->
-        <sdk:revision>2</sdk:revision>
-        <sdk:api-level>20</sdk:api-level>
-        <sdk:codename>L</sdk:codename>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>41182182</sdk:size>
-                <sdk:checksum type="sha1">4afc36cf3f53051881729f733fe9bb571104c48f</sdk:checksum>
-                <sdk:url>samples-L_r02.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-    </sdk:sample>
-
     <!-- PLATFORM-TOOLS ........................ -->
 
     <sdk:platform-tool>
-        <!-- Generated at Mon Jun 23 19:20:39 2014 from git_lmp-preview-dev @ 1244090 -->
+        <!-- Generated at Thu Oct 16 18:23:45 2014 from git_lmp-release @ 1521886 -->
         <sdk:revision>
-            <sdk:major>20</sdk:major>
+            <sdk:major>21</sdk:major>
             <sdk:minor>0</sdk:minor>
             <sdk:micro>0</sdk:micro>
         </sdk:revision>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>1741113</sdk:size>
-                <sdk:checksum type="sha1">72c34cc6a991f53e2588f9d5487559f013bc30f9</sdk:checksum>
-                <sdk:url>platform-tools_r20-windows.zip</sdk:url>
+                <sdk:size>1824862</sdk:size>
+                <sdk:checksum type="sha1">04b26e60e47cda4867d321817270058c22572352</sdk:checksum>
+                <sdk:url>platform-tools_r21-windows.zip</sdk:url>
                 <sdk:host-os>windows</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>1753061</sdk:size>
-                <sdk:checksum type="sha1">fb120ce85b6698b801cb4788b204693c1d682b87</sdk:checksum>
-                <sdk:url>platform-tools_r20-linux.zip</sdk:url>
+                <sdk:size>1692013</sdk:size>
+                <sdk:checksum type="sha1">2502ade68af9f6288c4dd7726796599e8d9a4337</sdk:checksum>
+                <sdk:url>platform-tools_r21-linux.zip</sdk:url>
                 <sdk:host-os>linux</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>1666257</sdk:size>
-                <sdk:checksum type="sha1">f2c65c58caf76169d9bebf25eef5c69ff99670b5</sdk:checksum>
-                <sdk:url>platform-tools_r20-macosx.zip</sdk:url>
+                <sdk:size>1680668</sdk:size>
+                <sdk:checksum type="sha1">6675f9f583841972c5c5ef8d2c131e1209529fde</sdk:checksum>
+                <sdk:url>platform-tools_r21-macosx.zip</sdk:url>
                 <sdk:host-os>macosx</sdk:host-os>
             </sdk:archive>
         </sdk:archives>
@@ -1407,35 +1391,96 @@ June 2014.
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:build-tool>
 
+    <sdk:build-tool>
+        <!-- Generated at Thu Oct 16 16:51:40 2014 from git_lmp-release @ 1521886 -->
+        <sdk:revision>
+            <sdk:major>21</sdk:major>
+            <sdk:minor>0</sdk:minor>
+            <sdk:micro>0</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>22306371</sdk:size>
+                <sdk:checksum type="sha1">5bc8fd399bc0135a9bc91eec78ddc5af4f54bf32</sdk:checksum>
+                <sdk:url>build-tools_r21-windows.zip</sdk:url>
+                <sdk:host-os>windows</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22153145</sdk:size>
+                <sdk:checksum type="sha1">4933328fdeecbd554a29528f254f4993468e1cf4</sdk:checksum>
+                <sdk:url>build-tools_r21-linux.zip</sdk:url>
+                <sdk:host-os>linux</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22668456</sdk:size>
+                <sdk:checksum type="sha1">9bef7989b51436bd4e5114d8a0330359f077cbfa</sdk:checksum>
+                <sdk:url>build-tools_r21-macosx.zip</sdk:url>
+                <sdk:host-os>macosx</sdk:host-os>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
+
+    <sdk:build-tool>
+        <!-- Generated at Fri Oct 17 18:37:07 2014 from git_lmp-release @ 1525922 -->
+        <sdk:revision>
+            <sdk:major>21</sdk:major>
+            <sdk:minor>0</sdk:minor>
+            <sdk:micro>1</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>22306243</sdk:size>
+                <sdk:checksum type="sha1">d68e7e6fd7a48c8759aa41d713c9d4f0e4c1c1df</sdk:checksum>
+                <sdk:url>build-tools_r21.0.1-windows.zip</sdk:url>
+                <sdk:host-os>windows</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22153013</sdk:size>
+                <sdk:checksum type="sha1">e573069eea3e5255e7a65bedeb767f4fd0a5f49a</sdk:checksum>
+                <sdk:url>build-tools_r21.0.1-linux.zip</sdk:url>
+                <sdk:host-os>linux</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22668616</sdk:size>
+                <sdk:checksum type="sha1">b60c8f9b810c980abafa04896706f3911be1ade7</sdk:checksum>
+                <sdk:url>build-tools_r21.0.1-macosx.zip</sdk:url>
+                <sdk:host-os>macosx</sdk:host-os>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
+
+
     <!-- TOOLS ........................ -->
 
     <sdk:tool>
-        <!-- Generated at Wed Jul  2 12:10:55 2014 from git_ub-tools-idea133-milestone @ 1259578 -->
+        <!-- Generated at Fri Oct 10 13:12:59 2014 from aosp-ub-tools-idea133-milestone @ 1506866 -->
         <sdk:revision>
             <sdk:major>23</sdk:major>
             <sdk:minor>0</sdk:minor>
-            <sdk:micro>2</sdk:micro>
+            <sdk:micro>5</sdk:micro>
         </sdk:revision>
         <sdk:min-platform-tools-rev>
             <sdk:major>20</sdk:major>
         </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>141154615</sdk:size>
-                <sdk:checksum type="sha1">0a64ec9b7777bb00ff299c94c359163ef5e443ae</sdk:checksum>
-                <sdk:url>tools_r23.0.2-windows.zip</sdk:url>
+                <sdk:size>139775218</sdk:size>
+                <sdk:checksum type="sha1">6df44dbc604ceccadda0a232b787868fb4503cb6</sdk:checksum>
+                <sdk:url>tools_r23.0.5-windows.zip</sdk:url>
                 <sdk:host-os>windows</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>141930870</sdk:size>
-                <sdk:checksum type="sha1">e8a2d55d750adeaded60a3daad48e62b09aa472a</sdk:checksum>
-                <sdk:url>tools_r23.0.2-linux.zip</sdk:url>
+                <sdk:size>141921523</sdk:size>
+                <sdk:checksum type="sha1">398c38494d50d98dd9f3ae02899ba32be32c912d</sdk:checksum>
+                <sdk:url>tools_r23.0.5-linux.zip</sdk:url>
                 <sdk:host-os>linux</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>90920343</sdk:size>
-                <sdk:checksum type="sha1">c46b1e173188ba82a56d6b9e349fdae4e8922bab</sdk:checksum>
-                <sdk:url>tools_r23.0.2-macosx.zip</sdk:url>
+                <sdk:size>88172641</sdk:size>
+                <sdk:checksum type="sha1">a567215d89b3ff80766e54f8f969b3487bce8d71</sdk:checksum>
+                <sdk:url>tools_r23.0.5-macosx.zip</sdk:url>
                 <sdk:host-os>macosx</sdk:host-os>
             </sdk:archive>
         </sdk:archives>
@@ -1445,18 +1490,17 @@ June 2014.
     <!-- DOCS ........................ -->
 
     <sdk:doc>
-        <!-- Generated at Mon Jun 23 19:19:47 2014 from git_lmp-preview-release @ 1242878 -->
+        <!-- Generated at Thu Oct 16 16:52:18 2014 from git_lmp-release @ 1521886 -->
         <sdk:revision>1</sdk:revision>
-        <sdk:api-level>20</sdk:api-level>
-        <sdk:codename>L</sdk:codename>
+        <sdk:api-level>21</sdk:api-level>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>207889084</sdk:size>
-                <sdk:checksum type="sha1">58a94248c7c960829db3d779c84534e5e783210f</sdk:checksum>
-                <sdk:url>docs-L_r01.zip</sdk:url>
+                <sdk:size>271551031</sdk:size>
+                <sdk:checksum type="sha1">1c71f97ffb97e77120c1a73c8a29d3783c65f86d</sdk:checksum>
+                <sdk:url>docs-21_r01.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:doc>
 
     <!-- SOURCES ........................ -->
@@ -1558,5 +1602,20 @@ June 2014.
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:source>
+
+    <sdk:source>
+        <!-- Generated at Thu Oct 16 16:53:14 2014 from git_lmp-release @ 1521886 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:api-level>21</sdk:api-level>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>28274751</sdk:size>
+                <sdk:checksum type="sha1">137a5044915d32bea297a8c1552684802bbc2e25</sdk:checksum>
+                <sdk:url>sources-21_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:source>
+
 </sdk:sdk-repository>
 

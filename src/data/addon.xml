@@ -876,14 +876,14 @@ August 15, 2011
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Wed Jul 30 22:26:20 2014 from git_klp-sdk-release @ 1314097 -->
+        <!-- Generated at Mon Oct  6 10:31:47 2014 from git_klp-sdk-release @ 1488321 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs (ARM System Image)</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>19</sdk:api-level>
-        <sdk:revision>7</sdk:revision>
+        <sdk:revision>8</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -897,9 +897,29 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>160661775</sdk:size>
-                <sdk:checksum type="sha1">150f5a3fec4f03313ca770b90126605619bd713c</sdk:checksum>
-                <sdk:url>google_apis-19_r07.zip</sdk:url>
+                <sdk:size>176895117</sdk:size>
+                <sdk:checksum type="sha1">d791c0cf5db387e0934497b0bb4c96f0dfb35a3b</sdk:checksum>
+                <sdk:url>google_apis-19_r08.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:add-on>
+
+    <sdk:add-on>
+        <!-- Generated at Tue Oct 14 22:09:52 2014 from git_lmp-release @ 1504858 -->
+        <sdk:vendor-id>google</sdk:vendor-id>
+        <sdk:vendor-display>Google Inc.</sdk:vendor-display>
+        <sdk:name-id>google_apis</sdk:name-id>
+        <sdk:name-display>Google APIs</sdk:name-display>
+        <sdk:description>Android + Google APIs</sdk:description>
+        <sdk:api-level>21</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+        <sdk:libs/>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>179499</sdk:size>
+                <sdk:checksum type="sha1">66a754efb24e9bb07cc51648426443c7586c9d4a</sdk:checksum>
+                <sdk:url>google_apis-21_r01.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -951,9 +971,9 @@ August 15, 2011
     <!-- EXTRAS VENDOR=ANDROID ........................ -->
 
     <sdk:extra>
-        <!-- Generated at Mon Jun 23 19:18:59 2014 from git_klp-modular-release @ 1246132 -->
+        <!-- Generated at Thu Oct 16 16:53:28 2014 from git_lmp-release @ 1521886 -->
         <sdk:revision>
-            <sdk:major>20</sdk:major>
+            <sdk:major>21</sdk:major>
             <sdk:minor>0</sdk:minor>
             <sdk:micro>0</sdk:micro>
         </sdk:revision>
@@ -964,18 +984,18 @@ August 15, 2011
         <sdk:old-paths>compatibility</sdk:old-paths>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>5508097</sdk:size>
-                <sdk:checksum type="sha1">719c260dc3eb950712988f987daaf91afa9e36af</sdk:checksum>
-                <sdk:url>support_r20.zip</sdk:url>
+                <sdk:size>7526462</sdk:size>
+                <sdk:checksum type="sha1">f9ef8def5c64f17cd8bc41c5efddd37cb155f0be</sdk:checksum>
+                <sdk:url>support_r21.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:extra>
 
     <sdk:extra>
-        <!-- Generated from git_lmp-preview-release @ 1242878  -->
+        <!-- Generated at Thu Oct 16 16:53:28 2014 from git_lmp-release @ 1522834-->
         <sdk:revision>
-            <sdk:major>6</sdk:major>
+            <sdk:major>7</sdk:major>
         </sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
@@ -984,12 +1004,12 @@ August 15, 2011
         <sdk:path>m2repository</sdk:path>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>22271942</sdk:size>
-                <sdk:checksum type="sha1">d4874fd330f41a7c16de392ce917c2a3562dd620</sdk:checksum>
-                <sdk:url>android_m2repository_r06.zip</sdk:url>
+                <sdk:size>17629507</sdk:size>
+                <sdk:checksum type="sha1">856c225afc9a5fbd30ada8445df3a2bc8c4fd2a4</sdk:checksum>
+                <sdk:url>android_m2repository_r07.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:extra>
 
     <!-- EXTRAS VENDOR=GOOGLE ....................... -->
@@ -1000,15 +1020,15 @@ August 15, 2011
         <sdk:name-display>Google Repository</sdk:name-display>
         <sdk:path>m2repository</sdk:path>
         <sdk:revision>
-            <sdk:major>11</sdk:major>
+            <sdk:major>12</sdk:major>
         </sdk:revision>
         <sdk:description>Local Maven repository for Google Libraries</sdk:description>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>18832133</sdk:size>
-                <sdk:checksum type="sha1">08b5114037d187cf3d4b44a25570149ef4f8ab3d</sdk:checksum>
-                <sdk:url>google_m2repository_r11.zip</sdk:url>
+                <sdk:size>20661857</sdk:size>
+                <sdk:checksum type="sha1">fb76ca36b99d9251188c05f69617f64804ca30e9</sdk:checksum>
+                <sdk:url>google_m2repository_r12.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
@@ -1081,36 +1101,16 @@ August 15, 2011
         <sdk:name-display>Google Play services</sdk:name-display>
         <sdk:path>google_play_services</sdk:path>
         <sdk:revision>
-            <sdk:major>19</sdk:major>
+            <sdk:major>20</sdk:major>
         </sdk:revision>
         <sdk:description>Google Play services client library and sample code</sdk:description>
         <sdk:desc-url>https://developers.google.com/android/google-play-services/index</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>13982276</sdk:size>
-                <sdk:checksum type="sha1">847a8806dd3c43effc2afdd7b49fc6ba27f72d5d</sdk:checksum>
-                <sdk:url>google_play_services_5089000_r19.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-    </sdk:extra>
-
-    <sdk:extra>
-        <sdk:vendor-id>google</sdk:vendor-id>
-        <sdk:vendor-display>Google Inc.</sdk:vendor-display>
-        <sdk:name-display>Google Play services for Fit Preview</sdk:name-display>
-        <sdk:path>google_play_services_fit_preview</sdk:path>
-        <sdk:revision>
-            <sdk:major>1</sdk:major>
-        </sdk:revision>
-        <sdk:description>Google Play services client library and sample code</sdk:description>
-        <sdk:desc-url>https://developers.google.com/android/google-play-services/index</sdk:desc-url>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>15224769</sdk:size>
-                <sdk:checksum type="sha1">34369ca796268ec7274bc49d659d9e8f042b55ae</sdk:checksum>
-                <sdk:url>google_play_services_fit_preview_5208000_r01.zip</sdk:url>
+                <sdk:size>15510065</sdk:size>
+                <sdk:checksum type="sha1">490309d1d935395b0f62e1ac3ca16683ce3a255b</sdk:checksum>
+                <sdk:url>google_play_services_6111000_r20.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
