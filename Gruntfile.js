@@ -47,8 +47,13 @@ module.exports = function(grunt) {
       },
 
       sdk: {
-        src: ['http://dl-ssl.google.com/android/repository/repository-8.xml'],
+        src: ['http://dl-ssl.google.com/android/repository/repository-10.xml'],
         dest: 'src/data/repository.xml'
+      },
+
+      sysimg: {
+        src: ['http://dl-ssl.google.com/android/repository/sys-img/android/sys-img.xml'],
+        dest: 'src/data/sysimg.xml'
       },
     },
 
@@ -64,6 +69,10 @@ module.exports = function(grunt) {
       addon: {
         src: ['<%= curl.addon.dest %>'],
         dest: 'src/data/addon.json'
+      },
+      sysimg: {
+        src: ['<%= curl.sysimg.dest %>'],
+        dest: 'src/data/sysimg.json'
       }
     },
 
@@ -76,7 +85,8 @@ module.exports = function(grunt) {
         },
         files: {
           '<%= convert.sdk.dest %>': ['<%= convert.sdk.dest %>'],
-          '<%= convert.addon.dest %>': ['<%= convert.addon.dest %>']
+          '<%= convert.addon.dest %>': ['<%= convert.addon.dest %>'],
+          '<%= convert.sysimg.dest %>': ['<%= convert.sysimg.dest %>']
         }
       }
     },
