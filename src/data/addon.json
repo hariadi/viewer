@@ -427,7 +427,7 @@
         "name-display": "Google APIs (ARM System Image)",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "8",
+        "revision": "9",
         "libs": {
           "lib": [
             {
@@ -443,9 +443,9 @@
         },
         "archives": {
           "archive": {
-            "size": "176895117",
-            "checksum": "d791c0cf5db387e0934497b0bb4c96f0dfb35a3b",
-            "url": "google_apis-19_r08.zip"
+            "size": "177258007",
+            "checksum": "a0cdca419e4bab9274c7eb56f4ad1df51bf4b837",
+            "url": "google_apis-19_r09.zip"
           }
         },
         "uses-license": ""
@@ -513,7 +513,7 @@
         "revision": {
           "major": "21",
           "minor": "0",
-          "micro": "0"
+          "micro": "1"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -522,16 +522,16 @@
         "old-paths": "compatibility",
         "archives": {
           "archive": {
-            "size": "7526462",
-            "checksum": "f9ef8def5c64f17cd8bc41c5efddd37cb155f0be",
-            "url": "support_r21.zip"
+            "size": "7575926",
+            "checksum": "bcc9dc087e50642a88370d03e4d7d822ad5d5d91",
+            "url": "support_r21.0.1.zip"
           }
         },
         "uses-license": ""
       },
       {
         "revision": {
-          "major": "7"
+          "major": "8"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -540,9 +540,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "17629507",
-            "checksum": "856c225afc9a5fbd30ada8445df3a2bc8c4fd2a4",
-            "url": "android_m2repository_r07.zip"
+            "size": "17658167",
+            "checksum": "d2552ec0c448046f40779ec3c5df822531b99bc4",
+            "url": "android_m2repository_r08.zip"
           }
         },
         "uses-license": ""
@@ -553,15 +553,15 @@
         "name-display": "Google Repository",
         "path": "m2repository",
         "revision": {
-          "major": "12"
+          "major": "13"
         },
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "20661857",
-            "checksum": "fb76ca36b99d9251188c05f69617f64804ca30e9",
-            "url": "google_m2repository_r12.zip"
+            "size": "25597769",
+            "checksum": "a6cd6e83df60b4385f609fff604a66c1d4d6faad",
+            "url": "google_m2repository_r13.zip"
           }
         }
       },
@@ -630,16 +630,16 @@
         "name-display": "Google Play services",
         "path": "google_play_services",
         "revision": {
-          "major": "20"
+          "major": "21"
         },
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "15510065",
-            "checksum": "490309d1d935395b0f62e1ac3ca16683ce3a255b",
-            "url": "google_play_services_6111000_r20.zip"
+            "size": "15469056",
+            "checksum": "891a9b7b84da525b706efc9b9ee4a28c7456c9a9",
+            "url": "google_play_services_6171000_r21.zip"
           }
         }
       },

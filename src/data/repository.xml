@@ -783,23 +783,23 @@ June 2014.
     </sdk:platform>
 
     <sdk:platform>
-        <!-- Generated at Mon Jun 23 19:17:42 2014 from git_klp-modular-release @ 1246132 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform 4.4W</sdk:description>
-        <sdk:version>4.4W</sdk:version>
+        <!-- Generated at Thu Oct 23 11:39:31 2014 from git_klp-modular-dev @ 1537038 -->
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android SDK Platform 4.4W.2</sdk:description>
+        <sdk:version>4.4W.2</sdk:version>
         <sdk:api-level>20</sdk:api-level>
         <sdk:min-tools-rev>
             <sdk:major>22</sdk:major>
         </sdk:min-tools-rev>
         <sdk:layoutlib>
-            <sdk:api>10</sdk:api>
+            <sdk:api>12</sdk:api>
             <sdk:revision>1</sdk:revision>
         </sdk:layoutlib>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>63548914</sdk:size>
-                <sdk:checksum type="sha1">928b1d181101a5bc06f739eb40501e1249dd4895</sdk:checksum>
-                <sdk:url>android-20_r01.zip</sdk:url>
+                <sdk:size>63567784</sdk:size>
+                <sdk:checksum type="sha1">a9251f8a3f313ab05834a07a963000927637e01d</sdk:checksum>
+                <sdk:url>android-20_r02.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -1451,6 +1451,95 @@ June 2014.
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:build-tool>
 
+    <sdk:build-tool>
+        <!-- Generated at Tue Oct 21 14:50:58 2014 from git_lmp-release @ 1532339 -->
+        <sdk:revision>
+            <sdk:major>21</sdk:major>
+            <sdk:minor>0</sdk:minor>
+            <sdk:micro>2</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>22306371</sdk:size>
+                <sdk:checksum type="sha1">37496141b23cbe633167927b7abe6e22d9f1a1c1</sdk:checksum>
+                <sdk:url>build-tools_r21.0.2-windows.zip</sdk:url>
+                <sdk:host-os>windows</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22153122</sdk:size>
+                <sdk:checksum type="sha1">e1236ab8897b62b57414adcf04c132567b2612a5</sdk:checksum>
+                <sdk:url>build-tools_r21.0.2-linux.zip</sdk:url>
+                <sdk:host-os>linux</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>22668597</sdk:size>
+                <sdk:checksum type="sha1">f17471c154058f3734729ef3cc363399b1cd3de1</sdk:checksum>
+                <sdk:url>build-tools_r21.0.2-macosx.zip</sdk:url>
+                <sdk:host-os>macosx</sdk:host-os>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
+
+    <sdk:build-tool>
+        <!-- Generated at Thu Oct 30 13:18:55 2014 from git_lmp-sdk-release @ 1552913 -->
+        <sdk:revision>
+            <sdk:major>21</sdk:major>
+            <sdk:minor>1</sdk:minor>
+            <sdk:micro>0</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>32797810</sdk:size>
+                <sdk:checksum type="sha1">c79d63ac6b713a1e326ad4dae43f2ee76708a2f4</sdk:checksum>
+                <sdk:url>build-tools_r21.1-windows.zip</sdk:url>
+                <sdk:host-os>windows</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>32642820</sdk:size>
+                <sdk:checksum type="sha1">b7455e543784d52a8925f960bc880493ed1478cb</sdk:checksum>
+                <sdk:url>build-tools_r21.1-linux.zip</sdk:url>
+                <sdk:host-os>linux</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>33158159</sdk:size>
+                <sdk:checksum type="sha1">df619356c2359aa5eacdd48699d15b335d9bd246</sdk:checksum>
+                <sdk:url>build-tools_r21.1-macosx.zip</sdk:url>
+                <sdk:host-os>macosx</sdk:host-os>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
+
+    <sdk:build-tool>
+        <!-- Generated at Mon Nov  3 13:43:11 2014 from git_lmp-sdk-release @ 1559046 -->
+        <sdk:revision>
+            <sdk:major>21</sdk:major>
+            <sdk:minor>1</sdk:minor>
+            <sdk:micro>1</sdk:micro>
+        </sdk:revision>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>32797356</sdk:size>
+                <sdk:checksum type="sha1">53fc4201237f899d5cd92f0b76ad41fb89da188b</sdk:checksum>
+                <sdk:url>build-tools_r21.1.1-windows.zip</sdk:url>
+                <sdk:host-os>windows</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>32642454</sdk:size>
+                <sdk:checksum type="sha1">1c712ee3a1ba5a8b0548f9c32f17d4a0ddfd727d</sdk:checksum>
+                <sdk:url>build-tools_r21.1.1-linux.zip</sdk:url>
+                <sdk:host-os>linux</sdk:host-os>
+            </sdk:archive>
+            <sdk:archive>
+                <sdk:size>33157676</sdk:size>
+                <sdk:checksum type="sha1">836a146eab0504aa9387a5132e986fe7c7381571</sdk:checksum>
+                <sdk:url>build-tools_r21.1.1-macosx.zip</sdk:url>
+                <sdk:host-os>macosx</sdk:host-os>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:build-tool>
 
     <!-- TOOLS ........................ -->
 

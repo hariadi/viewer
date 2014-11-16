@@ -467,22 +467,22 @@
         "uses-license": ""
       },
       {
-        "revision": "1",
-        "description": "Android SDK Platform 4.4W",
-        "version": "4.4W",
+        "revision": "2",
+        "description": "Android SDK Platform 4.4W.2",
+        "version": "4.4W.2",
         "api-level": "20",
         "min-tools-rev": {
           "major": "22"
         },
         "layoutlib": {
-          "api": "10",
+          "api": "12",
           "revision": "1"
         },
         "archives": {
           "archive": {
-            "size": "63548914",
-            "checksum": "928b1d181101a5bc06f739eb40501e1249dd4895",
-            "url": "android-20_r01.zip"
+            "size": "63567784",
+            "checksum": "a9251f8a3f313ab05834a07a963000927637e01d",
+            "url": "android-20_r02.zip"
           }
         },
         "uses-license": ""
@@ -1086,6 +1086,96 @@
               "size": "22668616",
               "checksum": "b60c8f9b810c980abafa04896706f3911be1ade7",
               "url": "build-tools_r21.0.1-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "21",
+          "minor": "0",
+          "micro": "2"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "22306371",
+              "checksum": "37496141b23cbe633167927b7abe6e22d9f1a1c1",
+              "url": "build-tools_r21.0.2-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "22153122",
+              "checksum": "e1236ab8897b62b57414adcf04c132567b2612a5",
+              "url": "build-tools_r21.0.2-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "22668597",
+              "checksum": "f17471c154058f3734729ef3cc363399b1cd3de1",
+              "url": "build-tools_r21.0.2-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "21",
+          "minor": "1",
+          "micro": "0"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "32797810",
+              "checksum": "c79d63ac6b713a1e326ad4dae43f2ee76708a2f4",
+              "url": "build-tools_r21.1-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "32642820",
+              "checksum": "b7455e543784d52a8925f960bc880493ed1478cb",
+              "url": "build-tools_r21.1-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "33158159",
+              "checksum": "df619356c2359aa5eacdd48699d15b335d9bd246",
+              "url": "build-tools_r21.1-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "21",
+          "minor": "1",
+          "micro": "1"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "32797356",
+              "checksum": "53fc4201237f899d5cd92f0b76ad41fb89da188b",
+              "url": "build-tools_r21.1.1-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "32642454",
+              "checksum": "1c712ee3a1ba5a8b0548f9c32f17d4a0ddfd727d",
+              "url": "build-tools_r21.1.1-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "33157676",
+              "checksum": "836a146eab0504aa9387a5132e986fe7c7381571",
+              "url": "build-tools_r21.1.1-macosx.zip",
               "host-os": "macosx"
             }
           ]
