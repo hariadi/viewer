@@ -513,7 +513,7 @@
         "revision": {
           "major": "21",
           "minor": "0",
-          "micro": "1"
+          "micro": "2"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -522,16 +522,16 @@
         "old-paths": "compatibility",
         "archives": {
           "archive": {
-            "size": "7575926",
-            "checksum": "bcc9dc087e50642a88370d03e4d7d822ad5d5d91",
-            "url": "support_r21.0.1.zip"
+            "size": "7682754",
+            "checksum": "998061ce9a30d9e131bfdba6380dd6d15cab8011",
+            "url": "support_r21.0.2.zip"
           }
         },
         "uses-license": ""
       },
       {
         "revision": {
-          "major": "8"
+          "major": "9"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -540,9 +540,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "17658167",
-            "checksum": "d2552ec0c448046f40779ec3c5df822531b99bc4",
-            "url": "android_m2repository_r08.zip"
+            "size": "21609340",
+            "checksum": "75f5dc02d4388588c86a62d51298b75b83c3a11e",
+            "url": "android_m2repository_r09.zip"
           }
         },
         "uses-license": ""
@@ -761,6 +761,25 @@
         },
         "uses-license": "",
         "obsolete": ""
+      },
+      {
+        "vendor-id": "google",
+        "vendor-display": "Google Inc.",
+        "name-display": "Android Auto API Simulators",
+        "path": "simulators",
+        "revision": {
+          "major": "1"
+        },
+        "description": "Android Auto API testing simulators",
+        "desc-url": "http://developer.android.com/auto",
+        "archives": {
+          "archive": {
+            "size": "2167286",
+            "checksum": "4fb5344e34e8faab4db18af07dace44c50db26a7",
+            "url": "simulator_r01.zip"
+          }
+        },
+        "uses-license": ""
       }
     ]
   }
