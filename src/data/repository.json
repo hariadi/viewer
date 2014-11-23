@@ -689,13 +689,25 @@
         "uses-license": ""
       },
       {
-        "revision": "2",
+        "revision": "3",
         "api-level": "20",
         "archives": {
           "archive": {
-            "size": "49718791",
-            "checksum": "4b906c46057ee8f502b4f27c23670fd87a49d6ff",
-            "url": "samples-20_r02.zip"
+            "size": "50796850",
+            "checksum": "8b1290b0b707827808392e8178094a68dfb51a14",
+            "url": "samples-20_r03.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "3",
+        "api-level": "21",
+        "archives": {
+          "archive": {
+            "size": "62578203",
+            "checksum": "e58fe71c90cbd180863991a5f351c5553da68a6d",
+            "url": "samples-21_r03.zip"
           }
         },
         "uses-license": ""

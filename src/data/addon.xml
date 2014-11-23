@@ -975,7 +975,7 @@ August 15, 2011
         <sdk:revision>
             <sdk:major>21</sdk:major>
             <sdk:minor>0</sdk:minor>
-            <sdk:micro>1</sdk:micro>
+            <sdk:micro>2</sdk:micro>
         </sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
@@ -984,9 +984,9 @@ August 15, 2011
         <sdk:old-paths>compatibility</sdk:old-paths>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>7575926</sdk:size>
-                <sdk:checksum type="sha1">bcc9dc087e50642a88370d03e4d7d822ad5d5d91</sdk:checksum>
-                <sdk:url>support_r21.0.1.zip</sdk:url>
+                <sdk:size>7682754</sdk:size>
+                <sdk:checksum type="sha1">998061ce9a30d9e131bfdba6380dd6d15cab8011</sdk:checksum>
+                <sdk:url>support_r21.0.2.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -995,7 +995,7 @@ August 15, 2011
     <sdk:extra>
         <!-- Generated at Thu Oct 16 16:53:28 2014 from git_lmp-release @ 1522834-->
         <sdk:revision>
-            <sdk:major>8</sdk:major>
+            <sdk:major>9</sdk:major>
         </sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
@@ -1004,9 +1004,9 @@ August 15, 2011
         <sdk:path>m2repository</sdk:path>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>17658167</sdk:size>
-                <sdk:checksum type="sha1">d2552ec0c448046f40779ec3c5df822531b99bc4</sdk:checksum>
-                <sdk:url>android_m2repository_r08.zip</sdk:url>
+                <sdk:size>21609340</sdk:size>
+                <sdk:checksum type="sha1">75f5dc02d4388588c86a62d51298b75b83c3a11e</sdk:checksum>
+                <sdk:url>android_m2repository_r09.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -1239,5 +1239,25 @@ August 15, 2011
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:obsolete/>
+    </sdk:extra>
+
+    <sdk:extra>
+        <sdk:vendor-id>google</sdk:vendor-id>
+        <sdk:vendor-display>Google Inc.</sdk:vendor-display>
+        <sdk:name-display>Android Auto API Simulators</sdk:name-display>
+        <sdk:path>simulators</sdk:path>
+        <sdk:revision>
+            <sdk:major>1</sdk:major>
+        </sdk:revision>
+        <sdk:description>Android Auto API testing simulators</sdk:description>
+        <sdk:desc-url>http://developer.android.com/auto</sdk:desc-url>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>2167286</sdk:size>
+                <sdk:checksum type="sha1">4fb5344e34e8faab4db18af07dace44c50db26a7</sdk:checksum>
+                <sdk:url>simulator_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
     </sdk:extra>
 </sdk:sdk-addon>

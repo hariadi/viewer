@@ -1042,18 +1042,33 @@ June 2014.
     </sdk:sample>
 
     <sdk:sample>
-        <!-- Generated at Wed Jul 23 12:59:18 2014 from git_klp-modular-mr0-release @ 1298572 -->
-        <sdk:revision>2</sdk:revision>
+        <!-- Generated at Mon Nov 17 16:23:46 2014 from git_klp-modular-docs @ 1587091 -->
+        <sdk:revision>3</sdk:revision>
         <sdk:api-level>20</sdk:api-level>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>49718791</sdk:size>
-                <sdk:checksum type="sha1">4b906c46057ee8f502b4f27c23670fd87a49d6ff</sdk:checksum>
-                <sdk:url>samples-20_r02.zip</sdk:url>
+                <sdk:size>50796850</sdk:size>
+                <sdk:checksum type="sha1">8b1290b0b707827808392e8178094a68dfb51a14</sdk:checksum>
+                <sdk:url>samples-20_r03.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:sample>
+
+    <sdk:sample>
+        <!-- Generated at Mon Nov 17 16:24:28 2014 from git_lmp-docs @ 1592847 -->
+        <sdk:revision>3</sdk:revision>
+        <sdk:api-level>21</sdk:api-level>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>62578203</sdk:size>
+                <sdk:checksum type="sha1">e58fe71c90cbd180863991a5f351c5553da68a6d</sdk:checksum>
+                <sdk:url>samples-21_r03.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:sample>
+
 
     <!-- PLATFORM-TOOLS ........................ -->
 
