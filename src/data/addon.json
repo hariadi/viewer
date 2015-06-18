@@ -16,6 +16,7 @@
         "description": "Android + Google APIs",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "34908058",
@@ -40,6 +41,7 @@
         "description": "Android + Google APIs, revision 2",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "42435735",
@@ -114,6 +116,7 @@
         "description": "Android + Google APIs, revision 1",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "53691339",
@@ -211,6 +214,7 @@
         "description": "Android + Google APIs, API 11, revision 1",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "83477179",
@@ -235,6 +239,7 @@
         "description": "Android + Google APIs, API 12, revision 1",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "86099835",
@@ -259,6 +264,7 @@
         "description": "Android + Google APIs, API 13, revision 1",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "88615525",
@@ -282,6 +288,7 @@
         "api-level": "14",
         "revision": "2",
         "uses-license": "",
+        "obsolete": "",
         "libs": {
           "lib": [
             {
@@ -307,7 +314,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "15",
-        "revision": "2",
+        "revision": "3",
         "libs": {
           "lib": [
             {
@@ -323,9 +330,9 @@
         },
         "archives": {
           "archive": {
-            "size": "106612472",
-            "checksum": "6757c12788da0ea00c2ab58e54cb438b9f2bcf66",
-            "url": "google_apis-15_r02.zip"
+            "size": "106624396",
+            "checksum": "d0d2bf26805eb271693570a1aaec33e7dc3f45e9",
+            "url": "google_apis-15_r03.zip"
           }
         },
         "uses-license": ""
@@ -337,7 +344,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "16",
-        "revision": "3",
+        "revision": "4",
         "libs": {
           "lib": [
             {
@@ -353,9 +360,9 @@
         },
         "archives": {
           "archive": {
-            "size": "127278413",
-            "checksum": "63467dd32f471e3e81e33e9772c22f33235aa3b3",
-            "url": "google_apis-16_r03.zip"
+            "size": "127341982",
+            "checksum": "ee6acf1b01020bfa8a8e24725dbc4478bee5e792",
+            "url": "google_apis-16_r04.zip"
           }
         },
         "uses-license": ""
@@ -367,7 +374,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "17",
-        "revision": "3",
+        "revision": "4",
         "libs": {
           "lib": [
             {
@@ -383,9 +390,9 @@
         },
         "archives": {
           "archive": {
-            "size": "137156978",
-            "checksum": "8246f61d24f0408c8e7bc352a1e522b7e2b619ba",
-            "url": "google_apis-17_r03.zip"
+            "size": "137231243",
+            "checksum": "a076be0677f38df8ca5536b44dfb411a0c808c4f",
+            "url": "google_apis-17_r04.zip"
           }
         },
         "uses-license": ""
@@ -397,7 +404,7 @@
         "name-display": "Google APIs",
         "description": "Android + Google APIs",
         "api-level": "18",
-        "revision": "3",
+        "revision": "4",
         "libs": {
           "lib": [
             {
@@ -413,9 +420,9 @@
         },
         "archives": {
           "archive": {
-            "size": "143149689",
-            "checksum": "147bce09c1163edc17194f3db496ec1086fcf965",
-            "url": "google_apis-18_r03.zip"
+            "size": "143195183",
+            "checksum": "6109603409debdd40854d4d4a92eaf8481462c8b",
+            "url": "google_apis-18_r04.zip"
           }
         },
         "uses-license": ""
@@ -427,7 +434,7 @@
         "name-display": "Google APIs (ARM System Image)",
         "description": "Android + Google APIs",
         "api-level": "19",
-        "revision": "9",
+        "revision": "14",
         "libs": {
           "lib": [
             {
@@ -443,9 +450,9 @@
         },
         "archives": {
           "archive": {
-            "size": "177258007",
-            "checksum": "a0cdca419e4bab9274c7eb56f4ad1df51bf4b837",
-            "url": "google_apis-19_r09.zip"
+            "size": "178178587",
+            "checksum": "cb053798e862c0f674ef909aa58218f07d277d18",
+            "url": "google_apis-19_r14.zip"
           }
         },
         "uses-license": ""
@@ -471,6 +478,24 @@
       {
         "vendor-id": "google",
         "vendor-display": "Google Inc.",
+        "name-id": "google_apis",
+        "name-display": "Google APIs",
+        "description": "Android + Google APIs",
+        "api-level": "22",
+        "revision": "1",
+        "libs": "",
+        "archives": {
+          "archive": {
+            "size": "179259",
+            "checksum": "5def0f42160cba8acff51b9c0c7e8be313de84f5",
+            "url": "google_apis-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "vendor-id": "google",
+        "vendor-display": "Google Inc.",
         "name-id": "google_tv_addon",
         "name-display": "Google TV Addon",
         "api-level": "12",
@@ -478,6 +503,7 @@
         "description": "Android + Google TV, API 12, preview release",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "78266751",
@@ -498,6 +524,7 @@
         "description": "Android + Google TV, API 13",
         "desc-url": "http://developer.android.com/",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "87721879",
@@ -511,9 +538,9 @@
     "extra": [
       {
         "revision": {
-          "major": "21",
-          "minor": "0",
-          "micro": "2"
+          "major": "22",
+          "minor": "2",
+          "micro": "0"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -522,16 +549,16 @@
         "old-paths": "compatibility",
         "archives": {
           "archive": {
-            "size": "7682754",
-            "checksum": "998061ce9a30d9e131bfdba6380dd6d15cab8011",
-            "url": "support_r21.0.2.zip"
+            "size": "8906534",
+            "checksum": "ba60e37ca9a0a8ff4d08c880df2ecd17140c8633",
+            "url": "support_r22.2.zip"
           }
         },
         "uses-license": ""
       },
       {
         "revision": {
-          "major": "9"
+          "major": "15"
         },
         "vendor-display": "Android",
         "vendor-id": "android",
@@ -540,9 +567,9 @@
         "path": "m2repository",
         "archives": {
           "archive": {
-            "size": "21609340",
-            "checksum": "75f5dc02d4388588c86a62d51298b75b83c3a11e",
-            "url": "android_m2repository_r09.zip"
+            "size": "95620673",
+            "checksum": "2c51feb406ce3c7e09db8339a0d680beb91b8bf1",
+            "url": "android_m2repository_r15.zip"
           }
         },
         "uses-license": ""
@@ -553,15 +580,15 @@
         "name-display": "Google Repository",
         "path": "m2repository",
         "revision": {
-          "major": "13"
+          "major": "19"
         },
         "description": "Local Maven repository for Google Libraries",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "25597769",
-            "checksum": "a6cd6e83df60b4385f609fff604a66c1d4d6faad",
-            "url": "google_m2repository_r13.zip"
+            "size": "48670246",
+            "checksum": "09f4445d0e2572e514de60615bc0cc3a7d391558",
+            "url": "google_m2repository_r19.zip"
           }
         }
       },
@@ -616,6 +643,7 @@
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "5265389",
@@ -630,16 +658,16 @@
         "name-display": "Google Play services",
         "path": "google_play_services",
         "revision": {
-          "major": "21"
+          "major": "25"
         },
         "description": "Google Play services client library and sample code",
         "desc-url": "https://developers.google.com/android/google-play-services/index",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "15469056",
-            "checksum": "891a9b7b84da525b706efc9b9ee4a28c7456c9a9",
-            "url": "google_play_services_6171000_r21.zip"
+            "size": "18965412",
+            "checksum": "e55f211a575a90f4d4eba10509fc7c8fb13b6e57",
+            "url": "google_play_services_7571000_r25.zip"
           }
         }
       },

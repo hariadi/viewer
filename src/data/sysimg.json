@@ -12,6 +12,7 @@
         "description": "Android SDK Platform 4.0",
         "api-level": "14",
         "abi": "armeabi-v7a",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "99621822",
@@ -23,15 +24,30 @@
         "tag-id": "default"
       },
       {
-        "revision": "2",
+        "revision": "3",
         "description": "Android SDK Platform 4.0.3",
         "api-level": "15",
         "abi": "armeabi-v7a",
         "archives": {
           "archive": {
-            "size": "96227377",
-            "checksum": "1bf977d6cb4e0ad38dceac0c4863d1caa21f326e",
-            "url": "sysimg_armv7a-15_r02.zip"
+            "size": "96240395",
+            "checksum": "0a47f586e172b1cf3db2ada857a70c2bdec24ef8",
+            "url": "sysimg_armv7a-15_r03.zip"
+          }
+        },
+        "uses-license": "",
+        "tag-id": "default"
+      },
+      {
+        "revision": "4",
+        "description": "Android SDK Platform 4.1.2",
+        "api-level": "16",
+        "abi": "armeabi-v7a",
+        "archives": {
+          "archive": {
+            "size": "112608076",
+            "checksum": "39c093ea755098f0ee79f607be7df9e54ba4943f",
+            "url": "sysimg_armv7a-16_r04.zip"
           }
         },
         "uses-license": "",
@@ -39,195 +55,289 @@
       },
       {
         "revision": "3",
-        "description": "Android SDK Platform 4.1",
-        "api-level": "16",
-        "abi": "armeabi-v7a",
-        "archives": {
-          "archive": {
-            "size": "112528368",
-            "checksum": "d1cddb23f17aad5821a089c403d4cddad2cf9ef7",
-            "url": "sysimg_armv7a-16_r03.zip"
-          }
-        },
-        "uses-license": "",
-        "tag-id": "default"
-      },
-      {
-        "revision": "2",
         "description": "Android SDK Platform 4.2.2",
         "api-level": "17",
         "abi": "armeabi-v7a",
         "archives": {
           "archive": {
-            "size": "116553808",
-            "checksum": "1c321cda1af793b84d47d1a8d15f85444d265e3c",
-            "url": "sysimg_armv7a-17_r02.zip"
+            "size": "118663847",
+            "checksum": "97cfad22b51c8475e228b207dd36dbef1c18fa38",
+            "url": "sysimg_armv7a-17_r03.zip"
           }
         },
         "uses-license": "",
         "tag-id": "default"
       },
       {
-        "revision": "2",
-        "description": "Android SDK Platform 4.3",
+        "revision": "3",
+        "description": "Android SDK Platform 4.3.1",
         "api-level": "18",
         "abi": "armeabi-v7a",
         "archives": {
           "archive": {
-            "size": "125457135",
-            "checksum": "4a1a93200210d8c42793324362868846f67401ab",
-            "url": "sysimg_armv7a-18_r02.zip"
+            "size": "125503391",
+            "checksum": "2d7d51f4d2742744766511e5d6b491bd49161c51",
+            "url": "sysimg_armv7a-18_r03.zip"
           }
         },
         "uses-license": "",
         "tag-id": "default"
       },
       {
-        "revision": "2",
-        "description": "Android SDK Platform 4.4.2",
+        "revision": "3",
+        "description": "Android SDK Platform 4.4.4",
         "api-level": "19",
         "abi": "armeabi-v7a",
         "archives": {
           "archive": {
-            "size": "158478012",
-            "checksum": "e0d375397e28e3d5d9577a00132463a4696248e5",
-            "url": "sysimg_armv7a-19_r02.zip"
+            "size": "159399028",
+            "checksum": "5daf7718e3ab03d9bd8792b492dd305f386ef12f",
+            "url": "sysimg_armv7a-19_r03.zip"
           }
         },
         "uses-license": "",
         "tag-id": "default"
       },
       {
-        "revision": "1",
-        "description": "Android SDK Platform 5.0",
+        "revision": "3",
+        "description": "Android SDK Platform 5.0.2",
         "api-level": "21",
         "abi": "armeabi-v7a",
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "186452618",
-            "checksum": "74a74b89a06ffba03448ccdfbb414c49026e660c",
-            "url": "sysimg_arm-21_r01.zip"
+            "size": "186521381",
+            "checksum": "0b2e21421d29f48211b5289ca4addfa7f4c7ae5a",
+            "url": "sysimg_arm-21_r03.zip"
           }
         },
         "uses-license": ""
       },
       {
         "description": "Android SDK Platform 2.3.7",
-        "revision": "2",
+        "revision": "3",
         "api-level": "10",
         "abi": "x86",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "55463895",
-            "checksum": "34e2436f69606cdfe35d3ef9112f0c64e3ff021d",
-            "url": "https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-10_r02.zip"
+            "size": "66997702",
+            "checksum": "6b8539eaca9685d2d3289bf8e6d21d366d791326",
+            "url": "sysimg_x86-10_r03.zip"
           }
         },
         "tag-id": "default"
       },
       {
         "description": "Android SDK Platform 4.0.4",
-        "revision": "1",
+        "revision": "2",
         "api-level": "15",
         "abi": "x86",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "112619605",
-            "checksum": "d540325952e0f097509622b9e685737584b83e40",
-            "url": "https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-15_r01.zip"
+            "size": "109019058",
+            "checksum": "56b8d4b3d0f6a8876bc78d654da186f3b7b7c44f",
+            "url": "sysimg_x86-15_r02.zip"
           }
         },
         "tag-id": "default"
       },
       {
         "description": "Android SDK Platform 4.1.1",
-        "revision": "1",
+        "revision": "2",
         "api-level": "16",
         "abi": "x86",
         "uses-license": "",
         "archives": {
           "archive": {
-            "size": "131840348",
-            "checksum": "9d35bcaa4f9b40443941f32b8a50337f413c021a",
-            "url": "https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-16_r01.zip"
-          }
-        },
-        "tag-id": "default"
-      },
-      {
-        "description": "Android SDK Platform 4.2",
-        "revision": "1",
-        "api-level": "17",
-        "abi": "x86",
-        "uses-license": "",
-        "archives": {
-          "archive": {
-            "size": "138799122",
-            "checksum": "ddb3313e8dcd07926003f7b828eafea1115ea35b",
-            "url": "https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-17_r01.zip"
-          }
-        },
-        "tag-id": "default"
-      },
-      {
-        "description": "Android SDK Platform 4.3",
-        "revision": "1",
-        "api-level": "18",
-        "abi": "x86",
-        "uses-license": "",
-        "archives": {
-          "archive": {
-            "size": "155656419",
-            "checksum": "f11bc9fccd3e7e46c07d8b26e112a8d0b45966c1",
-            "url": "https://dl-ssl.google.com/android/repository/sys-img/android/sysimg_x86-18_r01.zip"
+            "size": "135252264",
+            "checksum": "36c2a2e394bcb3290583ce09815eae7711d0b2c2",
+            "url": "sysimg_x86-16_r02.zip"
           }
         },
         "tag-id": "default"
       },
       {
         "revision": "2",
-        "description": "Android SDK Platform 4.4.2",
+        "description": "Android SDK Platform 4.2.2",
+        "api-level": "17",
+        "abi": "x86",
+        "uses-license": "",
+        "archives": {
+          "archive": {
+            "size": "136075512",
+            "checksum": "bd8c7c5411431af7e051cbe961be430fc31e773d",
+            "url": "sysimg_x86-17_r02.zip"
+          }
+        },
+        "tag-id": "default"
+      },
+      {
+        "revision": "2",
+        "description": "Android SDK Platform 4.3.1",
+        "api-level": "18",
+        "abi": "x86",
+        "uses-license": "",
+        "archives": {
+          "archive": {
+            "size": "143899902",
+            "checksum": "ab3de121a44fca43ac3aa83f7d68cc47fc643ee8",
+            "url": "sysimg_x86-18_r02.zip"
+          }
+        },
+        "tag-id": "default"
+      },
+      {
+        "revision": "3",
+        "description": "Android SDK Platform 4.4.4",
         "api-level": "19",
         "abi": "x86",
         "archives": {
           "archive": {
-            "size": "178922720",
-            "checksum": "8889cb418984a2a7916a359da7c429d2431ed060",
-            "url": "sysimg_x86-19_r02.zip"
+            "size": "180245668",
+            "checksum": "3782f3ebac5e54b3de454570add401989515ffca",
+            "url": "sysimg_x86-19_r03.zip"
           }
         },
         "uses-license": "",
         "tag-id": "default"
       },
       {
-        "revision": "1",
-        "description": "Android SDK Platform 5.0",
+        "revision": "3",
+        "description": "Android SDK Platform 5.0.2",
         "api-level": "21",
         "abi": "x86",
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "201545245",
-            "checksum": "1b5d4228736afc32c7ad1439740abb39b1bc0fae",
-            "url": "sysimg_x86-21_r01.zip"
+            "size": "201601288",
+            "checksum": "a0b510c66769e84fa5e40515531be2d266a4247f",
+            "url": "sysimg_x86-21_r03.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "3",
+        "description": "Android SDK Platform 5.0.2",
+        "api-level": "21",
+        "abi": "x86_64",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "285253158",
+            "checksum": "2f205b728695d84488156f4846beb83a353ea64b",
+            "url": "sysimg_x86_64-21_r03.zip"
           }
         },
         "uses-license": ""
       },
       {
         "revision": "1",
-        "description": "Android SDK Platform 5.0",
-        "api-level": "21",
+        "description": "Android SDK Platform 5.1",
+        "api-level": "22",
+        "abi": "x86",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "207436768",
+            "checksum": "6c7bb51e41a16099bb1f2a3cc81fdb5aa053fc15",
+            "url": "sysimg_x86-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "x86",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "304392038",
+            "checksum": "a0ee8a9ec1b69ee44406d3d43501eafe469340e3",
+            "url": "sysimg_x86-MNC_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform 5.1",
+        "api-level": "22",
         "abi": "x86_64",
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "285147575",
-            "checksum": "0e48bdfbcbf4b7f276af7b1f10140babc9af52b3",
-            "url": "sysimg_x86_64-21_r01.zip"
+            "size": "292511941",
+            "checksum": "05752813603f9fa03a58dcf7f8f5e779be722aae",
+            "url": "sysimg_x86_64-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "x86_64",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "430491125",
+            "checksum": "977090bdf06a145d8e441e3cbedab08bff91d753",
+            "url": "sysimg_x86_64-MNC_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform 5.1",
+        "api-level": "22",
+        "abi": "armeabi-v7a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "193687339",
+            "checksum": "2aa6a887ee75dcf3ac34627853d561997792fcb8",
+            "url": "sysimg_arm-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "armeabi-v7a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "288140310",
+            "checksum": "19edb1fef0693136e8f0f2e7dd4f74365f50a98a",
+            "url": "sysimg_arm-MNC_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "arm64-v8a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "414885510",
+            "checksum": "024222b2351ab6f3a8b58ebcebdc5c9d66afe799",
+            "url": "sysimg_arm64-MNC_r01.zip"
           }
         },
         "uses-license": ""
@@ -276,6 +386,22 @@
           }
         },
         "tag-id": "default"
+      },
+      {
+        "revision": "1",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "mips",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "315518794",
+            "checksum": "3e2d117c319c809f496d4973bbda341173819532",
+            "url": "sysimg_mips-MNC_r01.zip"
+          }
+        },
+        "uses-license": ""
       }
     ]
   }

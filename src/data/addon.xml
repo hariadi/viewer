@@ -440,6 +440,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>34908058</sdk:size>
@@ -467,6 +468,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs, revision 2</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>42435735</sdk:size>
@@ -550,6 +552,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs, revision 1</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>53691339</sdk:size>
@@ -659,6 +662,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs, API 11, revision 1</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>83477179</sdk:size>
@@ -686,6 +690,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs, API 12, revision 1</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>86099835</sdk:size>
@@ -713,6 +718,7 @@ August 15, 2011
         <sdk:description>Android + Google APIs, API 13, revision 1</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>88615525</sdk:size>
@@ -738,6 +744,7 @@ August 15, 2011
         <sdk:api-level>14</sdk:api-level>
         <sdk:revision>2</sdk:revision>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -756,14 +763,14 @@ August 15, 2011
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Fri Mar 30 10:45:40 2012 from ics-mr1 @ 302030 -->
+        <!-- Generated at Tue Mar 10 10:46:23 2015 from git_ics-mr1 @ 1741834 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>15</sdk:api-level>
-        <sdk:revision>2</sdk:revision>
+        <sdk:revision>3</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -777,23 +784,23 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>106612472</sdk:size>
-                <sdk:checksum type="sha1">6757c12788da0ea00c2ab58e54cb438b9f2bcf66</sdk:checksum>
-                <sdk:url>google_apis-15_r02.zip</sdk:url>
+                <sdk:size>106624396</sdk:size>
+                <sdk:checksum type="sha1">d0d2bf26805eb271693570a1aaec33e7dc3f45e9</sdk:checksum>
+                <sdk:url>google_apis-15_r03.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Tue Oct  9 14:06:38 2012 from git_jb-dev @ 495790 -->
+        <!-- Generated at Tue Mar 10 10:30:21 2015 from git_jb-dev @ 1747107 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>16</sdk:api-level>
-        <sdk:revision>3</sdk:revision>
+        <sdk:revision>4</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -807,23 +814,23 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>127278413</sdk:size>
-                <sdk:checksum type="sha1">63467dd32f471e3e81e33e9772c22f33235aa3b3</sdk:checksum>
-                <sdk:url>google_apis-16_r03.zip</sdk:url>
+                <sdk:size>127341982</sdk:size>
+                <sdk:checksum type="sha1">ee6acf1b01020bfa8a8e24725dbc4478bee5e792</sdk:checksum>
+                <sdk:url>google_apis-16_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Tue May 14 08:07:47 2013 from git_jb-mr1.1-dev @ 673949 -->
+        <!-- Generated at Mon Mar  9 18:24:34 2015 from git_jb-mr1.1-dev @ 1742939 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>17</sdk:api-level>
-        <sdk:revision>3</sdk:revision>
+        <sdk:revision>4</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -837,23 +844,23 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>137156978</sdk:size>
-                <sdk:checksum type="sha1">8246f61d24f0408c8e7bc352a1e522b7e2b619ba</sdk:checksum>
-                <sdk:url>google_apis-17_r03.zip</sdk:url>
+                <sdk:size>137231243</sdk:size>
+                <sdk:checksum type="sha1">a076be0677f38df8ca5536b44dfb411a0c808c4f</sdk:checksum>
+                <sdk:url>google_apis-17_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Thu Sep 19 12:49:30 2013 from git_jb-mr2-dev @ 836888 -->
+        <!-- Generated at Mon Mar  9 17:39:57 2015 from git_jb-mr2-dev @ 1743067 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>18</sdk:api-level>
-        <sdk:revision>3</sdk:revision>
+        <sdk:revision>4</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -867,23 +874,23 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>143149689</sdk:size>
-                <sdk:checksum type="sha1">147bce09c1163edc17194f3db496ec1086fcf965</sdk:checksum>
-                <sdk:url>google_apis-18_r03.zip</sdk:url>
+                <sdk:size>143195183</sdk:size>
+                <sdk:checksum type="sha1">6109603409debdd40854d4d4a92eaf8481462c8b</sdk:checksum>
+                <sdk:url>google_apis-18_r04.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:add-on>
 
     <sdk:add-on>
-        <!-- Generated at Mon Oct 27 10:26:31 2014 from git_klp-sdk-release @ 1532129 -->
+        <!-- Generated at Wed May 27 17:26:05 2015 from git_klp-sdk-release @ 1959753 -->
         <sdk:vendor-id>google</sdk:vendor-id>
         <sdk:vendor-display>Google Inc.</sdk:vendor-display>
         <sdk:name-id>google_apis</sdk:name-id>
         <sdk:name-display>Google APIs (ARM System Image)</sdk:name-display>
         <sdk:description>Android + Google APIs</sdk:description>
         <sdk:api-level>19</sdk:api-level>
-        <sdk:revision>9</sdk:revision>
+        <sdk:revision>14</sdk:revision>
         <sdk:libs>
             <sdk:lib>
                 <sdk:name>com.google.android.maps</sdk:name>
@@ -897,9 +904,9 @@ August 15, 2011
         </sdk:libs>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>177258007</sdk:size>
-                <sdk:checksum type="sha1">a0cdca419e4bab9274c7eb56f4ad1df51bf4b837</sdk:checksum>
-                <sdk:url>google_apis-19_r09.zip</sdk:url>
+                <sdk:size>178178587</sdk:size>
+                <sdk:checksum type="sha1">cb053798e862c0f674ef909aa58218f07d277d18</sdk:checksum>
+                <sdk:url>google_apis-19_r14.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -925,6 +932,26 @@ August 15, 2011
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:add-on>
 
+    <sdk:add-on>
+        <!-- Generated at Mon Mar  2 16:24:05 2015 from git_lmp-mr1-sdk-release @ 1737576 -->
+        <sdk:vendor-id>google</sdk:vendor-id>
+        <sdk:vendor-display>Google Inc.</sdk:vendor-display>
+        <sdk:name-id>google_apis</sdk:name-id>
+        <sdk:name-display>Google APIs</sdk:name-display>
+        <sdk:description>Android + Google APIs</sdk:description>
+        <sdk:api-level>22</sdk:api-level>
+        <sdk:revision>1</sdk:revision>
+        <sdk:libs/>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>179259</sdk:size>
+                <sdk:checksum type="sha1">5def0f42160cba8acff51b9c0c7e8be313de84f5</sdk:checksum>
+                <sdk:url>google_apis-22_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:add-on>
+
     <!-- GOOGLE TV ADDONS ............. -->
 
     <sdk:add-on>
@@ -937,6 +964,7 @@ August 15, 2011
         <sdk:description>Android + Google TV, API 12, preview release</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-googletv-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>78266751</sdk:size>
@@ -958,6 +986,7 @@ August 15, 2011
         <sdk:description>Android + Google TV, API 13</sdk:description>
         <sdk:desc-url>http://developer.android.com/</sdk:desc-url>
         <sdk:uses-license ref="android-googletv-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>87721879</sdk:size>
@@ -971,11 +1000,11 @@ August 15, 2011
     <!-- EXTRAS VENDOR=ANDROID ........................ -->
 
     <sdk:extra>
-        <!-- Generated at Thu Oct 30 13:19:11 2014 from git_lmp-sdk-release @ 1552913 -->
+        <!-- Generated at Wed May 27 09:12:27 2015 from git_lmp-mr1-supportlib-release @ 1958253 -->
         <sdk:revision>
-            <sdk:major>21</sdk:major>
-            <sdk:minor>0</sdk:minor>
-            <sdk:micro>2</sdk:micro>
+            <sdk:major>22</sdk:major>
+            <sdk:minor>2</sdk:minor>
+            <sdk:micro>0</sdk:micro>
         </sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
@@ -984,18 +1013,18 @@ August 15, 2011
         <sdk:old-paths>compatibility</sdk:old-paths>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>7682754</sdk:size>
-                <sdk:checksum type="sha1">998061ce9a30d9e131bfdba6380dd6d15cab8011</sdk:checksum>
-                <sdk:url>support_r21.0.2.zip</sdk:url>
+                <sdk:size>8906534</sdk:size>
+                <sdk:checksum type="sha1">ba60e37ca9a0a8ff4d08c880df2ecd17140c8633</sdk:checksum>
+                <sdk:url>support_r22.2.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:extra>
 
     <sdk:extra>
-        <!-- Generated at Thu Oct 16 16:53:28 2014 from git_lmp-release @ 1522834-->
+        <!-- Generated at Wed May 27 09:12:27 2015 from git_ub-support-test-release @ 1953469  -->
         <sdk:revision>
-            <sdk:major>9</sdk:major>
+            <sdk:major>15</sdk:major>
         </sdk:revision>
         <sdk:vendor-display>Android</sdk:vendor-display>
         <sdk:vendor-id>android</sdk:vendor-id>
@@ -1004,9 +1033,9 @@ August 15, 2011
         <sdk:path>m2repository</sdk:path>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>21609340</sdk:size>
-                <sdk:checksum type="sha1">75f5dc02d4388588c86a62d51298b75b83c3a11e</sdk:checksum>
-                <sdk:url>android_m2repository_r09.zip</sdk:url>
+                <sdk:size>95620673</sdk:size>
+                <sdk:checksum type="sha1">2c51feb406ce3c7e09db8339a0d680beb91b8bf1</sdk:checksum>
+                <sdk:url>android_m2repository_r15.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-license"/>
@@ -1020,15 +1049,15 @@ August 15, 2011
         <sdk:name-display>Google Repository</sdk:name-display>
         <sdk:path>m2repository</sdk:path>
         <sdk:revision>
-            <sdk:major>13</sdk:major>
+            <sdk:major>19</sdk:major>
         </sdk:revision>
         <sdk:description>Local Maven repository for Google Libraries</sdk:description>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>25597769</sdk:size>
-                <sdk:checksum type="sha1">a6cd6e83df60b4385f609fff604a66c1d4d6faad</sdk:checksum>
-                <sdk:url>google_m2repository_r13.zip</sdk:url>
+                <sdk:size>48670246</sdk:size>
+                <sdk:checksum type="sha1">09f4445d0e2572e514de60615bc0cc3a7d391558</sdk:checksum>
+                <sdk:url>google_m2repository_r19.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
@@ -1086,6 +1115,7 @@ August 15, 2011
         <sdk:description>Google Play services client library and sample code</sdk:description>
         <sdk:desc-url>https://developers.google.com/android/google-play-services/index</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
+        <sdk:obsolete/>
         <sdk:archives>
             <sdk:archive>
                 <sdk:size>5265389</sdk:size>
@@ -1101,16 +1131,16 @@ August 15, 2011
         <sdk:name-display>Google Play services</sdk:name-display>
         <sdk:path>google_play_services</sdk:path>
         <sdk:revision>
-            <sdk:major>21</sdk:major>
+            <sdk:major>25</sdk:major>
         </sdk:revision>
         <sdk:description>Google Play services client library and sample code</sdk:description>
         <sdk:desc-url>https://developers.google.com/android/google-play-services/index</sdk:desc-url>
         <sdk:uses-license ref="android-sdk-license"/>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>15469056</sdk:size>
-                <sdk:checksum type="sha1">891a9b7b84da525b706efc9b9ee4a28c7456c9a9</sdk:checksum>
-                <sdk:url>google_play_services_6171000_r21.zip</sdk:url>
+                <sdk:size>18965412</sdk:size>
+                <sdk:checksum type="sha1">e55f211a575a90f4d4eba10509fc7c8fb13b6e57</sdk:checksum>
+                <sdk:url>google_play_services_7571000_r25.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
     </sdk:extra>
