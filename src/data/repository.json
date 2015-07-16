@@ -537,7 +537,7 @@
         "uses-license": ""
       },
       {
-        "revision": "1",
+        "revision": "2",
         "description": "Android SDK Platform M",
         "version": "M",
         "api-level": "22",
@@ -546,14 +546,14 @@
           "major": "22"
         },
         "layoutlib": {
-          "api": "13",
+          "api": "15",
           "revision": "1"
         },
         "archives": {
           "archive": {
-            "size": "69665215",
-            "checksum": "6b4f43f2ecfd9276748e4dcf67fa2cb11d08bf50",
-            "url": "android-MNC_r01.zip"
+            "size": "70574344",
+            "checksum": "876c6c43838ee0a37dde1b126203c7a515b8a3e9",
+            "url": "android-MNC_r02.zip"
           }
         },
         "uses-license": ""
@@ -829,26 +829,26 @@
           "major": "23",
           "minor": "0",
           "micro": "0",
-          "preview": "2"
+          "preview": "4"
         },
         "archives": {
           "archive": [
             {
-              "size": "2350732",
-              "checksum": "0654cbb42f7320ece160a98d6509e04d97f3c600",
-              "url": "platform-tools_r23_rc2-windows.zip",
+              "size": "2357137",
+              "checksum": "623f066a601efac7f30d57276371c11bc702bb2d",
+              "url": "platform-tools_r23_rc4-windows.zip",
               "host-os": "windows"
             },
             {
-              "size": "2468032",
-              "checksum": "d5c4ffc1e3e1c0433bc836af6278cfadb20108b7",
-              "url": "platform-tools_r23_rc2-linux.zip",
+              "size": "2474101",
+              "checksum": "df1fd4c3571767210c15f36f7ce5d412a1896b9f",
+              "url": "platform-tools_r23_rc4-linux.zip",
               "host-os": "linux"
             },
             {
-              "size": "2494967",
-              "checksum": "74c071518eba1e3e30bf959630fe1124fe640134",
-              "url": "platform-tools_r23_rc2-macosx.zip",
+              "size": "2443892",
+              "checksum": "1372537eb8be8d365c169282d99298a3f776e078",
+              "url": "platform-tools_r23_rc4-macosx.zip",
               "host-os": "macosx"
             }
           ]
@@ -1441,13 +1441,44 @@
           ]
         },
         "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "23",
+          "minor": "0",
+          "micro": "0",
+          "preview": "3"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "38114703",
+              "checksum": "e8f93d2f6838bcd7b044ee50e9e531c3e91340ce",
+              "url": "build-tools_r23_rc3-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "38623800",
+              "checksum": "e491a8f9a8cc75c0970ff893cce49691841c4c31",
+              "url": "build-tools_r23_rc3-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "37613261",
+              "checksum": "9e593c33e4f69eb82c9ee461e97028966703cdae",
+              "url": "build-tools_r23_rc3-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
       }
     ],
     "tool": {
       "revision": {
         "major": "24",
         "minor": "3",
-        "micro": "2"
+        "micro": "3"
       },
       "min-platform-tools-rev": {
         "major": "20"
@@ -1455,21 +1486,21 @@
       "archives": {
         "archive": [
           {
-            "size": "187214094",
-            "checksum": "c33a63a955bb448ee550710a764ba18c37cb58d6",
-            "url": "tools_r24.3.2-windows.zip",
+            "size": "187206494",
+            "checksum": "9aec685e03aaa8ebf9991502b5fda7db208693f1",
+            "url": "tools_r24.3.3-windows.zip",
             "host-os": "windows"
           },
           {
-            "size": "309563606",
-            "checksum": "98e70ce403fea2e24e90103395d418feb3a9b7e8",
-            "url": "tools_r24.3.2-linux.zip",
+            "size": "309556636",
+            "checksum": "c2c6f6236cbee34c80ec6b5f9f6b7bf0bc5919cb",
+            "url": "tools_r24.3.3-linux.zip",
             "host-os": "linux"
           },
           {
-            "size": "98259310",
-            "checksum": "aa9aef30ff27358118318d82414b1481625faf2a",
-            "url": "tools_r24.3.2-macosx.zip",
+            "size": "98260362",
+            "checksum": "97b48b818ee596593da7f753e58307069a37f6b8",
+            "url": "tools_r24.3.3-macosx.zip",
             "host-os": "macosx"
           }
         ]
@@ -1480,24 +1511,24 @@
       {
         "revision": "1",
         "api-level": "22",
-        "codename": "MNC",
-        "archives": {
-          "archive": {
-            "size": "320192529",
-            "checksum": "fa35150776b63a1d97134981d2c7d38a1366eff3",
-            "url": "docs-MNC_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
-        "api-level": "22",
         "archives": {
           "archive": {
             "size": "296467484",
             "checksum": "419791c49fa0a305a06966fd1734cf5b0498ea1a",
             "url": "docs-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "api-level": "22",
+        "codename": "MNC",
+        "archives": {
+          "archive": {
+            "size": "191199016",
+            "checksum": "7a3fbb3f17ae5c0cdc321614d1fda817ff2aaa17",
+            "url": "docs-MNC_r02.zip"
           }
         },
         "uses-license": ""
@@ -1614,14 +1645,14 @@
         "uses-license": ""
       },
       {
-        "revision": "1",
+        "revision": "2",
         "api-level": "22",
         "codename": "MNC",
         "archives": {
           "archive": {
-            "size": "30698924",
-            "checksum": "ada5e8801ac9735dfc722ff7a32a4ec47a3469b9",
-            "url": "sources-MNC_r01.zip"
+            "size": "31356903",
+            "checksum": "bb7c7827e2b4fbb850111e8191dde106e73a78ed",
+            "url": "sources-MNC_r02.zip"
           }
         },
         "uses-license": ""

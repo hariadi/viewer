@@ -114,6 +114,53 @@
         "uses-license": ""
       },
       {
+        "revision": "1",
+        "description": "Android SDK Platform 5.1",
+        "api-level": "22",
+        "abi": "armeabi-v7a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "193687339",
+            "checksum": "2aa6a887ee75dcf3ac34627853d561997792fcb8",
+            "url": "sysimg_arm-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "armeabi-v7a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "314697792",
+            "checksum": "de0b7449c026abe463211b58ca00ad19e584097a",
+            "url": "sysimg_arm-MNC_r02.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "arm64-v8a",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "441858149",
+            "checksum": "f33245eeb6b634f186e32e7ba7f25e0b99211c26",
+            "url": "sysimg_arm64-MNC_r02.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
         "description": "Android SDK Platform 2.3.7",
         "revision": "3",
         "api-level": "10",
@@ -250,22 +297,6 @@
       },
       {
         "revision": "1",
-        "description": "Android SDK Platform M",
-        "api-level": "22",
-        "codename": "MNC",
-        "abi": "x86",
-        "tag-id": "default",
-        "archives": {
-          "archive": {
-            "size": "304392038",
-            "checksum": "a0ee8a9ec1b69ee44406d3d43501eafe469340e3",
-            "url": "sysimg_x86-MNC_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
         "description": "Android SDK Platform 5.1",
         "api-level": "22",
         "abi": "x86_64",
@@ -280,7 +311,23 @@
         "uses-license": ""
       },
       {
-        "revision": "1",
+        "revision": "2",
+        "description": "Android SDK Platform M",
+        "api-level": "22",
+        "codename": "MNC",
+        "abi": "x86",
+        "tag-id": "default",
+        "archives": {
+          "archive": {
+            "size": "331113804",
+            "checksum": "2f2ab2676f9d06a847b9312d16e2afef595cac7a",
+            "url": "sysimg_x86-MNC_r02.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
         "description": "Android SDK Platform M",
         "api-level": "22",
         "codename": "MNC",
@@ -288,56 +335,9 @@
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "430491125",
-            "checksum": "977090bdf06a145d8e441e3cbedab08bff91d753",
-            "url": "sysimg_x86_64-MNC_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
-        "description": "Android SDK Platform 5.1",
-        "api-level": "22",
-        "abi": "armeabi-v7a",
-        "tag-id": "default",
-        "archives": {
-          "archive": {
-            "size": "193687339",
-            "checksum": "2aa6a887ee75dcf3ac34627853d561997792fcb8",
-            "url": "sysimg_arm-22_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
-        "description": "Android SDK Platform M",
-        "api-level": "22",
-        "codename": "MNC",
-        "abi": "armeabi-v7a",
-        "tag-id": "default",
-        "archives": {
-          "archive": {
-            "size": "288140310",
-            "checksum": "19edb1fef0693136e8f0f2e7dd4f74365f50a98a",
-            "url": "sysimg_arm-MNC_r01.zip"
-          }
-        },
-        "uses-license": ""
-      },
-      {
-        "revision": "1",
-        "description": "Android SDK Platform M",
-        "api-level": "22",
-        "codename": "MNC",
-        "abi": "arm64-v8a",
-        "tag-id": "default",
-        "archives": {
-          "archive": {
-            "size": "414885510",
-            "checksum": "024222b2351ab6f3a8b58ebcebdc5c9d66afe799",
-            "url": "sysimg_arm64-MNC_r01.zip"
+            "size": "458292875",
+            "checksum": "d4452559950317b2c09891cf367fd1f1ef445ef2",
+            "url": "sysimg_x86_64-MNC_r02.zip"
           }
         },
         "uses-license": ""
@@ -388,7 +388,7 @@
         "tag-id": "default"
       },
       {
-        "revision": "1",
+        "revision": "2",
         "description": "Android SDK Platform M",
         "api-level": "22",
         "codename": "MNC",
@@ -396,9 +396,9 @@
         "tag-id": "default",
         "archives": {
           "archive": {
-            "size": "315518794",
-            "checksum": "3e2d117c319c809f496d4973bbda341173819532",
-            "url": "sysimg_mips-MNC_r01.zip"
+            "size": "331586274",
+            "checksum": "787874a613f36e85b355e564841550902749e0dc",
+            "url": "sysimg_mips-MNC_r02.zip"
           }
         },
         "uses-license": ""

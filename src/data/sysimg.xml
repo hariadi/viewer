@@ -537,6 +537,59 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
         <sdk:uses-license ref="android-sdk-license"/>
     </sdk:system-image>
 
+    <sdk:system-image>
+        <!-- Generated at Mon Mar  2 11:01:02 2015 from git_lmp-mr1-sdk-release @ 1737576 -->
+        <sdk:revision>1</sdk:revision>
+        <sdk:description>Android SDK Platform 5.1</sdk:description>
+        <sdk:api-level>22</sdk:api-level>
+        <sdk:abi>armeabi-v7a</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>193687339</sdk:size>
+                <sdk:checksum type="sha1">2aa6a887ee75dcf3ac34627853d561997792fcb8</sdk:checksum>
+                <sdk:url>sysimg_arm-22_r01.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:system-image>
+
+    <sdk:system-image>
+        <!-- Generated at Wed Jul  1 10:43:23 2015 from git_mnc-preview-release @ 2056882 -->
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android SDK Platform M</sdk:description>
+        <sdk:api-level>22</sdk:api-level>
+        <sdk:codename>MNC</sdk:codename>
+        <sdk:abi>armeabi-v7a</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>314697792</sdk:size>
+                <sdk:checksum type="sha1">de0b7449c026abe463211b58ca00ad19e584097a</sdk:checksum>
+                <sdk:url>sysimg_arm-MNC_r02.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-preview-license"/>
+    </sdk:system-image>
+
+    <sdk:system-image>
+        <!-- Generated at Wed Jul  1 10:44:50 2015 from git_mnc-preview-release @ 2056882 -->
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android SDK Platform M</sdk:description>
+        <sdk:api-level>22</sdk:api-level>
+        <sdk:codename>MNC</sdk:codename>
+        <sdk:abi>arm64-v8a</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>441858149</sdk:size>
+                <sdk:checksum type="sha1">f33245eeb6b634f186e32e7ba7f25e0b99211c26</sdk:checksum>
+                <sdk:url>sysimg_arm64-MNC_r02.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-preview-license"/>
+    </sdk:system-image>
+
     <!-- X86 SYSTEM IMAGES ........................ -->
 
     <sdk:system-image>
@@ -690,24 +743,6 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
     </sdk:system-image>
 
     <sdk:system-image>
-        <!-- Generated at Wed May 27 08:16:54 2015 from git_mnc-preview-release @ 1955487 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform M</sdk:description>
-        <sdk:api-level>22</sdk:api-level>
-        <sdk:codename>MNC</sdk:codename>
-        <sdk:abi>x86</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>304392038</sdk:size>
-                <sdk:checksum type="sha1">a0ee8a9ec1b69ee44406d3d43501eafe469340e3</sdk:checksum>
-                <sdk:url>sysimg_x86-MNC_r01.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-    </sdk:system-image>
-
-    <sdk:system-image>
         <!-- Generated at Mon Mar  2 11:00:41 2015 from git_lmp-mr1-sdk-release @ 1737576 -->
         <sdk:revision>1</sdk:revision>
         <sdk:description>Android SDK Platform 5.1</sdk:description>
@@ -725,8 +760,26 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
     </sdk:system-image>
 
     <sdk:system-image>
-        <!-- Generated at Wed May 27 08:19:24 2015 from git_mnc-preview-release @ 1955487 -->
-        <sdk:revision>1</sdk:revision>
+        <!-- Generated at Wed Jul  1 10:44:17 2015 from git_mnc-preview-release @ 2056882 -->
+        <sdk:revision>2</sdk:revision>
+        <sdk:description>Android SDK Platform M</sdk:description>
+        <sdk:api-level>22</sdk:api-level>
+        <sdk:codename>MNC</sdk:codename>
+        <sdk:abi>x86</sdk:abi>
+        <sdk:tag-id>default</sdk:tag-id>
+        <sdk:archives>
+            <sdk:archive>
+                <sdk:size>331113804</sdk:size>
+                <sdk:checksum type="sha1">2f2ab2676f9d06a847b9312d16e2afef595cac7a</sdk:checksum>
+                <sdk:url>sysimg_x86-MNC_r02.zip</sdk:url>
+            </sdk:archive>
+        </sdk:archives>
+        <sdk:uses-license ref="android-sdk-license"/>
+    </sdk:system-image>
+
+    <sdk:system-image>
+        <!-- Generated at Wed Jul  1 10:45:52 2015 from git_mnc-preview-release @ 2056882 -->
+        <sdk:revision>2</sdk:revision>
         <sdk:description>Android SDK Platform M</sdk:description>
         <sdk:api-level>22</sdk:api-level>
         <sdk:codename>MNC</sdk:codename>
@@ -734,66 +787,14 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
         <sdk:tag-id>default</sdk:tag-id>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>430491125</sdk:size>
-                <sdk:checksum type="sha1">977090bdf06a145d8e441e3cbedab08bff91d753</sdk:checksum>
-                <sdk:url>sysimg_x86_64-MNC_r01.zip</sdk:url>
+                <sdk:size>458292875</sdk:size>
+                <sdk:checksum type="sha1">d4452559950317b2c09891cf367fd1f1ef445ef2</sdk:checksum>
+                <sdk:url>sysimg_x86_64-MNC_r02.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-preview-license"/>
     </sdk:system-image>
 
-    <sdk:system-image>
-        <!-- Generated at Mon Mar  2 11:01:02 2015 from git_lmp-mr1-sdk-release @ 1737576 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform 5.1</sdk:description>
-        <sdk:api-level>22</sdk:api-level>
-        <sdk:abi>armeabi-v7a</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>193687339</sdk:size>
-                <sdk:checksum type="sha1">2aa6a887ee75dcf3ac34627853d561997792fcb8</sdk:checksum>
-                <sdk:url>sysimg_arm-22_r01.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-license"/>
-    </sdk:system-image>
-
-    <sdk:system-image>
-        <!-- Generated at Wed May 27 08:15:55 2015 from git_mnc-preview-release @ 1955487 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform M</sdk:description>
-        <sdk:api-level>22</sdk:api-level>
-        <sdk:codename>MNC</sdk:codename>
-        <sdk:abi>armeabi-v7a</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>288140310</sdk:size>
-                <sdk:checksum type="sha1">19edb1fef0693136e8f0f2e7dd4f74365f50a98a</sdk:checksum>
-                <sdk:url>sysimg_arm-MNC_r01.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-    </sdk:system-image>
-
-    <sdk:system-image>
-        <!-- Generated at Wed May 27 08:17:34 2015 from git_mnc-preview-release @ 1955487 -->
-        <sdk:revision>1</sdk:revision>
-        <sdk:description>Android SDK Platform M</sdk:description>
-        <sdk:api-level>22</sdk:api-level>
-        <sdk:codename>MNC</sdk:codename>
-        <sdk:abi>arm64-v8a</sdk:abi>
-        <sdk:tag-id>default</sdk:tag-id>
-        <sdk:archives>
-            <sdk:archive>
-                <sdk:size>414885510</sdk:size>
-                <sdk:checksum type="sha1">024222b2351ab6f3a8b58ebcebdc5c9d66afe799</sdk:checksum>
-                <sdk:url>sysimg_arm64-MNC_r01.zip</sdk:url>
-            </sdk:archive>
-        </sdk:archives>
-        <sdk:uses-license ref="android-sdk-preview-license"/>
-    </sdk:system-image>
 
     <!-- MIPS SYSTEM IMAGES ........................ -->
 
@@ -852,8 +853,8 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
     </sdk:system-image>
 
     <sdk:system-image>
-        <!-- Generated at Wed May 27 08:16:24 2015 from git_mnc-preview-release @ 1955487 -->
-        <sdk:revision>1</sdk:revision>
+        <!-- Generated at Wed Jul  1 10:43:48 2015 from git_mnc-preview-release @ 2056882 -->
+        <sdk:revision>2</sdk:revision>
         <sdk:description>Android SDK Platform M</sdk:description>
         <sdk:api-level>22</sdk:api-level>
         <sdk:codename>MNC</sdk:codename>
@@ -861,13 +862,12 @@ ANY PRE-RELEASE MATERIALS ARE NON-QUALIFIED AND, AS SUCH, ARE PROVIDED â€œAS ISâ
         <sdk:tag-id>default</sdk:tag-id>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>315518794</sdk:size>
-                <sdk:checksum type="sha1">3e2d117c319c809f496d4973bbda341173819532</sdk:checksum>
-                <sdk:url>sysimg_mips-MNC_r01.zip</sdk:url>
+                <sdk:size>331586274</sdk:size>
+                <sdk:checksum type="sha1">787874a613f36e85b355e564841550902749e0dc</sdk:checksum>
+                <sdk:url>sysimg_mips-MNC_r02.zip</sdk:url>
             </sdk:archive>
         </sdk:archives>
         <sdk:uses-license ref="android-sdk-preview-license"/>
     </sdk:system-image>
-
 
 </sdk:sdk-sys-img>
