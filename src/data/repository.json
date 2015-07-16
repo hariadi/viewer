@@ -48,6 +48,7 @@
         },
         "description": "Android SDK Platform 1.5_r3",
         "desc-url": "http://developer.android.com/sdk/android-1.5.html",
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -85,6 +86,7 @@
         },
         "description": "Android SDK Platform 1.6_r2",
         "desc-url": "http://developer.android.com/sdk/android-1.6.html",
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -198,6 +200,7 @@
         },
         "description": "Android SDK Platform 2.1_r3",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "70142829",
@@ -287,6 +290,7 @@
         },
         "description": "Android SDK Platform 3.0, revision 2",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "104513908",
@@ -309,6 +313,7 @@
         },
         "description": "Android SDK Platform 3.1, revision 3",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "106472351",
@@ -331,6 +336,7 @@
         },
         "description": "Android SDK Platform 3.2, revision 1",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "108426536",
@@ -352,6 +358,7 @@
           "api": "12",
           "revision": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "46038082",
@@ -488,22 +495,65 @@
         "uses-license": ""
       },
       {
-        "revision": "1",
-        "description": "Android SDK Platform 5.0",
-        "version": "5.0",
+        "revision": "2",
+        "description": "Android SDK Platform 5.0.1",
+        "version": "5.0.1",
         "api-level": "21",
         "min-tools-rev": {
           "major": "22"
         },
         "layoutlib": {
           "api": "12",
+          "revision": "2"
+        },
+        "archives": {
+          "archive": {
+            "size": "65897960",
+            "checksum": "53536556059bb29ae82f414fd2e14bc335a4eb4c",
+            "url": "android-21_r02.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "description": "Android SDK Platform 5.1.1",
+        "version": "5.1.1",
+        "api-level": "22",
+        "min-tools-rev": {
+          "major": "22"
+        },
+        "layoutlib": {
+          "api": "14",
+          "revision": "2"
+        },
+        "archives": {
+          "archive": {
+            "size": "66852371",
+            "checksum": "5d1bd10fea962b216a0dece1247070164760a9fc",
+            "url": "android-22_r02.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "description": "Android SDK Platform M",
+        "version": "M",
+        "api-level": "22",
+        "codename": "MNC",
+        "min-tools-rev": {
+          "major": "22"
+        },
+        "layoutlib": {
+          "api": "15",
           "revision": "1"
         },
         "archives": {
           "archive": {
-            "size": "67082420",
-            "checksum": "218ca22f8cb744396fa11e65b8a3d2d1ae07f10e",
-            "url": "android-21_r01.zip"
+            "size": "70574344",
+            "checksum": "876c6c43838ee0a37dde1b126203c7a515b8a3e9",
+            "url": "android-MNC_r02.zip"
           }
         },
         "uses-license": ""
@@ -516,6 +566,7 @@
         "revision": "01",
         "description": "Android SDK Samples for Android API 7, revision 1",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "7677831",
@@ -577,6 +628,7 @@
         "revision": "01",
         "description": "Android SDK Samples for Android API 11, revision 1",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "11976920",
@@ -592,6 +644,7 @@
         "revision": "01",
         "description": "Android SDK Samples for Android API 12, revision 1",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "12150514",
@@ -607,6 +660,7 @@
         "revision": "01",
         "description": "Android SDK Samples for Android API 13, revision 1",
         "desc-url": "http://developer.android.com/sdk/",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "12193502",
@@ -619,6 +673,7 @@
       {
         "revision": "2",
         "api-level": "14",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "16253619",
@@ -701,48 +756,106 @@
         "uses-license": ""
       },
       {
-        "revision": "3",
+        "revision": "4",
         "api-level": "21",
         "archives": {
           "archive": {
-            "size": "62578203",
-            "checksum": "e58fe71c90cbd180863991a5f351c5553da68a6d",
-            "url": "samples-21_r03.zip"
+            "size": "95971939",
+            "checksum": "3a08d37e97f567f5f629a06a9012f89b05c5ad8a",
+            "url": "samples-21_r04.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "6",
+        "api-level": "22",
+        "archives": {
+          "archive": {
+            "size": "124512215",
+            "checksum": "1f6f4a81a8f19a9b9c9bf4adb64a91330a861c7f",
+            "url": "samples-22_r06.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "api-level": "22",
+        "codename": "MNC",
+        "archives": {
+          "archive": {
+            "size": "127155107",
+            "checksum": "ed293bf4ed9c88471ef858813cc8602dff98f634",
+            "url": "samples-MNC_r02.zip"
           }
         },
         "uses-license": ""
       }
     ],
-    "platform-tool": {
-      "revision": {
-        "major": "21",
-        "minor": "0",
-        "micro": "0"
+    "platform-tool": [
+      {
+        "revision": {
+          "major": "22",
+          "minor": "0",
+          "micro": "0"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "1848028",
+              "checksum": "720214bd29d08eb82673cd81a8159b083eef19d7",
+              "url": "platform-tools_r22-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "1751911",
+              "checksum": "b78be9cc31cf9f9fe0609e29a6a133beacf03b52",
+              "url": "platform-tools_r22-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "1743025",
+              "checksum": "ddc96385bccf8a15d4f8a11eb1cb9d2a08a531c8",
+              "url": "platform-tools_r22-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
       },
-      "archives": {
-        "archive": [
-          {
-            "size": "1824862",
-            "checksum": "04b26e60e47cda4867d321817270058c22572352",
-            "url": "platform-tools_r21-windows.zip",
-            "host-os": "windows"
-          },
-          {
-            "size": "1692013",
-            "checksum": "2502ade68af9f6288c4dd7726796599e8d9a4337",
-            "url": "platform-tools_r21-linux.zip",
-            "host-os": "linux"
-          },
-          {
-            "size": "1680668",
-            "checksum": "6675f9f583841972c5c5ef8d2c131e1209529fde",
-            "url": "platform-tools_r21-macosx.zip",
-            "host-os": "macosx"
-          }
-        ]
-      },
-      "uses-license": ""
-    },
+      {
+        "revision": {
+          "major": "23",
+          "minor": "0",
+          "micro": "0",
+          "preview": "4"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "2357137",
+              "checksum": "623f066a601efac7f30d57276371c11bc702bb2d",
+              "url": "platform-tools_r23_rc4-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "2474101",
+              "checksum": "df1fd4c3571767210c15f36f7ce5d412a1896b9f",
+              "url": "platform-tools_r23_rc4-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "2443892",
+              "checksum": "1372537eb8be8d365c169282d99298a3f776e078",
+              "url": "platform-tools_r23_rc4-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      }
+    ],
     "build-tool": [
       {
         "revision": {
@@ -750,6 +863,7 @@
           "minor": "0",
           "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -780,6 +894,7 @@
           "minor": "0",
           "micro": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -810,6 +925,7 @@
           "minor": "1",
           "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -840,6 +956,7 @@
           "minor": "1",
           "micro": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -870,6 +987,7 @@
           "minor": "0",
           "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -900,6 +1018,7 @@
           "minor": "0",
           "micro": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -930,6 +1049,7 @@
           "minor": "0",
           "micro": "2"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -960,6 +1080,7 @@
           "minor": "0",
           "micro": "3"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1050,6 +1171,7 @@
           "minor": "0",
           "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1080,6 +1202,7 @@
           "minor": "0",
           "micro": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1110,6 +1233,7 @@
           "minor": "0",
           "micro": "2"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1140,6 +1264,7 @@
           "minor": "1",
           "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1170,6 +1295,7 @@
           "minor": "1",
           "micro": "1"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
@@ -1193,13 +1319,166 @@
           ]
         },
         "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "21",
+          "minor": "1",
+          "micro": "2"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "32792587",
+              "checksum": "1d944759c47f60e634d2b8a1f3a4259be2f8d652",
+              "url": "build-tools_r21.1.2-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "32637678",
+              "checksum": "5e35259843bf2926113a38368b08458735479658",
+              "url": "build-tools_r21.1.2-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "33152878",
+              "checksum": "e7c906b4ba0eea93b32ba36c610dbd6b204bff48",
+              "url": "build-tools_r21.1.2-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "22",
+          "minor": "0",
+          "micro": "0"
+        },
+        "obsolete": "",
+        "archives": {
+          "archive": [
+            {
+              "size": "33254114",
+              "checksum": "08fcca41e81b172bd9f570963b90d3a84929e043",
+              "url": "build-tools_r22-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "33104280",
+              "checksum": "a8a1619dd090e44fac957bce6842e62abf87965b",
+              "url": "build-tools_r22-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "33646090",
+              "checksum": "af95429b24088d704bc5db9bd606e34ac1b82c0d",
+              "url": "build-tools_r22-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "22",
+          "minor": "0",
+          "micro": "1"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "33254137",
+              "checksum": "61d8cbe069d9e0a57872a83e5e5abe164b7d52cf",
+              "url": "build-tools_r22.0.1-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "33104577",
+              "checksum": "da8b9c5c3ede39298e6cf0283c000c2ee9029646",
+              "url": "build-tools_r22.0.1-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "33646102",
+              "checksum": "53dad7f608e01d53b17176ba11165acbfccc5bbf",
+              "url": "build-tools_r22.0.1-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "23",
+          "minor": "0",
+          "micro": "0",
+          "preview": "2"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "36765221",
+              "checksum": "a77963f9820ae8cd6c0b3992f48a9a393b74a3e0",
+              "url": "build-tools_r23_rc2-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "37245283",
+              "checksum": "4a0266b4de09de123a759ce35cfb60b48fcdd56f",
+              "url": "build-tools_r23_rc2-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "36748526",
+              "checksum": "fd94500c4aeb98c1502dd3193d4e00d5300daa59",
+              "url": "build-tools_r23_rc2-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": {
+          "major": "23",
+          "minor": "0",
+          "micro": "0",
+          "preview": "3"
+        },
+        "archives": {
+          "archive": [
+            {
+              "size": "38114703",
+              "checksum": "e8f93d2f6838bcd7b044ee50e9e531c3e91340ce",
+              "url": "build-tools_r23_rc3-windows.zip",
+              "host-os": "windows"
+            },
+            {
+              "size": "38623800",
+              "checksum": "e491a8f9a8cc75c0970ff893cce49691841c4c31",
+              "url": "build-tools_r23_rc3-linux.zip",
+              "host-os": "linux"
+            },
+            {
+              "size": "37613261",
+              "checksum": "9e593c33e4f69eb82c9ee461e97028966703cdae",
+              "url": "build-tools_r23_rc3-macosx.zip",
+              "host-os": "macosx"
+            }
+          ]
+        },
+        "uses-license": ""
       }
     ],
     "tool": {
       "revision": {
-        "major": "23",
-        "minor": "0",
-        "micro": "5"
+        "major": "24",
+        "minor": "3",
+        "micro": "3"
       },
       "min-platform-tools-rev": {
         "major": "20"
@@ -1207,43 +1486,59 @@
       "archives": {
         "archive": [
           {
-            "size": "139775218",
-            "checksum": "6df44dbc604ceccadda0a232b787868fb4503cb6",
-            "url": "tools_r23.0.5-windows.zip",
+            "size": "187206494",
+            "checksum": "9aec685e03aaa8ebf9991502b5fda7db208693f1",
+            "url": "tools_r24.3.3-windows.zip",
             "host-os": "windows"
           },
           {
-            "size": "141921523",
-            "checksum": "398c38494d50d98dd9f3ae02899ba32be32c912d",
-            "url": "tools_r23.0.5-linux.zip",
+            "size": "309556636",
+            "checksum": "c2c6f6236cbee34c80ec6b5f9f6b7bf0bc5919cb",
+            "url": "tools_r24.3.3-linux.zip",
             "host-os": "linux"
           },
           {
-            "size": "88172641",
-            "checksum": "a567215d89b3ff80766e54f8f969b3487bce8d71",
-            "url": "tools_r23.0.5-macosx.zip",
+            "size": "98260362",
+            "checksum": "97b48b818ee596593da7f753e58307069a37f6b8",
+            "url": "tools_r24.3.3-macosx.zip",
             "host-os": "macosx"
           }
         ]
       },
       "uses-license": ""
     },
-    "doc": {
-      "revision": "1",
-      "api-level": "21",
-      "archives": {
-        "archive": {
-          "size": "271551031",
-          "checksum": "1c71f97ffb97e77120c1a73c8a29d3783c65f86d",
-          "url": "docs-21_r01.zip"
-        }
+    "doc": [
+      {
+        "revision": "1",
+        "api-level": "22",
+        "archives": {
+          "archive": {
+            "size": "296467484",
+            "checksum": "419791c49fa0a305a06966fd1734cf5b0498ea1a",
+            "url": "docs-22_r01.zip"
+          }
+        },
+        "uses-license": ""
       },
-      "uses-license": ""
-    },
+      {
+        "revision": "2",
+        "api-level": "22",
+        "codename": "MNC",
+        "archives": {
+          "archive": {
+            "size": "191199016",
+            "checksum": "7a3fbb3f17ae5c0cdc321614d1fda817ff2aaa17",
+            "url": "docs-MNC_r02.zip"
+          }
+        },
+        "uses-license": ""
+      }
+    ],
     "source": [
       {
         "revision": "1",
         "api-level": "14",
+        "obsolete": "",
         "archives": {
           "archive": {
             "size": "16152383",
@@ -1333,6 +1628,31 @@
             "size": "28274751",
             "checksum": "137a5044915d32bea297a8c1552684802bbc2e25",
             "url": "sources-21_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "1",
+        "api-level": "22",
+        "archives": {
+          "archive": {
+            "size": "28861236",
+            "checksum": "98320e13976d11597a4a730a8d203ac9a03ed5a6",
+            "url": "sources-22_r01.zip"
+          }
+        },
+        "uses-license": ""
+      },
+      {
+        "revision": "2",
+        "api-level": "22",
+        "codename": "MNC",
+        "archives": {
+          "archive": {
+            "size": "31356903",
+            "checksum": "bb7c7827e2b4fbb850111e8191dde106e73a78ed",
+            "url": "sources-MNC_r02.zip"
           }
         },
         "uses-license": ""
