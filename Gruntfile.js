@@ -61,6 +61,9 @@ module.exports = function(grunt) {
       options: {
         explicitArray: false,
         ignoreAttrs: true,
+
+	// option for xml2js within grunt-convert
+	tagNameProcessors: [function(str) {return str.replace(/^sdk:/, '');}]
       },
       sdk: {
         src: ['<%= curl.sdk.dest %>'],
@@ -73,21 +76,6 @@ module.exports = function(grunt) {
       sysimg: {
         src: ['<%= curl.sysimg.dest %>'],
         dest: 'src/data/sysimg.json'
-      }
-    },
-
-    frep: {
-      repository: {
-        options: {
-          replacements: {
-            'sdk:': ''
-          }
-        },
-        files: {
-          '<%= convert.sdk.dest %>': ['<%= convert.sdk.dest %>'],
-          '<%= convert.addon.dest %>': ['<%= convert.addon.dest %>'],
-          '<%= convert.sysimg.dest %>': ['<%= convert.sysimg.dest %>']
-        }
       }
     },
 
@@ -213,7 +201,7 @@ module.exports = function(grunt) {
 
   // Default task to be run.
   grunt.registerTask('update', ['curl']);
-  grunt.registerTask('data', ['update', 'convert', 'frep']);
+  grunt.registerTask('data', ['update', 'convert']);
   grunt.registerTask('default', ['jshint', 'clean', 'assemble', 'copy']);
   grunt.registerTask('debug', ['clean', 'assemble']);
 };
