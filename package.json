@@ -35,8 +35,6 @@
   "keywords": [
     "android",
     "sdk",
-    "repository",
-    "handlebars-helper-prettify",
-    "handlebars-helper-isActive"
+    "repository"
   ]
 }
