@@ -63,6 +63,15 @@ var helpers = {
     return path.basename(file);
   },
 
+  forceArray: function (obj, prop) {
+    if (Object.prototype.toString.call(obj[prop]) === '[object Array]') {
+      return;
+    } else {
+      obj[prop] = [obj[prop]];
+      return;
+    }
+  },
+
 };
 
 // Export helpers
