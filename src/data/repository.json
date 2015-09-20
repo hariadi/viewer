@@ -537,11 +537,10 @@
         "uses-license": ""
       },
       {
-        "revision": "2",
-        "description": "Android SDK Platform M",
-        "version": "M",
-        "api-level": "22",
-        "codename": "MNC",
+        "revision": "1",
+        "description": "Android SDK Platform 6.0",
+        "version": "6.0",
+        "api-level": "23",
         "min-tools-rev": {
           "major": "22"
         },
@@ -551,9 +550,9 @@
         },
         "archives": {
           "archive": {
-            "size": "70574344",
-            "checksum": "876c6c43838ee0a37dde1b126203c7a515b8a3e9",
-            "url": "android-MNC_r02.zip"
+            "size": "70408061",
+            "checksum": "cbccca8d3127e894845556ce999b28281de541bd",
+            "url": "android-23_r01.zip"
           }
         },
         "uses-license": ""
@@ -781,13 +780,12 @@
       },
       {
         "revision": "2",
-        "api-level": "22",
-        "codename": "MNC",
+        "api-level": "23",
         "archives": {
           "archive": {
-            "size": "127155107",
-            "checksum": "ed293bf4ed9c88471ef858813cc8602dff98f634",
-            "url": "samples-MNC_r02.zip"
+            "size": "127582326",
+            "checksum": "94d2857476987cfb7b18c8be61755c21b0a6e599",
+            "url": "samples-23_r02.zip"
           }
         },
         "uses-license": ""
@@ -796,28 +794,28 @@
     "platform-tool": [
       {
         "revision": {
-          "major": "22",
+          "major": "23",
           "minor": "0",
-          "micro": "0"
+          "micro": "1"
         },
         "archives": {
           "archive": [
             {
-              "size": "1848028",
-              "checksum": "720214bd29d08eb82673cd81a8159b083eef19d7",
-              "url": "platform-tools_r22-windows.zip",
+              "size": "2402978",
+              "checksum": "8f32d5f724618ad58e71909cc963ae006d0867b0",
+              "url": "platform-tools_r23.0.1-windows.zip",
               "host-os": "windows"
             },
             {
-              "size": "1751911",
-              "checksum": "b78be9cc31cf9f9fe0609e29a6a133beacf03b52",
-              "url": "platform-tools_r22-linux.zip",
+              "size": "2520021",
+              "checksum": "94dcc5072b3d0d74cc69e4101958b6c2e227e738",
+              "url": "platform-tools_r23.0.1-linux.zip",
               "host-os": "linux"
             },
             {
-              "size": "1743025",
-              "checksum": "ddc96385bccf8a15d4f8a11eb1cb9d2a08a531c8",
-              "url": "platform-tools_r22-macosx.zip",
+              "size": "2489850",
+              "checksum": "c461d66f3ca9fbae8ea0fa1a49c203b3b6fd653f",
+              "url": "platform-tools_r23.0.1-macosx.zip",
               "host-os": "macosx"
             }
           ]
@@ -827,28 +825,28 @@
       {
         "revision": {
           "major": "23",
-          "minor": "0",
+          "minor": "1",
           "micro": "0",
-          "preview": "4"
+          "preview": "1"
         },
         "archives": {
           "archive": [
             {
-              "size": "2357137",
-              "checksum": "623f066a601efac7f30d57276371c11bc702bb2d",
-              "url": "platform-tools_r23_rc4-windows.zip",
+              "size": "2594786",
+              "checksum": "0467934bfbbb8bd72959f7365e1a3ce2683b68f6",
+              "url": "platform-tools_r23.1_rc1-windows.zip",
               "host-os": "windows"
             },
             {
-              "size": "2474101",
-              "checksum": "df1fd4c3571767210c15f36f7ce5d412a1896b9f",
-              "url": "platform-tools_r23_rc4-linux.zip",
+              "size": "2873688",
+              "checksum": "b04d1dbdfd734b0263fb04182e76ff565447f498",
+              "url": "platform-tools_r23.1_rc1-linux.zip",
               "host-os": "linux"
             },
             {
-              "size": "2443892",
-              "checksum": "1372537eb8be8d365c169282d99298a3f776e078",
-              "url": "platform-tools_r23_rc4-macosx.zip",
+              "size": "2752137",
+              "checksum": "c92d9fdfdf79e04a69412492d6480d4f937d1bcc",
+              "url": "platform-tools_r23.1_rc1-macosx.zip",
               "host-os": "macosx"
             }
           ]
@@ -1415,27 +1413,27 @@
         "revision": {
           "major": "23",
           "minor": "0",
-          "micro": "0",
-          "preview": "2"
+          "micro": "0"
         },
+        "obsolete": "",
         "archives": {
           "archive": [
             {
-              "size": "36765221",
-              "checksum": "a77963f9820ae8cd6c0b3992f48a9a393b74a3e0",
-              "url": "build-tools_r23_rc2-windows.zip",
+              "size": "38570715",
+              "checksum": "3874948f35f2f8946597679cc6e9151449f23b5d",
+              "url": "build-tools_r23-windows.zip",
               "host-os": "windows"
             },
             {
-              "size": "37245283",
-              "checksum": "4a0266b4de09de123a759ce35cfb60b48fcdd56f",
-              "url": "build-tools_r23_rc2-linux.zip",
+              "size": "39080519",
+              "checksum": "c1d6209212b01469f80fa804e0c1d39a06bc9060",
+              "url": "build-tools_r23-linux.zip",
               "host-os": "linux"
             },
             {
-              "size": "36748526",
-              "checksum": "fd94500c4aeb98c1502dd3193d4e00d5300daa59",
-              "url": "build-tools_r23_rc2-macosx.zip",
+              "size": "38070540",
+              "checksum": "90ba6e716f7703a236cd44b2e71c5ff430855a03",
+              "url": "build-tools_r23-macosx.zip",
               "host-os": "macosx"
             }
           ]
@@ -1446,27 +1444,26 @@
         "revision": {
           "major": "23",
           "minor": "0",
-          "micro": "0",
-          "preview": "3"
+          "micro": "1"
         },
         "archives": {
           "archive": [
             {
-              "size": "38114703",
-              "checksum": "e8f93d2f6838bcd7b044ee50e9e531c3e91340ce",
-              "url": "build-tools_r23_rc3-windows.zip",
+              "size": "38558889",
+              "checksum": "cc1d37231d228f7a6f130e1f8d8c940052f0f8ab",
+              "url": "build-tools_r23.0.1-windows.zip",
               "host-os": "windows"
             },
             {
-              "size": "38623800",
-              "checksum": "e491a8f9a8cc75c0970ff893cce49691841c4c31",
-              "url": "build-tools_r23_rc3-linux.zip",
+              "size": "39069295",
+              "checksum": "b6ba7c399d5fa487d95289d8832e4ad943aed556",
+              "url": "build-tools_r23.0.1-linux.zip",
               "host-os": "linux"
             },
             {
-              "size": "37613261",
-              "checksum": "9e593c33e4f69eb82c9ee461e97028966703cdae",
-              "url": "build-tools_r23_rc3-macosx.zip",
+              "size": "38059328",
+              "checksum": "d96ec1522721e9a179ae2c591c99f75d31d39718",
+              "url": "build-tools_r23.0.1-macosx.zip",
               "host-os": "macosx"
             }
           ]
@@ -1478,7 +1475,7 @@
       "revision": {
         "major": "24",
         "minor": "3",
-        "micro": "3"
+        "micro": "4"
       },
       "min-platform-tools-rev": {
         "major": "20"
@@ -1486,54 +1483,39 @@
       "archives": {
         "archive": [
           {
-            "size": "187206494",
-            "checksum": "9aec685e03aaa8ebf9991502b5fda7db208693f1",
-            "url": "tools_r24.3.3-windows.zip",
+            "size": "187222700",
+            "checksum": "0629a80d00d0a2b661173ef1173c1ca59fa54d88",
+            "url": "tools_r24.3.4-windows.zip",
             "host-os": "windows"
           },
           {
-            "size": "309556636",
-            "checksum": "c2c6f6236cbee34c80ec6b5f9f6b7bf0bc5919cb",
-            "url": "tools_r24.3.3-linux.zip",
+            "size": "309575250",
+            "checksum": "d3f66f0b3d18166c0f560e9024d0559b8ab29dff",
+            "url": "tools_r24.3.4-linux.zip",
             "host-os": "linux"
           },
           {
-            "size": "98260362",
-            "checksum": "97b48b818ee596593da7f753e58307069a37f6b8",
-            "url": "tools_r24.3.3-macosx.zip",
+            "size": "98270438",
+            "checksum": "200d22d0e8e6b03f30e7f9acb42e2a4bedbcef69",
+            "url": "tools_r24.3.4-macosx.zip",
             "host-os": "macosx"
           }
         ]
       },
       "uses-license": ""
     },
-    "doc": [
-      {
-        "revision": "1",
-        "api-level": "22",
-        "archives": {
-          "archive": {
-            "size": "296467484",
-            "checksum": "419791c49fa0a305a06966fd1734cf5b0498ea1a",
-            "url": "docs-22_r01.zip"
-          }
-        },
-        "uses-license": ""
+    "doc": {
+      "revision": "1",
+      "api-level": "23",
+      "archives": {
+        "archive": {
+          "size": "332171437",
+          "checksum": "060ebab2f74861e1ddd9136df26b837312bc087f",
+          "url": "docs-23_r01.zip"
+        }
       },
-      {
-        "revision": "2",
-        "api-level": "22",
-        "codename": "MNC",
-        "archives": {
-          "archive": {
-            "size": "191199016",
-            "checksum": "7a3fbb3f17ae5c0cdc321614d1fda817ff2aaa17",
-            "url": "docs-MNC_r02.zip"
-          }
-        },
-        "uses-license": ""
-      }
-    ],
+      "uses-license": ""
+    },
     "source": [
       {
         "revision": "1",
@@ -1645,14 +1627,13 @@
         "uses-license": ""
       },
       {
-        "revision": "2",
-        "api-level": "22",
-        "codename": "MNC",
+        "revision": "1",
+        "api-level": "23",
         "archives": {
           "archive": {
-            "size": "31356903",
-            "checksum": "bb7c7827e2b4fbb850111e8191dde106e73a78ed",
-            "url": "sources-MNC_r02.zip"
+            "size": "31771965",
+            "checksum": "b0f15da2762b42f543c5e364c2b15b198cc99cc2",
+            "url": "sources-23_r01.zip"
           }
         },
         "uses-license": ""
