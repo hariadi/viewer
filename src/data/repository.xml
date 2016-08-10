@@ -1839,32 +1839,32 @@ June 2014.
     <!-- TOOLS ........................ -->
 
     <sdk:tool>
-        <!-- Generated at Fri Aug 14 15:40:35 2015 from aosp-studio-1.3-release @ 2168507 -->
+        <!-- Generated at Tue Oct 13 18:59:39 2015 from aosp-emu-1.4-release @ 2337206 -->
         <sdk:revision>
             <sdk:major>24</sdk:major>
-            <sdk:minor>3</sdk:minor>
-            <sdk:micro>4</sdk:micro>
+            <sdk:minor>4</sdk:minor>
+            <sdk:micro>1</sdk:micro>
         </sdk:revision>
         <sdk:min-platform-tools-rev>
             <sdk:major>20</sdk:major>
         </sdk:min-platform-tools-rev>
         <sdk:archives>
             <sdk:archive>
-                <sdk:size>187222700</sdk:size>
-                <sdk:checksum type="sha1">0629a80d00d0a2b661173ef1173c1ca59fa54d88</sdk:checksum>
-                <sdk:url>tools_r24.3.4-windows.zip</sdk:url>
+                <sdk:size>199426345</sdk:size>
+                <sdk:checksum type="sha1">4b16f8f109e49a11a36949fe781dc804d38a1a68</sdk:checksum>
+                <sdk:url>tools_r24.4.1-windows.zip</sdk:url>
                 <sdk:host-os>windows</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>309575250</sdk:size>
-                <sdk:checksum type="sha1">d3f66f0b3d18166c0f560e9024d0559b8ab29dff</sdk:checksum>
-                <sdk:url>tools_r24.3.4-linux.zip</sdk:url>
+                <sdk:size>326745882</sdk:size>
+                <sdk:checksum type="sha1">7e00ea3715f2cf666296ce22058764ec7ecb3b7e</sdk:checksum>
+                <sdk:url>tools_r24.4.1-linux.zip</sdk:url>
                 <sdk:host-os>linux</sdk:host-os>
             </sdk:archive>
             <sdk:archive>
-                <sdk:size>98270438</sdk:size>
-                <sdk:checksum type="sha1">200d22d0e8e6b03f30e7f9acb42e2a4bedbcef69</sdk:checksum>
-                <sdk:url>tools_r24.3.4-macosx.zip</sdk:url>
+                <sdk:size>102711295</sdk:size>
+                <sdk:checksum type="sha1">90db74e1827846b0e946a26d22a4314f8cfa3701</sdk:checksum>
+                <sdk:url>tools_r24.4.1-macosx.zip</sdk:url>
                 <sdk:host-os>macosx</sdk:host-os>
             </sdk:archive>
         </sdk:archives>

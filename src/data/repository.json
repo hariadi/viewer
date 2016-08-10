@@ -1474,8 +1474,8 @@
     "tool": {
       "revision": {
         "major": "24",
-        "minor": "3",
-        "micro": "4"
+        "minor": "4",
+        "micro": "1"
       },
       "min-platform-tools-rev": {
         "major": "20"
@@ -1483,21 +1483,21 @@
       "archives": {
         "archive": [
           {
-            "size": "187222700",
-            "checksum": "0629a80d00d0a2b661173ef1173c1ca59fa54d88",
-            "url": "tools_r24.3.4-windows.zip",
+            "size": "199426345",
+            "checksum": "4b16f8f109e49a11a36949fe781dc804d38a1a68",
+            "url": "tools_r24.4.1-windows.zip",
             "host-os": "windows"
           },
           {
-            "size": "309575250",
-            "checksum": "d3f66f0b3d18166c0f560e9024d0559b8ab29dff",
-            "url": "tools_r24.3.4-linux.zip",
+            "size": "326745882",
+            "checksum": "7e00ea3715f2cf666296ce22058764ec7ecb3b7e",
+            "url": "tools_r24.4.1-linux.zip",
             "host-os": "linux"
           },
           {
-            "size": "98270438",
-            "checksum": "200d22d0e8e6b03f30e7f9acb42e2a4bedbcef69",
-            "url": "tools_r24.3.4-macosx.zip",
+            "size": "102711295",
+            "checksum": "90db74e1827846b0e946a26d22a4314f8cfa3701",
+            "url": "tools_r24.4.1-macosx.zip",
             "host-os": "macosx"
           }
         ]
