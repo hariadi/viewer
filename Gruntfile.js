@@ -42,17 +42,17 @@ module.exports = function(grunt) {
 
     curl: {
       addon: {
-        src: ['http://dl-ssl.google.com/android/repository/addon.xml'],
+        src: ['https://dl.google.com/android/repository/addon.xml'],
         dest: 'src/data/addon.xml'
       },
 
       sdk: {
-        src: ['http://dl-ssl.google.com/android/repository/repository-10.xml'],
+        src: ['https://dl.google.com/android/repository/repository-11.xml'],
         dest: 'src/data/repository.xml'
       },
 
       sysimg: {
-        src: ['http://dl-ssl.google.com/android/repository/sys-img/android/sys-img.xml'],
+        src: ['https://dl.google.com/android/repository/sys-img/android/sys-img.xml'],
         dest: 'src/data/sysimg.xml'
       },
     },
