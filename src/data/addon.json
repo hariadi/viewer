@@ -500,6 +500,39 @@
         "revision": "1",
         "archives": {
           "archive": {
+            "size": "154865",
+            "checksum": "31361c2868f27343ee917fbd259c1463821b6145",
+            "url": "google_apis-24_r1.zip"
+          }
+        },
+        "uses-license": "",
+        "vendor-id": "google",
+        "vendor-display": "Google Inc.",
+        "name-id": "google_apis",
+        "name-display": "Google APIs",
+        "api-level": "24",
+        "description": "Android + Google APIs",
+        "libs": {
+          "lib": [
+            {
+              "name": "com.google.android.maps",
+              "description": "API for Google Maps"
+            },
+            {
+              "name": "com.android.future.usb.accessory",
+              "description": "API for USB Accessories"
+            },
+            {
+              "name": "com.google.android.media.effects",
+              "description": "Collection of video effects"
+            }
+          ]
+        }
+      },
+      {
+        "revision": "1",
+        "archives": {
+          "archive": {
             "size": "179499",
             "checksum": "66a754efb24e9bb07cc51648426443c7586c9d4a",
             "url": "google_apis-21_r01.zip"
@@ -639,15 +672,15 @@
     "extra": [
       {
         "revision": {
-          "major": "35",
+          "major": "47",
           "minor": "0",
           "micro": "0"
         },
         "archives": {
           "archive": {
-            "size": "251973915",
-            "checksum": "7a201334775d78bf185ffcce686b1b168d152217",
-            "url": "android_m2repository_r35.zip"
+            "size": "355529608",
+            "checksum": "a0d22beacc106a6977321f2b07d692ce4979e96a",
+            "url": "android_m2repository_r47.zip"
           }
         },
         "uses-license": "",
@@ -658,104 +691,14 @@
         "path": "m2repository"
       },
       {
-        "obsolete": "",
         "revision": {
-          "major": "23",
-          "minor": "2",
-          "micro": "1"
+          "major": "46"
         },
         "archives": {
           "archive": {
-            "size": "10850402",
-            "checksum": "41121bbc412c2fce0be170d589d20cfa3e78e857",
-            "url": "support_r23.2.1.zip"
-          }
-        },
-        "uses-license": "",
-        "vendor-id": "android",
-        "vendor-display": "Android",
-        "description": "",
-        "name-display": "Android Support Library",
-        "path": "support",
-        "old-paths": "compatibility"
-      },
-      {
-        "revision": {
-          "major": "1",
-          "minor": "0",
-          "micro": "3"
-        },
-        "archives": {
-          "archive": [
-            {
-              "size": "12968916",
-              "checksum": "7c9ef7544cf0aea030bcc29bd8e12c04fd53e653",
-              "url": "gapid_r01_linux.zip",
-              "host-os": "linux"
-            },
-            {
-              "size": "15824058",
-              "checksum": "597eb271349d890566274861eba2770a84ee4c69",
-              "url": "gapid_r01_osx.zip"
-            },
-            {
-              "size": "13220091",
-              "checksum": "82c9b3eb1b281f27f58fe55025227148b3deb12e",
-              "url": "gapid_r01_windows.zip",
-              "host-os": "windows"
-            }
-          ]
-        },
-        "uses-license": "",
-        "vendor-id": "android",
-        "vendor-display": "Android",
-        "description": "Tools that support GPU debugging and profiling within an IDE.",
-        "name-display": "GPU Debugging tools",
-        "path": "gapid"
-      },
-      {
-        "revision": {
-          "major": "3",
-          "minor": "1",
-          "micro": "0"
-        },
-        "archives": {
-          "archive": [
-            {
-              "size": "31528127",
-              "checksum": "a33fe37c87b095171d647385445abe164ae03514",
-              "url": "gapid_2994895_linux.zip",
-              "host-os": "linux"
-            },
-            {
-              "size": "31908588",
-              "checksum": "81dec931c8b0a5fe7c68accd8b3f8c731a9474f3",
-              "url": "gapid_2994895_osx.zip"
-            },
-            {
-              "size": "31656334",
-              "checksum": "ce00f4a7364d7fdd5d25d2429f04c4d50f56be1e",
-              "url": "gapid_2994895_windows.zip",
-              "host-os": "windows"
-            }
-          ]
-        },
-        "uses-license": "",
-        "vendor-id": "android",
-        "vendor-display": "Android",
-        "description": "Tools that support GPU debugging and profiling within an IDE.",
-        "name-display": "GPU Debugging tools",
-        "path": "gapid_3"
-      },
-      {
-        "revision": {
-          "major": "32"
-        },
-        "archives": {
-          "archive": {
-            "size": "113922721",
-            "checksum": "ae24bde9c8f732f4d13b72e70802be8c97dcfddf",
-            "url": "google_m2repository_r32.zip"
+            "size": "170493896",
+            "checksum": "21ebb86d0943b3105eea6f2b29896df7a149b276",
+            "url": "google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip"
           }
         },
         "uses-license": "",
@@ -825,13 +768,13 @@
       },
       {
         "revision": {
-          "major": "32"
+          "major": "39"
         },
         "archives": {
           "archive": {
-            "size": "11820632",
-            "checksum": "bf0e7c1848371c7e6dd7a01e237dbd916e5cb04f",
-            "url": "google_play_services_945200_r32.zip"
+            "size": "12520770",
+            "checksum": "de649e709c132230228e2a7ae2c1c711b38bd9a9",
+            "url": "google_play_services_v9_rc41.zip"
           }
         },
         "uses-license": "",
